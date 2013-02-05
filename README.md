@@ -1,4 +1,4 @@
 finna-be-ninja
 ==============
-__italic__Updated: 2013-02-05__italic__
+_italic_ Updated: 2013-02-05 _italic_
 Master's Project University of Kentucky
