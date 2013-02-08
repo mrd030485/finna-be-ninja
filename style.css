@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Kavoon);
+body
+{
+    width:100%;
+    background-color: rgb(242,242,242);
+    padding:0;
+    margin:0;
+}
+header, div#header
+{
+    position:fixed;
+    padding:0px;
+    width:100%;
+    z-index:500;
+    
+    margin:0px;
+}
+
+div#headerContent
+{
+    width:960px;
+    margin:0 auto;
+    height:150px;  
+    background-color:rgb(542,542,542);
+}
+
+header #title, div#header #title
+{
+    position:relative;
+    text-align:center;
+    font-family: 'Kavoon', cursive;
+    font-size:60pt;
+}
+header ul, div#header ul
+{
+margin:0;
+line-height:50px;
+overflow:auto;
+ list-style:none;
+}
+
+header ul li, div#header ul li   
+{
+    position:relative;
+    display:inline;
+    font-family: 'Kavoon', cursive;
+    float:left;
+
+}
+
+header ul li a, div#header ul li a
+{
+    text-decoration:none;
+    color:gray;
+    display:block;
+    padding-left:15px;
+    padding-right:15px;
+}
+header ul li a:hover, div#header ul li a:hover
+{
+    background-color:rgb(242,242,242);
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+
+
+div#content
+{
+    position:relative;
+    top:150px;
+    width:960px;
+    height:3000px;
+    margin:0 auto;
+    padding:0;
+    background-color:rgb(142,142,142);
+    z-index:100;
+}
