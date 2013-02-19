@@ -5,7 +5,7 @@ FP Classifier
 _**Updated: 2013-02-19**_
 
 ###Goals###
-Implement a system to classify new posts [^fn-post_def].  To classify a post we will attempt to assign a keyword to the post.  It may be possible that an assigned keyword does not match what the user had intended.  In that case a list of other possible keywords will be shown or the user can create one.
+Implement a system to classify new posts[^fn-post_def].  To classify a post we will attempt to assign a keyword to the post.  It may be possible that an assigned keyword does not match what the user had intended.  In that case a list of other possible keywords will be shown or the user can create one.
 
 ###Implementation###
 
