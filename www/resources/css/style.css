@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Kavoon);
-body
+
+html,body
 {
     width:100%;
     background-color:#cccccc; 
@@ -29,15 +30,16 @@ header #title, div#header #title
     position:relative;
     text-align:center;
     font-family: 'Kavoon', cursive;
+    line-height:100px;
     font-size:60pt;
     color:#cccc99;
 }
 header ul, div#header ul
 {
-margin:0;
-line-height:50px;
-overflow:auto;
- list-style:none;
+    margin:0;
+    line-height:50px;
+    overflow:auto;
+    list-style:none;
 }
 
 header ul li, div#header ul li   
@@ -70,11 +72,15 @@ div#content
     position:relative;
     top:150px;
     width:960px;
-    height:3000px;
-    margin:0 auto;
+    margin:0 auto -4em;
     padding:0;
     background-color:#f2f2f2;
     z-index:100;
+}
+div#wrapper{
+    min-height:100%;
+    height: auto !important;
+    height: 100%;
 }
 
 #content #statement #stmtText
@@ -85,4 +91,14 @@ div#content
     padding-right:5px;
     border: 0 none #000; 
     background-color:#f2f2f2;
+}
+h2,h3,h1,h4,p
+{
+    margin:0;
+    padding:0;
+}
+
+footer, div#footer, div#push
+{
+    height:4em;
 }

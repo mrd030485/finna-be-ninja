@@ -1,0 +1,8 @@
+<div id="statement">
+    <form id="post" method="POST" action="submit/">
+        {% csrf_token %}
+        <input id="author" name="author" type="text"/>
+        <input id="text" name="text" type="text" /> 
+        <input id="stmtButton" type="submit"/>
+    </form>
+</div>
