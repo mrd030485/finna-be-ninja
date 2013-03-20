@@ -1,0 +1,8 @@
+<p>Enter a message below.</p>
+<div id="statement">
+    <form id="post" method="POST" action="submit/">
+        {% csrf_token %}
+        Message: <input id="text" size="70" maxlength="140" name="text" type="text" /><br />
+        <input id="stmtButton" type="submit" value="Generate Keyword" />
+    </form>
+</div>

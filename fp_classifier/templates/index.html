@@ -15,6 +15,11 @@
         <link rel="stylesheet" href="/resources/css/normalize.css">
         <link rel="stylesheet" href="/resources/css/main.css">
         <script src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/resources/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="/resources/js/plugins.js"></script>
+        <script src="/resources/js/main.js"></script>
+        <script src="/resources/js/setup.js"></script>
         
         <link rel="stylesheet" href="/resources/css/style.css"/>
     </head>
@@ -22,19 +27,14 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <!--[if lt IE 9]><div id="header"><![endif]-->
         <div id="wrapper">
-        <header>
-           <div id="headerContent">
-            
-                <div id="title">FP Classifier</div>
+            <!--[if lt IE 9]><div id="header"><![endif]-->
+            <header>
+               <div id="headerContent">
+                
+                    <div id="title">FP Classifier</div>
 <!--[if lt IE 9]><div id="nav"><![endif]-->
 <nav>
-  <!--  <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-    </ul>
-    -->
     <ul>
 <li><a href="#">Home</a></li>
 <li><a href="/about/">About</a></li>
@@ -43,41 +43,36 @@
 </nav>
 <!--[if lt IE 9]></div><![endif]-->
     
-    
-           </div>
-        </header>
-        <!--[if lt IE 9]></div><![endif]-->
-        <div id="content">
         
-        
-           <div id="statement">
+               </div>
+            </header>
+            <!--[if lt IE 9]></div><![endif]-->
+            <div id="content">
+            
+            
+                <p>Enter a message below.</p>
+<div id="statement">
     <form id="post" method="POST" action="submit/">
         {% csrf_token %}
-        <input id="author" name="author" type="text"/>
-        <input id="text" name="text" type="text" /> 
-        <input id="stmtButton" type="submit"/>
+        Message: <input id="text" size="70" maxlength="140" name="text" type="text" /><br />
+        <input id="stmtButton" type="submit" value="Generate Keyword" />
     </form>
 </div>
 
-        
-            <div id="push"/>
-        </div>
-        </div>
-        <div id="footer">
-        
-            <!--[if lt IE 9]><div id="footer"><![endif]-->
+                
+                <div id="push"/>
+            </div>
+            <div id="footer">
+            
+                <!--[if lt IE 9]><div id="footer"><![endif]-->
 <footer>
-    Mark Dazey &copy; 2013
+   <p>Mark Dazey &copy; 2013</p>
 </footer>
 <!--[if lt IE 9]></div><![endif]-->
     
-
+    
+            </div>
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/resources/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-        <script src="/resources/js/plugins.js"></script>
-        <script src="/resources/js/main.js"></script>
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
