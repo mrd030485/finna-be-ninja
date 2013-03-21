@@ -10,9 +10,18 @@ public class Gather{
     /**
      *  @param args
      */
-
-    public void start(){
+     String username = "mrdaze2";
+    
+    public void start(String password,String user){
         logger.info("Starting to read Twitter feed");
+        if(user!=null){
+            username=user;
+        }
+        Authenticator.setDefault(new Authenticator(){
+            protected PasswordAuthenticaton getPasswordAuthentication(){
+                return new PasswordAuthentication(username,password.toCharArray());
+            }
+        });
     }
 }
 
