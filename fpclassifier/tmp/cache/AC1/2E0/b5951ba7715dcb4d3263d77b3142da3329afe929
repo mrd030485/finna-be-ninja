@@ -1,0 +1,125 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1363960821.0562744:@value"2[I"$/* ...
+
+
+*/
+
+div#header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+
+div#title {
+  width: 960px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto; }
+/**
+ * Print styles.
+ *
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ */
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+div#tabs {
+  width: 960px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#tabs, #tabs ul, #tabs ul li, #tabs ul li span, #tabs ul li a,
+#subtabs, #subtabs ul, #subtabs ul li, #subtabs ul li span, #subtabs ul li a {
+  margin: 0;
+  padding: 0;
+  line-height: 1; }
+
+#tabs, #tabs a, #tabs a:visited, #tabs a:hover {
+  color: #444; }
+
+#tabs li.disabled, #tabs li.disabled a, #tabs li.disabled a:visited, #tabs li.disabled a:hover,
+#subtabs li.disabled, #subtabs li.disabled a, #subtabs li.disabled a:visited, #subtabs li.disabled a:hover {
+  color: #888; }
+
+#tabs a {
+  text-decoration: none; }
+
+#tabs ul {
+  font-size: 24px;
+  height: 32px;
+  list-style-type: none;
+  background-color: #ccc;
+  padding: 0 0 0 50px; }
+
+#tabs ul li {
+  padding-top: 0px;
+  padding-right: 0px;
+  float: left; }
+
+#tabs ul li .tab {
+  background-color: #aaa;
+  padding: 5px 15px 3px 15px;
+  float: left;
+  -webkit-border-top-left-radius: 8px;
+  -khtml-border-radius-topleft: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -khtml-border-radius-topright: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px; }
+
+#tabs ul li.active .tab {
+  background-color: white;
+  padding-bottom: 3px; }
+
+#tabs ul li a:hover {
+  background-color: #ddd; }
+
+#tabs ul {
+  /* float clearing */
+  overflow: hidden;
+  display: inline-block;
+  /* Necessary to trigger "hasLayout" in IE */
+  display: block;
+  /* Sets element back to block */ }
+
+#subtabs ul {
+  margin-top: 5px; }
+
+#subtabs, #subtabs a, #subtabs a:visited {
+  color: #444; }
+
+#subtabs li.active {
+  font-weight: bold; }
+
+#subtabs a {
+  text-decoration: none; }
+
+#subtabs ul {
+  font-size: 16px;
+  height: 30px;
+  list-style-type: none;
+  padding: 0 0 0 50px; }
+
+#subtabs ul li {
+  padding: 10px;
+  float: left; }
+
+#subtabs ul li a:hover {
+  text-decoration: underline; }
+:EF

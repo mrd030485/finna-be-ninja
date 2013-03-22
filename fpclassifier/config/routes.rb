@@ -1,9 +1,19 @@
 FpClassifier::Application.routes.draw do
 
+  resources :statistics
+
+
+  resources :infos
+
+
+  get "footer/footer"
+
+  get "header/header"
+
   resources :posts
 
-
-  root :to => 'home#index'# The priority is based upon order of creation:
+  root :to => 'home#index'
+  # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

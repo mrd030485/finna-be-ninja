@@ -14,8 +14,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <%- # Mobile viewport optimized: j.mp/bplateviewport -%>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%- # Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -%>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -33,16 +31,18 @@
 <body>
 
     <div id="container">
-        <header>
-            <%= render :partial => 'layouts/header', :formats=>[:html] %>
-        </header>
+        <div id="header">
+            <%= render :partial => 'header/header', :formats=>[:html] %>
+            <%= tabs %>
+            <%= subtabs %>
+        </div>
               
         <div id="main">
             <%= yield %>
         </div>
                                 
         <footer>
-            <%= render :partial => 'layouts/footer', :formats=>[:html] %>
+            <%= render :partial => 'footer/footer', :formats=>[:html] %>
         </footer>
     </div> <!--! end of #container -->
     <%- # Javascript at the bottom for fast page loading -%>

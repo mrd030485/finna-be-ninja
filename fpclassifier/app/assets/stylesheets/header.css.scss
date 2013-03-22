@@ -1,0 +1,29 @@
+// Place all the styles related to the header controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+div#header
+{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+div#title
+{
+    width:960px;
+    
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    padding:0px;
+    
+    color: #444;
+    
+    background-color: #ccc;
+
+    text-align:center;
+    font-weight:bold;
+    font-size:24pt;
+}

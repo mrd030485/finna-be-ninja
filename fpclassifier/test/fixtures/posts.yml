@@ -2,10 +2,10 @@
 
 one:
   thought: MyText
-  create: 2013-03-21
+  create_date: 2013-03-21
   keyword: MyString
 
 two:
   thought: MyText
-  create: 2013-03-21
+  create_date: 2013-03-21
   keyword: MyString
