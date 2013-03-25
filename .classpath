@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/home/bithack/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bithack/.m2/repository/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="lib/rowset.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-core-3.0.3.jar" sourcepath="/home/bithack/Downloads/twitter4j-3.0.3.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

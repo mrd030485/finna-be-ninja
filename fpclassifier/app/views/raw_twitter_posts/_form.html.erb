@@ -1,0 +1,33 @@
+<%= form_for(@raw_twitter_post) do |f| %>
+  <% if @raw_twitter_post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@raw_twitter_post.errors.count, "error") %> prohibited this raw_twitter_post from being saved:</h2>
+
+      <ul>
+      <% @raw_twitter_post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :rawdata %><br />
+    <%= f.text_field :rawdata %>
+  </div>
+  <div class="field">
+    <%= f.label :insert_date %><br />
+    <%= f.date_select :insert_date %>
+  </div>
+  <div class="field">
+    <%= f.label :process_date %><br />
+    <%= f.date_select :process_date %>
+  </div>
+  <div class="field">
+    <%= f.label :processed %><br />
+    <%= f.check_box :processed %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  rawdata: MyString
+  insert_date: 2013-03-23
+  process_date: 2013-03-23
+  processed: false
+
+two:
+  rawdata: MyString
+  insert_date: 2013-03-23
+  process_date: 2013-03-23
+  processed: false

@@ -1,5 +1,11 @@
 FpClassifier::Application.routes.draw do
 
+  resources :recovered_statuses
+
+
+  resources :raw_twitter_posts
+
+
   resources :statistics
 
 

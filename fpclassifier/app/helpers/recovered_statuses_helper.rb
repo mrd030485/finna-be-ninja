@@ -1,0 +1,2 @@
+module RecoveredStatusesHelper
+end

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Status:</b>
+  <%= @recovered_status.status %>
+</p>
+
+<p>
+  <b>Keywords:</b>
+  <%= @recovered_status.keywords %>
+</p>
+
+
+<%= link_to 'Edit', edit_recovered_status_path(@recovered_status) %> |
+<%= link_to 'Back', recovered_statuses_path %>

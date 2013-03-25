@@ -728,3 +728,677 @@ Compiled application.css  (2ms)  (pid 20015)
 Completed 200 OK in 299ms (Views: 244.5ms | ActiveRecord: 2.2ms)
 Started GET "/assets/application-cd3a6d274dd289b2b18efa4385b9932f.css" for 216.52.185.72 at 2013-03-22 10:17:58 -0400
 Served asset /application-cd3a6d274dd289b2b18efa4385b9932f.css - 200 OK (0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 95.154.230.191 at 2013-03-23 00:54:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+  Rendered header/_header.html.erb (0.3ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 220ms (Views: 219.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 95.154.230.191 at 2013-03-23 00:54:34 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 200 OK (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 200 OK (0ms)
+Started GET "/assets/application-cd3a6d274dd289b2b18efa4385b9932f.css" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
+Served asset /application-cd3a6d274dd289b2b18efa4385b9932f.css - 200 OK (8ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 200 OK (2ms)
+Connecting to database specified by database.yml
+Started GET "/" for 95.154.230.253 at 2013-03-23 00:59:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+  Rendered header/_header.html.erb (0.3ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 166.205.68.45 at 2013-03-23 00:59:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.45 at 2013-03-23 00:59:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/" for 166.205.68.31 at 2013-03-23 11:02:43 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 11:02:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/" for 166.205.68.31 at 2013-03-23 12:25:57 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:25:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:13 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 174ms (Views: 26.8ms | ActiveRecord: 58.5ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:16 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (2.6ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 46.4ms | ActiveRecord: 20.3ms)
+Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:18 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.2ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/" for 166.205.68.31 at 2013-03-23 12:26:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:25 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (0.9ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.5ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:26 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/statistics" for 166.205.68.31 at 2013-03-23 12:26:27 -0400
+Processing by StatisticsController#index as HTML
+  Rendered statistics/index.html.erb within layouts/application (2.5ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 17.3ms | ActiveRecord: 21.7ms)
+Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:29 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:30 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.2ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:30 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Started GET "/" for 213.215.43.23 at 2013-03-23 13:33:39 -0400
+Processing by HomeController#index as */*
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Started GET "/user/soapCaller.bs" for 66.193.171.205 at 2013-03-24 03:41:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/user/soapCaller.bs"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Connecting to database specified by database.yml
+Started GET "/phpmyadmin" for 127.0.0.1 at 2013-03-24 13:06:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 166.205.68.33 at 2013-03-24 17:32:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Compiled raw_twitter_posts.css  (188ms)  (pid 7953)
+Compiled recovered_statuses.css  (0ms)  (pid 7953)
+Compiled application.css  (200ms)  (pid 7953)
+  Rendered header/_header.html.erb (0.3ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 307ms (Views: 305.4ms | ActiveRecord: 0.0ms)
+Started GET "/images/apple-touch-icon.png" for 166.205.68.33 at 2013-03-24 17:32:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
+
+

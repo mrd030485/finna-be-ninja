@@ -1,0 +1,25 @@
+<%= form_for(@recovered_status) do |f| %>
+  <% if @recovered_status.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@recovered_status.errors.count, "error") %> prohibited this recovered_status from being saved:</h2>
+
+      <ul>
+      <% @recovered_status.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :keywords %><br />
+    <%= f.text_field :keywords %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

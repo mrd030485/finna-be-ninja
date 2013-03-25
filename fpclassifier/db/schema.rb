@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130321233639) do
+ActiveRecord::Schema.define(:version => 20130324201751) do
 
   create_table "infos", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -24,6 +24,22 @@ ActiveRecord::Schema.define(:version => 20130321233639) do
     t.string   "keyword"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "raw_twitter_posts", :force => true do |t|
+    t.binary   "rawdata"
+    t.date     "insert_date"
+    t.date     "process_date"
+    t.boolean  "processed"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "recovered_statuses", :force => true do |t|
+    t.string   "status"
+    t.string   "keywords"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "statistics", :force => true do |t|
