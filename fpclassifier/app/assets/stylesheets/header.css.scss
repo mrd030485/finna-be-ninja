@@ -1,3 +1,4 @@
+@import "colors.css.scss";
 // Place all the styles related to the header controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -10,7 +11,7 @@ div#header
 }
 div#title
 {
-    width:960px;
+    width:1024px;
     
     margin-top:0px;
     margin-bottom:0px;
@@ -18,12 +19,15 @@ div#title
     margin-right:auto;
     
     padding:0px;
+    padding-top:15px;
+    padding-bottom:15px;
     
-    color: #444;
+    color: lighten($complement-2,5%);
     
-    background-color: #ccc;
+    background-color: $primary-4; 
 
     text-align:center;
-    font-weight:bold;
-    font-size:24pt;
+    font-weight:700;
+    font-size:58pt;
+    font-family: 'Droid Sans', sans-serif;
 }

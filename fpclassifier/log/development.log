@@ -4232,3 +4232,79 @@ Migrating to CreateRecoveredStatuses (20130324201751)
   [1m[35m (117.0ms)[0m  CREATE TABLE `recovered_statuses` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `status` varchar(255), `keywords` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
   [1m[36m (115.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130324201751')[0m
   [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Migrating to CreateRecoveredStatuses (20130324201751)
+Migrating to CreateFrequents (20130327011955)
+  [1m[35m (122.4ms)[0m  CREATE TABLE `frequents` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `post` varchar(255), `keyword` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (115.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130327011955')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Migrating to CreateRecoveredStatuses (20130324201751)
+Migrating to CreateFrequents (20130327011955)
+Migrating to CreateRailsAdminHistoriesTable (20130328143647)
+  [1m[35m (112.1ms)[0m  CREATE TABLE `rails_admin_histories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `message` text, `username` varchar(255), `item` int(11), `table` varchar(255), `month` smallint, `year` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (140.1ms)[0m  [1mCREATE INDEX `index_rails_admin_histories` ON `rails_admin_histories` (`item`, `table`, `month`, `year`)[0m
+  [1m[35m (98.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130328143647')
+Migrating to DeviseCreateUsers (20130328144040)
+  [1m[36m (91.6ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (148.5ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36m (165.6ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (98.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130328144040')
+  [1m[36m (0.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Migrating to CreateRecoveredStatuses (20130324201751)
+Migrating to CreateFrequents (20130327011955)
+Migrating to CreateRailsAdminHistoriesTable (20130328143647)
+Migrating to DeviseCreateUsers (20130328144040)
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Migrating to CreateRecoveredStatuses (20130324201751)
+Migrating to CreateFrequents (20130327011955)
+Migrating to CreateRailsAdminHistoriesTable (20130328143647)
+Migrating to DeviseCreateUsers (20130328144040)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20130321215826)
+Migrating to CreateInfos (20130321232717)
+Migrating to CreateStatistics (20130321233639)
+Migrating to CreateRawTwitterPosts (20130324012718)
+Migrating to CreateRecoveredStatuses (20130324201751)
+Migrating to CreateFrequents (20130327011955)
+Migrating to CreateRailsAdminHistoriesTable (20130328143647)
+Migrating to DeviseCreateUsers (20130328144040)
+Migrating to AddFieldsToUsers (20130328155314)
+  [1m[35m (268.3ms)[0m  ALTER TABLE `users` ADD `username` varchar(255)
+  [1m[36m (266.8ms)[0m  [1mALTER TABLE `users` ADD `role` varchar(255)[0m
+  [1m[35m (115.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130328155314')
+  [1m[36m (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m

@@ -1,0 +1,25 @@
+<h1>Listing frequents</h1>
+
+<table>
+  <tr>
+    <th>Post</th>
+    <th>Keyword</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @frequents.each do |frequent| %>
+  <tr>
+    <td><%= frequent.post %></td>
+    <td><%= frequent.keyword %></td>
+    <td><%= link_to 'Show', frequent %></td>
+    <td><%= link_to 'Edit', edit_frequent_path(frequent) %></td>
+    <td><%= link_to 'Destroy', frequent, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Frequent', new_frequent_path %>

@@ -1,1404 +1,960 @@
 Connecting to database specified by database.yml
-Started GET "/posts" for 216.52.185.72 at 2013-03-21 16:22:09 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.7ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-  Rendered layouts/_footer.html.erb (0.2ms)
-Completed 200 OK in 73ms (Views: 40.0ms | ActiveRecord: 1.9ms)
-Started GET "/assets/application-d1f95b973d5810d67f2bb196dd1b3d7a.css" for 216.52.185.72 at 2013-03-21 16:22:10 -0400
-Served asset /application-d1f95b973d5810d67f2bb196dd1b3d7a.css - 304 Not Modified (0ms)
-Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.72 at 2013-03-21 16:22:10 -0400
-Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
-Started GET "/assets/defaults.js" for 216.52.185.72 at 2013-03-21 16:22:10 -0400
-Served asset /defaults.js - 404 Not Found (3ms)
-
-ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/posts/new" for 216.52.185.72 at 2013-03-21 16:22:12 -0400
-Processing by PostsController#new as HTML
-Completed 500 Internal Server Error in 32ms
-
-ActiveRecord::DangerousAttributeError (create is defined by ActiveRecord):
-  app/controllers/posts_controller.rb:27:in `new'
-  app/controllers/posts_controller.rb:27:in `new'
-
-
+Compiled application.js  (0ms)  (pid 1593)
+Compiled colors.css  (9ms)  (pid 1593)
+Compiled footer.css  (1ms)  (pid 1593)
+Compiled frequents.css  (0ms)  (pid 1593)
+Compiled header.css  (5ms)  (pid 1593)
+Compiled home.css  (4ms)  (pid 1593)
+Compiled infos.css  (0ms)  (pid 1593)
+Compiled posts.css  (4ms)  (pid 1593)
+Compiled print.css  (0ms)  (pid 1593)
+Compiled raw_twitter_posts.css  (0ms)  (pid 1593)
+Compiled recovered_statuses.css  (0ms)  (pid 1593)
+Compiled scaffolds.css  (0ms)  (pid 1593)
+Compiled statistics.css  (0ms)  (pid 1593)
+Compiled tabs.css  (21ms)  (pid 1593)
+Compiled application.css  (141ms)  (pid 1593)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 1593)
+Compiled jquery.js  (1ms)  (pid 1593)
+Compiled jquery_ujs.js  (0ms)  (pid 1593)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 1593)
+Compiled rails_admin/jquery.remotipart.fixed.js  (5ms)  (pid 1593)
+Compiled jquery.ui.effect.js  (0ms)  (pid 1593)
+Compiled jquery.ui.core.js  (1ms)  (pid 1593)
+Compiled jquery.ui.widget.js  (0ms)  (pid 1593)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 1593)
+Compiled jquery.ui.sortable.js  (14ms)  (pid 1593)
+Compiled jquery.ui.position.js  (0ms)  (pid 1593)
+Compiled jquery.ui.menu.js  (34ms)  (pid 1593)
+Compiled jquery.ui.autocomplete.js  (42ms)  (pid 1593)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 1593)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 1593)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 1593)
+Compiled jquery_nested_form.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.nested-form-hooks.js  (145ms)  (pid 1593)
+Compiled bootstrap-transition.js  (0ms)  (pid 1593)
+Compiled bootstrap-affix.js  (0ms)  (pid 1593)
+Compiled bootstrap-alert.js  (0ms)  (pid 1593)
+Compiled bootstrap-button.js  (0ms)  (pid 1593)
+Compiled bootstrap-carousel.js  (0ms)  (pid 1593)
+Compiled bootstrap-collapse.js  (0ms)  (pid 1593)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 1593)
+Compiled bootstrap-modal.js  (0ms)  (pid 1593)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1593)
+Compiled bootstrap-tab.js  (0ms)  (pid 1593)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 1593)
+Compiled bootstrap-popover.js  (0ms)  (pid 1593)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 1593)
+Compiled bootstrap.js  (81ms)  (pid 1593)
+Compiled rails_admin/ra.widgets.js  (212ms)  (pid 1593)
+Compiled rails_admin/ui.js  (168ms)  (pid 1593)
+Compiled rails_admin/custom/ui.js  (104ms)  (pid 1593)
+Compiled rails_admin/rails_admin.js  (962ms)  (pid 1593)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 1593)
+Compiled rails_admin/rails_admin.css  (2797ms)  (pid 1593)
 Connecting to database specified by database.yml
-Started GET "/posts/new" for 216.52.185.72 at 2013-03-21 16:23:25 -0400
-Processing by PostsController#new as HTML
-  Rendered posts/_form.html.erb (110.4ms)
-  Rendered posts/new.html.erb within layouts/application (131.6ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-  Rendered layouts/_footer.html.erb (0.2ms)
-Completed 200 OK in 205ms (Views: 61.7ms | ActiveRecord: 93.5ms)
-Started GET "/assets/application-d1f95b973d5810d67f2bb196dd1b3d7a.css" for 216.52.185.72 at 2013-03-21 16:23:26 -0400
-Served asset /application-d1f95b973d5810d67f2bb196dd1b3d7a.css - 304 Not Modified (0ms)
-Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.72 at 2013-03-21 16:23:26 -0400
-Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
-Started GET "/assets/defaults.js" for 216.52.185.72 at 2013-03-21 16:23:26 -0400
-Served asset /defaults.js - 404 Not Found (0ms)
-
-ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/posts" for 216.52.185.72 at 2013-03-21 16:23:35 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (21.8ms)
-Completed 500 Internal Server Error in 92ms
-
-ActionView::Template::Error (private method `create' called for #<Post:0x00000003f3c6d8>):
-    13: <% @posts.each do |post| %>
-    14:   <tr>
-    15:     <td><%= post.thought %></td>
-    16:     <td><%= post.create %></td>
-    17:     <td><%= post.keyword %></td>
-    18:     <td><%= link_to 'Show', post %></td>
-    19:     <td><%= link_to 'Edit', edit_post_path(post) %></td>
-  app/views/posts/index.html.erb:16:in `block in _app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/views/posts/index.html.erb:13:in `each'
-  app/views/posts/index.html.erb:13:in `_app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/controllers/posts_controller.rb:7:in `index'
-
-
-Started GET "/posts/show" for 216.52.185.72 at 2013-03-21 16:23:39 -0400
-Processing by PostsController#show as HTML
-  Parameters: {"id"=>"show"}
-Completed 404 Not Found in 6ms
-
-ActiveRecord::RecordNotFound (Couldn't find Post with id=show):
-  app/controllers/posts_controller.rb:16:in `show'
-
-
-Started GET "/posts/1" for 216.52.185.72 at 2013-03-21 16:23:57 -0400
-Processing by PostsController#show as HTML
-  Parameters: {"id"=>"1"}
-  Rendered posts/show.html.erb within layouts/application (3.6ms)
-Completed 500 Internal Server Error in 9ms
-
-ActionView::Template::Error (private method `create' called for #<Post:0x0000000425a108>):
-    7: 
-    8: <p>
-    9:   <b>Create:</b>
-    10:   <%= @post.create %>
-    11: </p>
-    12: 
-    13: <p>
-  app/views/posts/show.html.erb:10:in `_app_views_posts_show_html_erb___66175981687614547_33617560'
-  app/controllers/posts_controller.rb:18:in `show'
-
-
-Started GET "/phpmyadmin/" for 216.52.185.72 at 2013-03-21 16:30:00 -0400
-
-ActionController::RoutingError (No route matches [GET] "/phpmyadmin"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/" for 166.205.55.41 at 2013-03-21 16:41:16 -0400
+Compiled application.js  (0ms)  (pid 1593)
+Compiled colors.css  (8ms)  (pid 1593)
+Compiled footer.css  (1ms)  (pid 1593)
+Compiled frequents.css  (0ms)  (pid 1593)
+Compiled header.css  (4ms)  (pid 1593)
+Compiled home.css  (4ms)  (pid 1593)
+Compiled infos.css  (0ms)  (pid 1593)
+Compiled posts.css  (3ms)  (pid 1593)
+Compiled print.css  (0ms)  (pid 1593)
+Compiled raw_twitter_posts.css  (0ms)  (pid 1593)
+Compiled recovered_statuses.css  (0ms)  (pid 1593)
+Compiled scaffolds.css  (0ms)  (pid 1593)
+Compiled statistics.css  (1ms)  (pid 1593)
+Compiled tabs.css  (21ms)  (pid 1593)
+Compiled application.css  (139ms)  (pid 1593)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 1593)
+Compiled jquery.js  (1ms)  (pid 1593)
+Compiled jquery_ujs.js  (0ms)  (pid 1593)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 1593)
+Compiled rails_admin/jquery.remotipart.fixed.js  (4ms)  (pid 1593)
+Compiled jquery.ui.effect.js  (0ms)  (pid 1593)
+Compiled jquery.ui.core.js  (1ms)  (pid 1593)
+Compiled jquery.ui.widget.js  (0ms)  (pid 1593)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 1593)
+Compiled jquery.ui.sortable.js  (40ms)  (pid 1593)
+Compiled jquery.ui.position.js  (0ms)  (pid 1593)
+Compiled jquery.ui.menu.js  (6ms)  (pid 1593)
+Compiled jquery.ui.autocomplete.js  (14ms)  (pid 1593)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 1593)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 1593)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 1593)
+Compiled jquery_nested_form.js  (0ms)  (pid 1593)
+Compiled rails_admin/ra.nested-form-hooks.js  (148ms)  (pid 1593)
+Compiled bootstrap-transition.js  (0ms)  (pid 1593)
+Compiled bootstrap-affix.js  (0ms)  (pid 1593)
+Compiled bootstrap-alert.js  (0ms)  (pid 1593)
+Compiled bootstrap-button.js  (0ms)  (pid 1593)
+Compiled bootstrap-carousel.js  (0ms)  (pid 1593)
+Compiled bootstrap-collapse.js  (0ms)  (pid 1593)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 1593)
+Compiled bootstrap-modal.js  (0ms)  (pid 1593)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1593)
+Compiled bootstrap-tab.js  (0ms)  (pid 1593)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 1593)
+Compiled bootstrap-popover.js  (0ms)  (pid 1593)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 1593)
+Compiled bootstrap.js  (80ms)  (pid 1593)
+Compiled rails_admin/ra.widgets.js  (227ms)  (pid 1593)
+Compiled rails_admin/ui.js  (168ms)  (pid 1593)
+Compiled rails_admin/custom/ui.js  (111ms)  (pid 1593)
+Compiled rails_admin/rails_admin.js  (955ms)  (pid 1593)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 1593)
+Compiled rails_admin/rails_admin.css  (2674ms)  (pid 1593)
+Connecting to database specified by database.yml
+Started GET "/admin/" for 216.52.185.73 at 2013-03-28 12:13:49 -0400
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (59.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.3ms)
+Completed 200 OK in 353ms (Views: 129.3ms | ActiveRecord: 16.9ms)
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:00 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (79.2ms)
+Completed 200 OK in 92ms (Views: 83.6ms | ActiveRecord: 1.6ms)
+Started GET "/admin/user/1?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:05 -0400
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user", "id"=>"1"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (5.6ms)
+Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+Started GET "/admin/statistic?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:18 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"statistic"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (10.6ms)
+Completed 200 OK in 34ms (Views: 14.4ms | ActiveRecord: 1.4ms)
+Started GET "/admin/recovered_status?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:21 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"recovered_status"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (9.6ms)
+Completed 200 OK in 24ms (Views: 13.6ms | ActiveRecord: 1.1ms)
+Started GET "/admin/raw_twitter_post?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:22 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"raw_twitter_post"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (15.5ms)
+Completed 200 OK in 77ms (Views: 22.7ms | ActiveRecord: 1.5ms)
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:25 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (14.7ms)
+Completed 200 OK in 25ms (Views: 18.6ms | ActiveRecord: 1.1ms)
+Started GET "/admin/info?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:28 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"info"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (8.4ms)
+Completed 200 OK in 25ms (Views: 12.3ms | ActiveRecord: 1.2ms)
+Started GET "/admin/frequent?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:29 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"frequent"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (50.3ms)
+Completed 200 OK in 95ms (Views: 57.2ms | ActiveRecord: 1.4ms)
+Started GET "/admin/raw_twitter_post?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:14:30 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"raw_twitter_post"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (11.2ms)
+Completed 200 OK in 27ms (Views: 15.5ms | ActiveRecord: 1.3ms)
+Started DELETE "/users/sign_out" for 216.52.185.73 at 2013-03-28 12:15:18 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wWnZVTRBGJvsv1W4XyCqd8yqj72gY7g9NurhvuLMqKM="}
+Redirected to http://tdg.x64.me/
+Completed 302 Found in 16ms (ActiveRecord: 0.8ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 12:15:19 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.1ms)
-  Rendered layouts/_header.html.erb (0.3ms)
-  Rendered layouts/_footer.html.erb (0.2ms)
-Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
-Started GET "/assets/application-d1f95b973d5810d67f2bb196dd1b3d7a.css" for 166.205.55.41 at 2013-03-21 16:41:17 -0400
-Served asset /application-d1f95b973d5810d67f2bb196dd1b3d7a.css - 200 OK (0ms)
-Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 166.205.55.41 at 2013-03-21 16:41:17 -0400
-Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 200 OK (0ms)
-Started GET "/assets/defaults.js" for 166.205.55.41 at 2013-03-21 16:41:17 -0400
-Served asset /defaults.js - 404 Not Found (3ms)
-
-ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 166.205.55.41 at 2013-03-21 16:41:18 -0400
-Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 200 OK (0ms)
-Started GET "/posts" for 166.205.55.41 at 2013-03-21 16:41:21 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.1ms)
-Completed 500 Internal Server Error in 6ms
-
-ActionView::Template::Error (private method `create' called for #<Post:0x00000004437b88>):
-    13: <% @posts.each do |post| %>
-    14:   <tr>
-    15:     <td><%= post.thought %></td>
-    16:     <td><%= post.create %></td>
-    17:     <td><%= post.keyword %></td>
-    18:     <td><%= link_to 'Show', post %></td>
-    19:     <td><%= link_to 'Edit', edit_post_path(post) %></td>
-  app/views/posts/index.html.erb:16:in `block in _app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/views/posts/index.html.erb:13:in `each'
-  app/views/posts/index.html.erb:13:in `_app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/controllers/posts_controller.rb:7:in `index'
-
-
-Started GET "/images/apple-touch-icon.png" for 166.205.55.41 at 2013-03-21 16:41:23 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/posts/new" for 166.205.55.41 at 2013-03-21 16:41:30 -0400
-Processing by PostsController#new as HTML
-  Rendered posts/_form.html.erb (115.5ms)
-  Rendered posts/new.html.erb within layouts/application (118.0ms)
-  Rendered layouts/_header.html.erb (0.0ms)
-  Rendered layouts/_footer.html.erb (0.0ms)
-Completed 200 OK in 125ms (Views: 25.3ms | ActiveRecord: 98.4ms)
-Started GET "/posts" for 166.205.55.41 at 2013-03-21 16:41:41 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.0ms)
-Completed 500 Internal Server Error in 6ms
-
-ActionView::Template::Error (private method `create' called for #<Post:0x00000003ee33d0>):
-    13: <% @posts.each do |post| %>
-    14:   <tr>
-    15:     <td><%= post.thought %></td>
-    16:     <td><%= post.create %></td>
-    17:     <td><%= post.keyword %></td>
-    18:     <td><%= link_to 'Show', post %></td>
-    19:     <td><%= link_to 'Edit', edit_post_path(post) %></td>
-  app/views/posts/index.html.erb:16:in `block in _app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/views/posts/index.html.erb:13:in `each'
-  app/views/posts/index.html.erb:13:in `_app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/controllers/posts_controller.rb:7:in `index'
-
-
-Started GET "/posts" for 166.205.55.28 at 2013-03-21 16:51:12 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (1.9ms)
-Completed 500 Internal Server Error in 5ms
-
-ActionView::Template::Error (private method `create' called for #<Post:0x000000044086d0>):
-    13: <% @posts.each do |post| %>
-    14:   <tr>
-    15:     <td><%= post.thought %></td>
-    16:     <td><%= post.create %></td>
-    17:     <td><%= post.keyword %></td>
-    18:     <td><%= link_to 'Show', post %></td>
-    19:     <td><%= link_to 'Edit', edit_post_path(post) %></td>
-  app/views/posts/index.html.erb:16:in `block in _app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/views/posts/index.html.erb:13:in `each'
-  app/views/posts/index.html.erb:13:in `_app_views_posts_index_html_erb___3649138415540118296_23227280'
-  app/controllers/posts_controller.rb:7:in `index'
-
-
-Connecting to database specified by database.yml
-Migrating to CreatePosts (20130321215826)
-Connecting to database specified by database.yml
-Migrating to CreatePosts (20130321215826)
-Migrating to CreateInfos (20130321232717)
-Migrating to CreateStatistics (20130321233639)
-Connecting to database specified by database.yml
-Started GET "/" for 192.168.1.67 at 2013-03-21 21:57:43 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-Compiled footer.css  (208ms)  (pid 9808)
-Compiled header.css  (1ms)  (pid 9808)
-Compiled home.css  (0ms)  (pid 9808)
-Compiled infos.css  (0ms)  (pid 9808)
-Compiled posts.css  (0ms)  (pid 9808)
-Compiled print.css  (0ms)  (pid 9808)
-Compiled scaffolds.css  (0ms)  (pid 9808)
-Compiled statistics.css  (0ms)  (pid 9808)
-Compiled tabs.css  (13ms)  (pid 9808)
-Compiled application.css  (241ms)  (pid 9808)
-Compiled modernizr-1.7.min.js  (0ms)  (pid 9808)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled modernizr-1.7.min.js  (0ms)  (pid 1766)
+  Rendered header/_header.html.erb (0.4ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Compiled plugins.js  (0ms)  (pid 1766)
+Compiled defaults.js  (0ms)  (pid 1766)
+Compiled dd_belatedpng.js  (0ms)  (pid 1766)
+Completed 200 OK in 729ms (Views: 728.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 12:15:20 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 12:15:20 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 12:15:20 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/admin/" for 216.52.185.73 at 2013-03-28 12:15:27 -0400
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 1ms
+Started GET "/users/sign_in" for 216.52.185.73 at 2013-03-28 12:15:27 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/shared/_links.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/sessions/new.html.erb within layouts/application (11.2ms)
   Rendered header/_header.html.erb (0.3ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Compiled plugins.js  (0ms)  (pid 9808)
-Compiled defaults.js  (0ms)  (pid 9808)
-Compiled dd_belatedpng.js  (0ms)  (pid 9808)
-Completed 200 OK in 897ms (Views: 896.2ms | ActiveRecord: 0.0ms)
-Started GET "/assets/application-588a216080b9a1b91606723b684b3e24.css" for 192.168.1.67 at 2013-03-21 21:57:44 -0400
-Served asset /application-588a216080b9a1b91606723b684b3e24.css - 200 OK (0ms)
-Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 192.168.1.67 at 2013-03-21 21:57:44 -0400
-Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 200 OK (0ms)
-Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 192.168.1.67 at 2013-03-21 21:57:44 -0400
-Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 200 OK (0ms)
-Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 192.168.1.67 at 2013-03-21 21:57:44 -0400
-Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 200 OK (2ms)
-Started GET "/posts" for 192.168.1.67 at 2013-03-21 21:57:46 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 194ms (Views: 90.2ms | ActiveRecord: 2.5ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 12:15:27 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 12:15:27 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 12:15:27 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/users/sign_in" for 216.52.185.73 at 2013-03-28 12:22:42 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/shared/_links.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 12:22:42 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 12:22:42 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 12:22:42 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Started GET "/admin/" for 216.52.185.73 at 2013-03-28 12:36:48 -0400
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 1ms
+Started GET "/users/sign_in" for 216.52.185.73 at 2013-03-28 12:36:48 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/shared/_links.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.3/app/views/devise/sessions/new.html.erb within layouts/application (11.4ms)
   Rendered header/_header.html.erb (0.2ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 78ms (Views: 43.9ms | ActiveRecord: 2.2ms)
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 21:57:47 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 1.5ms)
-Started GET "/" for 192.168.1.67 at 2013-03-21 21:57:48 -0400
+Completed 200 OK in 184ms (Views: 90.6ms | ActiveRecord: 2.2ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 12:36:48 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 12:36:48 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 12:36:48 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started POST "/users/sign_in" for 216.52.185.73 at 2013-03-28 12:36:56 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a88tzVpTgtnBr5lckgwmTwSIdWRxjuuxxFlCwFVx1T4=", "user"=>{"email"=>"markdazey@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://tdg.x64.me/admin/
+Completed 302 Found in 402ms (ActiveRecord: 0.0ms)
+Started GET "/admin/" for 216.52.185.73 at 2013-03-28 12:36:57 -0400
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (26.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.5ms)
+Completed 200 OK in 176ms (Views: 84.3ms | ActiveRecord: 12.6ms)
+Started GET "/admin/statistic?_pjax=%5Bdata-pjax-container%5D" for 216.52.185.73 at 2013-03-28 12:37:05 -0400
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"statistic"}
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (30.0ms)
+Completed 200 OK in 49ms (Views: 35.3ms | ActiveRecord: 1.4ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 12:37:23 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.5ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:00:53 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:00:54 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:00:55 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:00:57 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
-Connecting to database specified by database.yml
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:01:11 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-Completed 500 Internal Server Error in 242ms
-
-ActionView::Template::Error (Invalid CSS after "    padding": expected ";", was ":0px;"
-  (in /home/dev/github/my-repos/finna-be-ninja/fpclassifier/app/assets/stylesheets/header.css.scss)):
-    19:     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-    20: 
-    21:     <%- # CSS : implied media="all" -%>
-    22:     <%= stylesheet_link_tag    "application", :media => "all" %>
-    23:     <%- # Uncomment if you are specifically targeting less enabled mobile browsers -%>
-    24:     <%#= stylesheet_link_tag "handheld", :media => "handheld" %>
-    25:        
-  app/assets/stylesheets/header.css.scss:16
-  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__2090500471324981112_11587780'
-
-
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:01:13 -0400
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 12:37:23 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 12:37:23 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 12:37:23 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 13:55:42 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.3ms)
-Completed 500 Internal Server Error in 5ms
-
-ActionView::Template::Error (Invalid CSS after "    padding": expected ";", was ":0px;"
-  (in /home/dev/github/my-repos/finna-be-ninja/fpclassifier/app/assets/stylesheets/header.css.scss)):
-    19:     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-    20: 
-    21:     <%- # CSS : implied media="all" -%>
-    22:     <%= stylesheet_link_tag    "application", :media => "all" %>
-    23:     <%- # Uncomment if you are specifically targeting less enabled mobile browsers -%>
-    24:     <%#= stylesheet_link_tag "handheld", :media => "handheld" %>
-    25:        
-  app/assets/stylesheets/header.css.scss:16
-  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__2090500471324981112_11587780'
-
-
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 13:55:44 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 13:55:44 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 13:55:44 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:01:22 -0400
+Connecting to database specified by database.yml
+Compiled application.js  (0ms)  (pid 3989)
+Compiled colors.css  (9ms)  (pid 3989)
+Compiled footer.css  (1ms)  (pid 3989)
+Compiled frequents.css  (0ms)  (pid 3989)
+Compiled header.css  (5ms)  (pid 3989)
+Compiled home.css  (4ms)  (pid 3989)
+Compiled infos.css  (0ms)  (pid 3989)
+Compiled posts.css  (4ms)  (pid 3989)
+Compiled print.css  (0ms)  (pid 3989)
+Compiled raw_twitter_posts.css  (0ms)  (pid 3989)
+Compiled recovered_statuses.css  (0ms)  (pid 3989)
+Compiled scaffolds.css  (0ms)  (pid 3989)
+Compiled statistics.css  (0ms)  (pid 3989)
+Compiled tabs.css  (20ms)  (pid 3989)
+Compiled application.css  (141ms)  (pid 3989)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 3989)
+Compiled jquery.js  (1ms)  (pid 3989)
+Compiled jquery_ujs.js  (0ms)  (pid 3989)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 3989)
+Compiled rails_admin/jquery.remotipart.fixed.js  (32ms)  (pid 3989)
+Compiled jquery.ui.effect.js  (0ms)  (pid 3989)
+Compiled jquery.ui.core.js  (1ms)  (pid 3989)
+Compiled jquery.ui.widget.js  (0ms)  (pid 3989)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 3989)
+Compiled jquery.ui.sortable.js  (14ms)  (pid 3989)
+Compiled jquery.ui.position.js  (0ms)  (pid 3989)
+Compiled jquery.ui.menu.js  (6ms)  (pid 3989)
+Compiled jquery.ui.autocomplete.js  (42ms)  (pid 3989)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 3989)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 3989)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 3989)
+Compiled jquery_nested_form.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.nested-form-hooks.js  (156ms)  (pid 3989)
+Compiled bootstrap-transition.js  (0ms)  (pid 3989)
+Compiled bootstrap-affix.js  (0ms)  (pid 3989)
+Compiled bootstrap-alert.js  (0ms)  (pid 3989)
+Compiled bootstrap-button.js  (0ms)  (pid 3989)
+Compiled bootstrap-carousel.js  (0ms)  (pid 3989)
+Compiled bootstrap-collapse.js  (0ms)  (pid 3989)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 3989)
+Compiled bootstrap-modal.js  (0ms)  (pid 3989)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 3989)
+Compiled bootstrap-tab.js  (0ms)  (pid 3989)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 3989)
+Compiled bootstrap-popover.js  (0ms)  (pid 3989)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 3989)
+Compiled bootstrap.js  (82ms)  (pid 3989)
+Compiled rails_admin/ra.widgets.js  (209ms)  (pid 3989)
+Compiled rails_admin/ui.js  (156ms)  (pid 3989)
+Compiled rails_admin/custom/ui.js  (160ms)  (pid 3989)
+Compiled rails_admin/rails_admin.js  (1004ms)  (pid 3989)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 3989)
+Compiled rails_admin/rails_admin.css  (2835ms)  (pid 3989)
+Connecting to database specified by database.yml
+Compiled application.js  (0ms)  (pid 3989)
+Compiled colors.css  (8ms)  (pid 3989)
+Compiled footer.css  (1ms)  (pid 3989)
+Compiled frequents.css  (0ms)  (pid 3989)
+Compiled header.css  (5ms)  (pid 3989)
+Compiled home.css  (4ms)  (pid 3989)
+Compiled infos.css  (0ms)  (pid 3989)
+Compiled posts.css  (4ms)  (pid 3989)
+Compiled print.css  (0ms)  (pid 3989)
+Compiled raw_twitter_posts.css  (0ms)  (pid 3989)
+Compiled recovered_statuses.css  (0ms)  (pid 3989)
+Compiled scaffolds.css  (0ms)  (pid 3989)
+Compiled statistics.css  (1ms)  (pid 3989)
+Compiled tabs.css  (20ms)  (pid 3989)
+Compiled application.css  (138ms)  (pid 3989)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 3989)
+Compiled jquery.js  (1ms)  (pid 3989)
+Compiled jquery_ujs.js  (0ms)  (pid 3989)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 3989)
+Compiled rails_admin/jquery.remotipart.fixed.js  (4ms)  (pid 3989)
+Compiled jquery.ui.effect.js  (0ms)  (pid 3989)
+Compiled jquery.ui.core.js  (1ms)  (pid 3989)
+Compiled jquery.ui.widget.js  (0ms)  (pid 3989)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 3989)
+Compiled jquery.ui.sortable.js  (40ms)  (pid 3989)
+Compiled jquery.ui.position.js  (0ms)  (pid 3989)
+Compiled jquery.ui.menu.js  (6ms)  (pid 3989)
+Compiled jquery.ui.autocomplete.js  (14ms)  (pid 3989)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 3989)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 3989)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 3989)
+Compiled jquery_nested_form.js  (0ms)  (pid 3989)
+Compiled rails_admin/ra.nested-form-hooks.js  (157ms)  (pid 3989)
+Compiled bootstrap-transition.js  (0ms)  (pid 3989)
+Compiled bootstrap-affix.js  (0ms)  (pid 3989)
+Compiled bootstrap-alert.js  (0ms)  (pid 3989)
+Compiled bootstrap-button.js  (0ms)  (pid 3989)
+Compiled bootstrap-carousel.js  (0ms)  (pid 3989)
+Compiled bootstrap-collapse.js  (0ms)  (pid 3989)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 3989)
+Compiled bootstrap-modal.js  (0ms)  (pid 3989)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 3989)
+Compiled bootstrap-tab.js  (0ms)  (pid 3989)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 3989)
+Compiled bootstrap-popover.js  (0ms)  (pid 3989)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 3989)
+Compiled bootstrap.js  (80ms)  (pid 3989)
+Compiled rails_admin/ra.widgets.js  (232ms)  (pid 3989)
+Compiled rails_admin/ui.js  (162ms)  (pid 3989)
+Compiled rails_admin/custom/ui.js  (104ms)  (pid 3989)
+Compiled rails_admin/rails_admin.js  (947ms)  (pid 3989)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 3989)
+Compiled rails_admin/rails_admin.css  (2685ms)  (pid 3989)
+Connecting to database specified by database.yml
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:05:41 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-Completed 500 Internal Server Error in 242ms
-
-ActionView::Template::Error (Invalid CSS after "    padding": expected ";", was ":0px;"
-  (in /home/dev/github/my-repos/finna-be-ninja/fpclassifier/app/assets/stylesheets/header.css.scss)):
-    19:     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-    20: 
-    21:     <%- # CSS : implied media="all" -%>
-    22:     <%= stylesheet_link_tag    "application", :media => "all" %>
-    23:     <%- # Uncomment if you are specifically targeting less enabled mobile browsers -%>
-    24:     <%#= stylesheet_link_tag "handheld", :media => "handheld" %>
-    25:        
-  app/assets/stylesheets/header.css.scss:16
-  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__4203154845944328045_20665880'
-
-
-Started GET "/" for 192.168.1.67 at 2013-03-21 22:02:22 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.3ms)
-Compiled header.css  (2ms)  (pid 10065)
-Compiled application.css  (2ms)  (pid 10065)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Compiled modernizr-1.7.min.js  (0ms)  (pid 4109)
+  Rendered header/_header.html.erb (0.4ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Compiled plugins.js  (0ms)  (pid 4109)
+Compiled defaults.js  (0ms)  (pid 4109)
+Compiled dd_belatedpng.js  (0ms)  (pid 4109)
+Completed 200 OK in 759ms (Views: 758.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:05:42 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:05:42 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:05:42 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/infos" for 216.52.185.73 at 2013-03-28 14:05:53 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (3.6ms)
   Rendered header/_header.html.erb (0.3ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
-Started GET "/assets/application-044eae13da024c4f51be1181b17e0910.css" for 192.168.1.67 at 2013-03-21 22:02:22 -0400
-Served asset /application-044eae13da024c4f51be1181b17e0910.css - 200 OK (0ms)
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:02:27 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 45ms (Views: 4.7ms | ActiveRecord: 1.7ms)
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:05:44 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.5ms)
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:05:47 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.6ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.5ms)
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:05:49 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.6ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+Completed 200 OK in 137ms (Views: 56.1ms | ActiveRecord: 2.3ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:05:53 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:05:53 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:05:53 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:06:10 -0400
-Started GET "/infos" for 192.168.1.67 at 2013-03-21 22:06:10 -0400
+Compiled application.js  (0ms)  (pid 4240)
+Compiled colors.css  (9ms)  (pid 4240)
+Compiled footer.css  (1ms)  (pid 4240)
+Compiled frequents.css  (0ms)  (pid 4240)
+Compiled header.css  (5ms)  (pid 4240)
+Compiled home.css  (4ms)  (pid 4240)
+Compiled infos.css  (0ms)  (pid 4240)
+Compiled posts.css  (3ms)  (pid 4240)
+Compiled print.css  (0ms)  (pid 4240)
+Compiled raw_twitter_posts.css  (0ms)  (pid 4240)
+Compiled recovered_statuses.css  (0ms)  (pid 4240)
+Compiled scaffolds.css  (0ms)  (pid 4240)
+Compiled statistics.css  (0ms)  (pid 4240)
+Compiled tabs.css  (23ms)  (pid 4240)
+Compiled application.css  (143ms)  (pid 4240)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 4240)
+Compiled jquery.js  (1ms)  (pid 4240)
+Compiled jquery_ujs.js  (0ms)  (pid 4240)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 4240)
+Compiled rails_admin/jquery.remotipart.fixed.js  (32ms)  (pid 4240)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4240)
+Compiled jquery.ui.core.js  (1ms)  (pid 4240)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4240)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 4240)
+Compiled jquery.ui.sortable.js  (14ms)  (pid 4240)
+Compiled jquery.ui.position.js  (0ms)  (pid 4240)
+Compiled jquery.ui.menu.js  (6ms)  (pid 4240)
+Compiled jquery.ui.autocomplete.js  (14ms)  (pid 4240)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 4240)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 4240)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 4240)
+Compiled jquery_nested_form.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.nested-form-hooks.js  (178ms)  (pid 4240)
+Compiled bootstrap-transition.js  (0ms)  (pid 4240)
+Compiled bootstrap-affix.js  (0ms)  (pid 4240)
+Compiled bootstrap-alert.js  (0ms)  (pid 4240)
+Compiled bootstrap-button.js  (0ms)  (pid 4240)
+Compiled bootstrap-carousel.js  (0ms)  (pid 4240)
+Compiled bootstrap-collapse.js  (0ms)  (pid 4240)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 4240)
+Compiled bootstrap-modal.js  (0ms)  (pid 4240)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 4240)
+Compiled bootstrap-tab.js  (0ms)  (pid 4240)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 4240)
+Compiled bootstrap-popover.js  (0ms)  (pid 4240)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 4240)
+Compiled bootstrap.js  (81ms)  (pid 4240)
+Compiled rails_admin/ra.widgets.js  (210ms)  (pid 4240)
+Compiled rails_admin/ui.js  (158ms)  (pid 4240)
+Compiled rails_admin/custom/ui.js  (140ms)  (pid 4240)
+Compiled rails_admin/rails_admin.js  (1023ms)  (pid 4240)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 4240)
+Compiled rails_admin/rails_admin.css  (2852ms)  (pid 4240)
+Connecting to database specified by database.yml
+Compiled application.js  (0ms)  (pid 4240)
+Compiled colors.css  (8ms)  (pid 4240)
+Compiled footer.css  (1ms)  (pid 4240)
+Compiled frequents.css  (0ms)  (pid 4240)
+Compiled header.css  (4ms)  (pid 4240)
+Compiled home.css  (4ms)  (pid 4240)
+Compiled infos.css  (0ms)  (pid 4240)
+Compiled posts.css  (3ms)  (pid 4240)
+Compiled print.css  (0ms)  (pid 4240)
+Compiled raw_twitter_posts.css  (0ms)  (pid 4240)
+Compiled recovered_statuses.css  (0ms)  (pid 4240)
+Compiled scaffolds.css  (0ms)  (pid 4240)
+Compiled statistics.css  (1ms)  (pid 4240)
+Compiled tabs.css  (23ms)  (pid 4240)
+Compiled application.css  (141ms)  (pid 4240)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 4240)
+Compiled jquery.js  (1ms)  (pid 4240)
+Compiled jquery_ujs.js  (0ms)  (pid 4240)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 4240)
+Compiled rails_admin/jquery.remotipart.fixed.js  (4ms)  (pid 4240)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4240)
+Compiled jquery.ui.core.js  (1ms)  (pid 4240)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4240)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 4240)
+Compiled jquery.ui.sortable.js  (14ms)  (pid 4240)
+Compiled jquery.ui.position.js  (0ms)  (pid 4240)
+Compiled jquery.ui.menu.js  (6ms)  (pid 4240)
+Compiled jquery.ui.autocomplete.js  (14ms)  (pid 4240)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 4240)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 4240)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 4240)
+Compiled jquery_nested_form.js  (0ms)  (pid 4240)
+Compiled rails_admin/ra.nested-form-hooks.js  (158ms)  (pid 4240)
+Compiled bootstrap-transition.js  (0ms)  (pid 4240)
+Compiled bootstrap-affix.js  (0ms)  (pid 4240)
+Compiled bootstrap-alert.js  (0ms)  (pid 4240)
+Compiled bootstrap-button.js  (0ms)  (pid 4240)
+Compiled bootstrap-carousel.js  (0ms)  (pid 4240)
+Compiled bootstrap-collapse.js  (0ms)  (pid 4240)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 4240)
+Compiled bootstrap-modal.js  (0ms)  (pid 4240)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 4240)
+Compiled bootstrap-tab.js  (0ms)  (pid 4240)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 4240)
+Compiled bootstrap-popover.js  (0ms)  (pid 4240)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 4240)
+Compiled bootstrap.js  (81ms)  (pid 4240)
+Compiled rails_admin/ra.widgets.js  (208ms)  (pid 4240)
+Compiled rails_admin/ui.js  (185ms)  (pid 4240)
+Compiled rails_admin/custom/ui.js  (111ms)  (pid 4240)
+Compiled rails_admin/rails_admin.js  (957ms)  (pid 4240)
+Compiled rails_admin/jquery.colorpicker.css  (19ms)  (pid 4240)
+Compiled rails_admin/rails_admin.css  (2715ms)  (pid 4240)
+Connecting to database specified by database.yml
+Started GET "/infos" for 216.52.185.73 at 2013-03-28 14:13:54 -0400
 Processing by InfosController#index as HTML
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.9ms)
-  Rendered infos/index.html.erb within layouts/application (2.7ms)
-Compiled header.css  (201ms)  (pid 10205)
-Compiled header.css  (200ms)  (pid 10197)
-Compiled tabs.css  (14ms)  (pid 10205)
-Compiled application.css  (2ms)  (pid 10205)
-Compiled application.css  (2ms)  (pid 10197)
+  Rendered infos/index.html.erb within layouts/application (3.7ms)
+Compiled modernizr-1.7.min.js  (0ms)  (pid 4361)
+  Rendered header/_header.html.erb (0.4ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Compiled plugins.js  (0ms)  (pid 4361)
+Compiled defaults.js  (0ms)  (pid 4361)
+Compiled dd_belatedpng.js  (32ms)  (pid 4361)
+Completed 200 OK in 858ms (Views: 775.2ms | ActiveRecord: 1.8ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:13:55 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:13:55 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:13:55 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:15:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
   Rendered header/_header.html.erb (0.3ms)
   Rendered footer/_footer.html.erb (0.2ms)
-  Rendered header/_header.html.erb (0.2ms)
-Completed 200 OK in 324ms (Views: 272.4ms | ActiveRecord: 1.8ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 313ms (Views: 260.4ms | ActiveRecord: 1.7ms)
-Started GET "/assets/application-c8ad624fd9a804737f784eadf834f3f8.css" for 192.168.1.67 at 2013-03-21 22:06:11 -0400
-Served asset /application-c8ad624fd9a804737f784eadf834f3f8.css - 200 OK (0ms)
-Started GET "/" for 216.52.185.72 at 2013-03-22 09:48:55 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.0ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
-Started GET "/assets/application-c8ad624fd9a804737f784eadf834f3f8.css" for 216.52.185.72 at 2013-03-22 09:48:55 -0400
-Served asset /application-c8ad624fd9a804737f784eadf834f3f8.css - 200 OK (0ms)
-Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.72 at 2013-03-22 09:48:56 -0400
-Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 200 OK (0ms)
-Connecting to database specified by database.yml
-Started GET "/posts" for 216.52.185.72 at 2013-03-22 09:48:58 -0400
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:15:24 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:15:24 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:15:24 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:15:25 -0400
 Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.8ms)
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 32.8ms | ActiveRecord: 2.3ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:15:26 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:15:26 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:15:26 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (2ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:15:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
   Rendered header/_header.html.erb (0.2ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 80ms (Views: 45.8ms | ActiveRecord: 2.1ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:48:59 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.6ms)
-Started GET "/" for 216.52.185.72 at 2013-03-22 09:49:00 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.5ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
-Started GET "/posts" for 216.52.185.72 at 2013-03-22 09:49:07 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (0.2ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:49:07 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.8ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.4ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:49:10 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.3ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:49:13 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.4ms)
-Started GET "/" for 216.52.185.72 at 2013-03-22 09:49:15 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
-Started GET "/posts" for 216.52.185.72 at 2013-03-22 09:49:15 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.5ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:49:16 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:15:35 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:15:35 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:15:35 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 09:58:25 -0400
-Processing by InfosController#index as HTML
-Started GET "/" for 216.52.185.72 at 2013-03-22 09:58:25 -0400
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:16:46 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-  Rendered infos/index.html.erb within layouts/application (2.9ms)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
   Rendered header/_header.html.erb (0.2ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
-Completed 200 OK in 118ms (Views: 51.6ms | ActiveRecord: 1.2ms)
-Connecting to database specified by database.yml
-Started GET "/" for 216.52.185.72 at 2013-03-22 10:00:20 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-Compiled tabs.css  (203ms)  (pid 19526)
-Compiled application.css  (2ms)  (pid 19526)
-  Rendered header/_header.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:16:47 -0400
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:16:47 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:16:47 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (2ms)
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (2ms)
+Started GET "/posts/new" for 216.52.185.73 at 2013-03-28 14:16:50 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (9.3ms)
+  Rendered posts/new.html.erb within layouts/application (15.5ms)
+  Rendered header/_header.html.erb (0.2ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 272ms (Views: 271.6ms | ActiveRecord: 0.0ms)
-Started GET "/assets/application-4438ab9b2e10654f31ea068af1cad173.css" for 216.52.185.72 at 2013-03-22 10:00:21 -0400
-Served asset /application-4438ab9b2e10654f31ea068af1cad173.css - 200 OK (0ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:00:27 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.8ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 67ms (Views: 5.2ms | ActiveRecord: 1.7ms)
-Connecting to database specified by database.yml
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:04:05 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.8ms)
-Compiled tabs.css  (204ms)  (pid 19654)
-Compiled application.css  (2ms)  (pid 19654)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 310ms (Views: 258.0ms | ActiveRecord: 2.0ms)
-Started GET "/assets/application-e9b1b5a2fd8eb8a8d930614208818183.css" for 216.52.185.72 at 2013-03-22 10:04:05 -0400
-Served asset /application-e9b1b5a2fd8eb8a8d930614208818183.css - 200 OK (0ms)
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:10:52 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.9ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.6ms)
-Connecting to database specified by database.yml
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:11:05 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.7ms)
-Compiled header.css  (191ms)  (pid 19826)
-Compiled application.css  (2ms)  (pid 19826)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 293ms (Views: 244.5ms | ActiveRecord: 2.0ms)
-Started GET "/assets/application-0b790641d1f4048b1ab3be337637f135.css" for 216.52.185.72 at 2013-03-22 10:11:06 -0400
-Served asset /application-0b790641d1f4048b1ab3be337637f135.css - 200 OK (0ms)
-Connecting to database specified by database.yml
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:15:26 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.7ms)
-Compiled header.css  (192ms)  (pid 19932)
-Compiled application.css  (2ms)  (pid 19932)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 306ms (Views: 251.5ms | ActiveRecord: 2.3ms)
-Started GET "/assets/application-b9598dbec7cb4652802723e946c647db.css" for 216.52.185.72 at 2013-03-22 10:15:27 -0400
-Served asset /application-b9598dbec7cb4652802723e946c647db.css - 200 OK (0ms)
-Connecting to database specified by database.yml
-Started GET "/infos" for 216.52.185.72 at 2013-03-22 10:17:57 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.7ms)
-Compiled home.css  (190ms)  (pid 20015)
-Compiled application.css  (2ms)  (pid 20015)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 299ms (Views: 244.5ms | ActiveRecord: 2.2ms)
-Started GET "/assets/application-cd3a6d274dd289b2b18efa4385b9932f.css" for 216.52.185.72 at 2013-03-22 10:17:58 -0400
-Served asset /application-cd3a6d274dd289b2b18efa4385b9932f.css - 200 OK (0ms)
-Connecting to database specified by database.yml
-Started GET "/" for 95.154.230.191 at 2013-03-23 00:54:34 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (9.7ms)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 220ms (Views: 219.4ms | ActiveRecord: 0.0ms)
-Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 95.154.230.191 at 2013-03-23 00:54:34 -0400
-Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 200 OK (0ms)
-Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
-Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 200 OK (0ms)
-Started GET "/assets/application-cd3a6d274dd289b2b18efa4385b9932f.css" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
-Served asset /application-cd3a6d274dd289b2b18efa4385b9932f.css - 200 OK (8ms)
-Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 95.154.230.191 at 2013-03-23 00:54:35 -0400
-Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 200 OK (2ms)
-Connecting to database specified by database.yml
-Started GET "/" for 95.154.230.253 at 2013-03-23 00:59:15 -0400
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.5ms)
-  Rendered header/_header.html.erb (0.3ms)
-  Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
-Started GET "/" for 166.205.68.45 at 2013-03-23 00:59:52 -0400
+Completed 200 OK in 156ms (Views: 62.9ms | ActiveRecord: 2.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:16:50 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:16:50 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:16:50 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:16:53 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.8ms)
   Rendered header/_header.html.erb (0.0ms)
   Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.45 at 2013-03-23 00:59:53 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/" for 166.205.68.31 at 2013-03-23 11:02:43 -0400
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:16:53 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:16:53 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:16:53 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (2ms)
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:16:54 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 144ms (Views: 53.1ms | ActiveRecord: 2.5ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:16:54 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:16:54 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:16:54 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:16:56 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.1ms)
+  Rendered header/_header.html.erb (0.0ms)
   Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 11:02:44 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/" for 166.205.68.31 at 2013-03-23 12:25:57 -0400
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:16:56 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:16:56 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:16:56 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/posts/new" for 216.52.185.73 at 2013-03-28 14:17:00 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (8.8ms)
+  Rendered posts/new.html.erb within layouts/application (9.7ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:00 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:00 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:00 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:17:04 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.6ms)
   Rendered header/_header.html.erb (0.0ms)
   Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:25:57 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:13 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (2.8ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 174ms (Views: 26.8ms | ActiveRecord: 58.5ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:13 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:16 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (2.6ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 70ms (Views: 46.4ms | ActiveRecord: 20.3ms)
-Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:18 -0400
-Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (0.2ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:18 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/" for 166.205.68.31 at 2013-03-23 12:26:24 -0400
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:04 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:04 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:04 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:17:52 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:24 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:25 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.9ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.5ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:26 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/statistics" for 166.205.68.31 at 2013-03-23 12:26:27 -0400
-Processing by StatisticsController#index as HTML
-  Rendered statistics/index.html.erb within layouts/application (2.5ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.1ms)
-Completed 200 OK in 44ms (Views: 17.3ms | ActiveRecord: 21.7ms)
-Started GET "/infos" for 166.205.68.31 at 2013-03-23 12:26:29 -0400
-Processing by InfosController#index as HTML
-  Rendered infos/index.html.erb within layouts/application (0.8ms)
-  Rendered header/_header.html.erb (0.1ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.5ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:29 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/posts" for 166.205.68.31 at 2013-03-23 12:26:30 -0400
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:52 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:52 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:52 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (2ms)
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:17:55 -0400
 Processing by PostsController#index as HTML
-  Rendered posts/index.html.erb within layouts/application (0.2ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.4ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.31 at 2013-03-23 12:26:30 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Started GET "/" for 213.215.43.23 at 2013-03-23 13:33:39 -0400
-Processing by HomeController#index as */*
-  Rendered home/index.html.erb within layouts/application (1.8ms)
-  Rendered header/_header.html.erb (0.0ms)
-  Rendered footer/_footer.html.erb (0.0ms)
-Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
-Connecting to database specified by database.yml
-Migrating to CreatePosts (20130321215826)
-Migrating to CreateInfos (20130321232717)
-Migrating to CreateStatistics (20130321233639)
-Migrating to CreateRawTwitterPosts (20130324012718)
-Started GET "/user/soapCaller.bs" for 66.193.171.205 at 2013-03-24 03:41:54 -0400
-
-ActionController::RoutingError (No route matches [GET] "/user/soapCaller.bs"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Connecting to database specified by database.yml
-Started GET "/phpmyadmin" for 127.0.0.1 at 2013-03-24 13:06:41 -0400
-
-ActionController::RoutingError (No route matches [GET] "/phpmyadmin"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
-Connecting to database specified by database.yml
-Started GET "/" for 166.205.68.33 at 2013-03-24 17:32:28 -0400
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 53.5ms | ActiveRecord: 2.5ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:55 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:55 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:55 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (2ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:17:57 -0400
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.6ms)
-Compiled raw_twitter_posts.css  (188ms)  (pid 7953)
-Compiled recovered_statuses.css  (0ms)  (pid 7953)
-Compiled application.css  (200ms)  (pid 7953)
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:58 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:58 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:58 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:17:59 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.6ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:17:59 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:17:59 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:17:59 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:23:39 -0400
+Processing by PostsController#index as HTML
+Redirected to http://tdg.x64.me/posts/new
+Completed 302 Found in 90ms (ActiveRecord: 2.4ms)
+Started GET "/posts/new" for 216.52.185.73 at 2013-03-28 14:23:40 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (9.4ms)
+  Rendered posts/new.html.erb within layouts/application (15.6ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:23:40 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:23:40 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:23:40 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:23:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
   Rendered header/_header.html.erb (0.3ms)
   Rendered footer/_footer.html.erb (0.2ms)
-Completed 200 OK in 307ms (Views: 305.4ms | ActiveRecord: 0.0ms)
-Started GET "/images/apple-touch-icon.png" for 166.205.68.33 at 2013-03-24 17:32:29 -0400
-
-ActionController::RoutingError (No route matches [GET] "/images/apple-touch-icon.png"):
-  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
-  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
-  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
-  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  rack (1.4.5) lib/rack/lock.rb:15:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.13) lib/rails/engine.rb:479:in `call'
-  railties (3.2.13) lib/rails/application.rb:223:in `call'
-  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
-  passenger (3.0.19) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
-  passenger (3.0.19) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/utils.rb:470:in `safe_fork'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.19) lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
-  <internal:prelude>:10:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.19) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.19) helper-scripts/passenger-spawn-server:99:in `<main>'
-
-
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:23:42 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:23:42 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:23:42 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/posts" for 216.52.185.73 at 2013-03-28 14:23:44 -0400
+Processing by PostsController#index as HTML
+Redirected to http://tdg.x64.me/posts/new
+Completed 302 Found in 105ms (ActiveRecord: 2.4ms)
+Started GET "/posts/new" for 216.52.185.73 at 2013-03-28 14:23:44 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (8.7ms)
+  Rendered posts/new.html.erb within layouts/application (9.9ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:23:45 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:23:45 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:23:45 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (2ms)
+Started GET "/posts.json" for 216.52.185.73 at 2013-03-28 14:23:50 -0400
+Processing by PostsController#index as JSON
+Completed 200 OK in 90ms (Views: 1.5ms | ActiveRecord: 2.2ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:25:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+  Rendered header/_header.html.erb (27.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:25:31 -0400
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:25:31 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:25:31 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/infos" for 216.52.185.73 at 2013-03-28 14:25:32 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 9.6ms | ActiveRecord: 2.1ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:25:32 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:25:32 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:25:32 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:25:37 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:25:37 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:25:37 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:25:37 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/posts/new" for 216.52.185.73 at 2013-03-28 14:25:39 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/new.html.erb within layouts/application (4.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:25:39 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:25:39 -0400
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:25:39 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 14:25:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 14:25:42 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 14:25:42 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 14:25:42 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/" for 216.52.185.73 at 2013-03-28 16:59:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 16:59:35 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 16:59:35 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 16:59:35 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Started GET "/infos" for 216.52.185.73 at 2013-03-28 16:59:47 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (3.7ms)
+  Rendered header/_header.html.erb (0.2ms)
+  Rendered footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 142ms (Views: 56.5ms | ActiveRecord: 2.3ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 16:59:48 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 16:59:48 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 16:59:48 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/statistics" for 216.52.185.73 at 2013-03-28 17:00:09 -0400
+Processing by StatisticsController#index as HTML
+  Rendered statistics/index.html.erb within layouts/application (2.6ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 2.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:09 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:09 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:09 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/statistics/new" for 216.52.185.73 at 2013-03-28 17:00:12 -0400
+Processing by StatisticsController#new as HTML
+  Rendered statistics/_form.html.erb (21.4ms)
+  Rendered statistics/new.html.erb within layouts/application (26.9ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:12 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:12 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:12 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started POST "/statistics" for 216.52.185.73 at 2013-03-28 17:00:14 -0400
+Processing by StatisticsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jK0md83j1QTC9vCymTCZau9HESXcadt0lA7SfhT7Ir8=", "commit"=>"Create Statistic"}
+Redirected to http://tdg.x64.me/statistics/1
+Completed 302 Found in 173ms (ActiveRecord: 133.4ms)
+Started GET "/statistics/1" for 216.52.185.73 at 2013-03-28 17:00:15 -0400
+Processing by StatisticsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered statistics/show.html.erb within layouts/application (3.2ms)
+  Rendered header/_header.html.erb (0.1ms)
+  Rendered footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:15 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:15 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:15 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/infos" for 216.52.185.73 at 2013-03-28 17:00:19 -0400
+Processing by InfosController#index as HTML
+  Rendered infos/index.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:19 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:19 -0400
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:19 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/statistics" for 216.52.185.73 at 2013-03-28 17:00:20 -0400
+Processing by StatisticsController#index as HTML
+  Rendered statistics/index.html.erb within layouts/application (1.9ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 6.4ms | ActiveRecord: 2.1ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:20 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:20 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:20 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/statistics/1" for 216.52.185.73 at 2013-03-28 17:00:23 -0400
+Processing by StatisticsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered statistics/show.html.erb within layouts/application (0.8ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:23 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:23 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:23 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)
+Started GET "/statistics" for 216.52.185.73 at 2013-03-28 17:00:25 -0400
+Processing by StatisticsController#index as HTML
+  Rendered statistics/index.html.erb within layouts/application (2.9ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.4ms)
+Started GET "/assets/modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js" for 216.52.185.73 at 2013-03-28 17:00:26 -0400
+Served asset /modernizr-1.7.min-18a7a6bf5cf88a5dbff894729fdcc9b6.js - 304 Not Modified (0ms)
+Started GET "/assets/plugins-70bad135e311f9e0e3feb5386fd56e83.js" for 216.52.185.73 at 2013-03-28 17:00:26 -0400
+Served asset /plugins-70bad135e311f9e0e3feb5386fd56e83.js - 304 Not Modified (0ms)
+Started GET "/assets/defaults-f00251f452c48102b58e406cc891259e.js" for 216.52.185.73 at 2013-03-28 17:00:26 -0400
+Served asset /defaults-f00251f452c48102b58e406cc891259e.js - 304 Not Modified (0ms)

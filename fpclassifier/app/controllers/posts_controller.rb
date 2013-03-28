@@ -5,7 +5,7 @@ class PostsController < ApplicationController
     @posts = Post.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html { redirect_to action: "new"} 
       format.json { render json: @posts }
     end
   end
@@ -40,8 +40,12 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(params[:post])
-
+    thought = params[:post][:thought]
+    keyword=""
+    @post = Post.new
+    @post.thought = thought
+    @post.keyword = keyword
+    @post.create_date = DateTime.now
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Post:</b>
+  <%= @frequent.post %>
+</p>
+
+<p>
+  <b>Keyword:</b>
+  <%= @frequent.keyword %>
+</p>
+
+
+<%= link_to 'Edit', edit_frequent_path(@frequent) %> |
+<%= link_to 'Back', frequents_path %>
