@@ -18,7 +18,7 @@ public class EnqueueTwitterPosts extends Thread{
 	
 	private String data;
 	private String insertQuery = "insert into raw_twitter_posts (rawdata,created_at,updated_at,processed) values(?,NOW(),NOW(),?)";
-	private String url = "jdbc:mysql://127.0.0.1:3306/fpclassifier_development";
+	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
 	private Boolean rs = false;

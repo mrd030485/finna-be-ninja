@@ -32,7 +32,7 @@ public class ProcessPosts extends Thread {
 		}
 		start();
 	}
-	private String url = "jdbc:mysql://127.0.0.1:3306/fpclassifier_development";
+	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
 	private String user = "fpclass";
 	private String pw = null;
 	private String retrieveResult = "SELECT * FROM raw_twitter_posts where processed = 0 order by id limit ?,1";
@@ -87,7 +87,9 @@ public class ProcessPosts extends Thread {
 									}
 									
 									prepStmt = connect.prepareStatement(insertStatusRecord);
-									prepStmt.setString(1, status.getText());
+									String statusText = normalizeStatus(status.getText().toLowerCase());
+									
+									prepStmt.setString(1, statusText);
 									prepStmt.setString(2, hashtagXM.toString());
 									prepStmt.execute();
 									prepStmt.close();
@@ -112,7 +114,31 @@ public class ProcessPosts extends Thread {
 				logger.error("SQL error - "+e.getMessage());
 			} catch (TwitterException e) {
 				logger.error("Twitter post error - "+e.getMessage()+" ::-:: "+e.getErrorMessage());
+			}finally{
+				if(connect!=null){
+					try {
+						connect.close();
+					} catch (SQLException e) {
+						// this is ok
+						e.printStackTrace();
+					}
+				}
 			}
 	}
-
+	private String normalizeStatus(String statusText){
+		int url = statusText.indexOf("http");
+		int urlend = statusText.indexOf(" ", url);
+		while(statusText.contains("http")){
+			if(urlend!=-1){
+				statusText = statusText.substring(0, url)+statusText.substring(urlend);
+			}else if(url!=-1){
+				statusText = statusText.substring(0, url);
+			}
+			url = statusText.indexOf("http");
+			urlend = statusText.indexOf(" ", url);	
+		}
+		statusText = statusText.replaceAll("[^0-9a-zA-Z'\\s]", "");
+		statusText = statusText.replaceAll("( )+"," ");
+		return statusText;
+	}
 }

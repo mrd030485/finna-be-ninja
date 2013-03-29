@@ -16,7 +16,7 @@ public class ManageProcess extends Thread {
 		start();
 	}
 
-	private String url = "jdbc:mysql://127.0.0.1:3306/fpclassifier_development";
+	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
 	private String user = "fpclass";
 	private String pw = null;
 	private String selectCount = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
@@ -34,7 +34,7 @@ public class ManageProcess extends Thread {
 				rs = prepStmt.executeQuery();
 				if(rs.next()){
 					int count = rs.getInt(1);
-					if(count>5000){
+					if(count>500){
 						Thread t = new ProcessPosts(url,user,pw);
 						t.join();
 					}
