@@ -13,7 +13,7 @@ public class FpClassifier {
 	static Logger logger = Logger.getLogger(FpClassifier.class);
 	
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("resources/log4j.properties");
+		PropertyConfigurator.configure(FpClassifier.class.getClassLoader().getResource("log4j.properties"));
 		logger.info("Starting app");
 		String user=null;
 		String password=null;

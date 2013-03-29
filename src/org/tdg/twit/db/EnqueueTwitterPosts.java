@@ -2,12 +2,9 @@ package org.tdg.twit.db;
 
 import java.sql.Blob;
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.Calendar;
-
 import org.apache.log4j.Logger;
 import javax.sql.rowset.serial.SerialBlob;
 
@@ -21,10 +18,6 @@ public class EnqueueTwitterPosts extends Thread{
 	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
-	private Boolean rs = false;
-	
-	private Calendar insertTime;
-	
 	public EnqueueTwitterPosts(String data, String url){
 		super("Transform "+data+" thread");
 		logger.debug("Start Transform thread for "+data);
@@ -51,7 +44,7 @@ public class EnqueueTwitterPosts extends Thread{
 			prepStmt.setBoolean(2, false);			
 			
 			logger.debug("Executing insert");
-			rs = prepStmt.execute();
+			prepStmt.execute();
 		} catch (SQLException e) {
 			logger.error(e.getMessage());
 		} catch (ClassNotFoundException e) {

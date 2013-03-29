@@ -14,7 +14,6 @@ import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.json.DataObjectFactory;
 
-import com.google.gson.Gson;
 
 public class ProcessPosts extends Thread {
 	Logger logger = Logger.getLogger(ProcessPosts.class);
