@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Array;
 
 import org.apache.log4j.Logger;
 
@@ -17,96 +18,63 @@ import twitter4j.json.DataObjectFactory;
 
 public class ProcessPosts extends Thread {
 	Logger logger = Logger.getLogger(ProcessPosts.class);
-	public ProcessPosts(String url,String user, String pw){
+	public ProcessPosts(Array rs, Connection conn){
 		super("Process Posts Thread");
 		logger.info("Process Posts Thread created");
-		if(url!=null){
-			this.url = url;
-		}
-		if(user!=null){
-			this.user=user;
-		}
-		if(pw!=null){
-			this.pw=pw;
-		}
-		start();
+		this.allResults = rs;
+    this.connect = conn;
+    start();
 	}
-	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
-	private String user = "fpclass";
-	private String pw = null;
-	private String retrieveResult = "SELECT * FROM raw_twitter_posts where processed = 0 order by id limit ?,1";
-	private String selectCount = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
-	private String setProcessed = "UPDATE raw_twitter_posts set processed=1, process_date=NOW() where id=?";
 	private String insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at) values (?,?,NOW(),NOW())";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
-	private ResultSet rs = null;
+  private Array allResults = null;
+  private ResultSet rs = null;
 	public void run(){
-		
+      System.out.println("here1");
+		  if(allResults==null){
+        logger.error(ProcessPosts.class.getName()+": Result set is empty or does not exists");
+      System.out.println("here2");
+      }else if(connect==null){
+        logger.error(ProcessPosts.class.getName()+": Database connection is closed");
+      System.out.println("here3");
+      }
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				logger.debug("Creating DB connection");
-				connect = DriverManager.getConnection(url, user, pw);
-				prepStmt = connect.prepareStatement(selectCount);
-				rs = prepStmt.executeQuery();
-				if(rs.next()){
-					int count = rs.getInt(1);
-					prepStmt.close();
-					rs.close();
-					for(int i=0; i<count; i++){
-						prepStmt = connect.prepareStatement(retrieveResult);
-						prepStmt.setInt(1, i);
-						rs = prepStmt.executeQuery();
-						if(rs.next()){
-							Blob blob = rs.getBlob("rawdata");
-							int id = rs.getInt("id");
-							
-
-							rs.close();
-							prepStmt.close();
-							
-							/**
-							 * Convert incoming data into twitter status 
-							 * remove hashtags and format string in keyword<endofhashtag/>...keyword<endofhashtag/>
-							 * 
-							 * insert data into recovered_statuses table
-							 * 
-							 */
-							
-							String data = new String(blob.getBytes(1, (int)blob.length()));
-							if(!data.startsWith("{\"delete\":")){
-								Status status = DataObjectFactory.createStatus(data);
-								if(status.getUser().getLang().startsWith("en")){
-									HashtagEntity[] hashtags = status.getHashtagEntities();
-									StringBuilder hashtagXM = new StringBuilder();
-									if(hashtags!=null){
-										for(int j=0; j<hashtags.length; j++){
-											hashtagXM.append(hashtags[j].getText()+"<endofhashtag/>");
-										}
-									}
+        rs = allResults.getResultSet();
+        while(rs.next()){
+          Blob blob = rs.getBlob(1);
+          /**
+           * Convert incoming data into twitter status 
+           * remove hashtags and format string in keyword<endofhashtag/>...keyword<endofhashtag/>
+           * 
+           * insert data into recovered_statuses table
+           * 
+           */
+            
+          String data = new String(blob.getBytes(1, (int)blob.length()));
+          System.out.println(data);
+          if(!data.startsWith("{\"delete\":")){
+            Status status = DataObjectFactory.createStatus(data);
+            if(status.getUser().getLang().startsWith("en")){
+              HashtagEntity[] hashtags = status.getHashtagEntities();
+              StringBuilder hashtagXM = new StringBuilder();
+              if(hashtags!=null){
+                for(int j=0; j<hashtags.length; j++){
+                  hashtagXM.append(hashtags[j].getText()+"<endofhashtag/>");
+                }
+              }
 									
-									prepStmt = connect.prepareStatement(insertStatusRecord);
-									String statusText = normalizeStatus(status.getText().toLowerCase());
-									
-									prepStmt.setString(1, statusText);
-									prepStmt.setString(2, hashtagXM.toString());
-									prepStmt.execute();
-									prepStmt.close();
-								}
-							}
-							
-							/**
-							 * Update raw table to processed
-							 */
-							
-							prepStmt = connect.prepareStatement(setProcessed);
-							prepStmt.setInt(1, id);
-							prepStmt.execute();
-							prepStmt.close();
-						}
-					}
-				}
-				
+              prepStmt = connect.prepareStatement(insertStatusRecord);
+              String statusText = normalizeStatus(status.getText().toLowerCase());
+              
+              prepStmt.setString(1, statusText);
+              prepStmt.setString(2, hashtagXM.toString());
+              prepStmt.execute();
+              prepStmt.close();
+            }
+          }
+        }//End of while loop
 			} catch (ClassNotFoundException e) {
 				logger.error("MySql:JDBC:CONNECTOR - "+e.getMessage());
 			} catch (SQLException e) {

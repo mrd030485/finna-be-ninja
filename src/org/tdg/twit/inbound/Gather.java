@@ -5,7 +5,7 @@ import java.net.Authenticator;
 import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.URL;
-
+import java.sql.Connection;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,10 +18,12 @@ import org.tdg.twit.db.*;
 
 public class Gather extends Thread{
   static Logger logger = Logger.getLogger(Gather.class);
-  public Gather(String user, String pass){
+  private Connection connect=null;
+  public Gather(String user, String pass, Connection conn){
     super("Gather Data Thread");
     this.username=user;
     this.password=pass;
+    this.connect=conn;
     logger.debug("Setup Gather Thread");
     start();
   }
@@ -30,7 +32,7 @@ public class Gather extends Thread{
    */
   String username = null;;
   String password = null;
-  DataStats dataStats;
+  DataStats dataStats = null;
   public void run(){
     logger.info("Starting Gather Data Thread");
     Authenticator.setDefault(new Authenticator(){
@@ -38,7 +40,11 @@ public class Gather extends Thread{
             return new PasswordAuthentication(username,password.toCharArray());
         }
     });
-    dataStats = new DataStats(null, "fpclass", null);
+    if(connect==null){
+      logger.error(Gather.class.getName()+": Database connection is closed");
+    }else{
+      dataStats = new DataStats(connect);
+    }
     try {
     	int post_count=0;
     	int dbRowCount = 0;
@@ -49,18 +55,20 @@ public class Gather extends Thread{
 		while((input = in.readLine()) != null){
 			if(!pause){
 				post_count++;
-				new EnqueueTwitterPosts(input,null);
+				new EnqueueTwitterPosts(input,connect);
 			}
-			if(post_count>5000){
+			if(post_count>5000 && dataStats!=null){
 				dbRowCount = dataStats.getDBRowCount();
-			}
-			if(dbRowCount>post_count){
-				logger.debug("there are: "+dbRowCount+" rows waiting to be processed throwing away incoming messages until caught up");
-				pause=true;
-			}else{
-				post_count=0;
-				pause=false;
-			}
+				if(dbRowCount>post_count){
+			    if(!pause){
+            logger.debug("there are: "+dbRowCount+" rows waiting to be processed throwing away incoming messages until caught up");
+	  			  pause=true;
+          }
+  			}else{
+	  			post_count=0;
+		  		pause=false;
+			  }
+      }
 		}
 		in.close();
 	} catch (MalformedURLException e1) {

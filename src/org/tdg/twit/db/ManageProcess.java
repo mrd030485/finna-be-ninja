@@ -11,32 +11,51 @@ import org.apache.log4j.Logger;
 public class ManageProcess extends Thread {
 	Logger logger = Logger.getLogger(ManageProcess.class);
 
-	public ManageProcess() {
+	public ManageProcess(Connection conn) {
 		super("Manage Process Thread");
+    this.connect = conn;
 		start();
 	}
 
-	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
-	private String user = "fpclass";
-	private String pw = null;
 	private String selectCount = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
-	private Connection connect = null;
+  private String selectRecordsToProcess = "SELECT id,rawdata FROM raw_twitter_posts WHERE processed = 0 order by id asc limit ?,1000";
+  private Connection connect = null;
 	private PreparedStatement prepStmt = null;
 	private ResultSet rs = null;
 
 	public void run() {
 		logger.debug("Start counting records to be processed");
+    if(connect==null){
+    logger.error(ManageProcess.class.getName()+": Database connection is not open");  
+    }
 		while (true) {
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				connect = DriverManager.getConnection(url, user, pw);
 				prepStmt = connect.prepareStatement(selectCount);
 				rs = prepStmt.executeQuery();
 				if(rs.next()){
 					int count = rs.getInt(1);
-					if(count>500){
-						Thread t = new ProcessPosts(url,user,pw);
-						t.join();
+          rs.close();
+          prepStmt.close();
+          int startId=-1;
+          int endId=-1;
+          for(int i=0; i<(Math.ceil(count/1000)); i++){
+            prepStmt = connect.prepareStatement(selectRecordsToProcess);
+            prepStmt.setInt(1,i);
+						rs = prepStmt.executeQuery();
+            if(rs.next()){
+              if(startId==-1){
+                startId=rs.getInt(1);
+              }else{
+                rs.last();
+                endId=rs.getInt(1);
+              }
+              rs.first();
+              Thread t = new ProcessPosts(rs.getArray(2),connect);					
+              System.out.println("here2");
+            }
+            rs.close();
+            prepStmt.close();
 					}
 				}
 				rs.close();
@@ -45,8 +64,6 @@ public class ManageProcess extends Thread {
 			} catch (SQLException e) {
 				logger.error(e.getMessage());
 			} catch (ClassNotFoundException e) {
-				logger.error(e.getMessage());
-			} catch (InterruptedException e) {
 				logger.error(e.getMessage());
 			}
 		}

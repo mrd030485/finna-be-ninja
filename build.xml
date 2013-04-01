@@ -11,13 +11,16 @@
     <property name="source" value="1.7"/>
     <path id="finna-be-ninja.classpath">
         <pathelement location="bin"/>
-        <pathelement location="../../../bithack/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
-        <pathelement location="../../../bithack/.m2/repository/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+        <pathelement location="lib/log4j-1.2.17.jar"/>
+        <pathelement location="lib/gson-2.2.2.jar"/>
+        <pathelement location="lib/twitter4j-core-3.0.3.jar"/>
         <pathelement location="lib/mysql-connector-java-5.0.8-bin.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
-        <copy includeemptydirs="false" todir="bin">
+        <mkdir dir="bin/classes"/>
+        <mkdir dir="bin/jar"/>
+        <copy includeemptydirs="false" todir="bin/classes">
             <fileset dir="src">
                 <exclude name="**/*.java"/>
             </fileset>
@@ -31,7 +34,7 @@
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
             <src path="src"/>
             <classpath refid="finna-be-ninja.classpath"/>
         </javac>
@@ -54,5 +57,18 @@
         <java classname="org.tdg.twit.main.FpClassifier" failonerror="true" fork="yes">
             <classpath refid="finna-be-ninja.classpath"/>
         </java>
+    </target>
+    <target name="distribute" depends="build">
+      <jar destfile="bin/jar/fpclassifier.jar">
+        <fileset dir="bin/classes" includes="**/*.class"/>
+        <fileset dir="resources"/>
+        <zipfileset src="lib/log4j-1.2.17.jar" includes="**/*.class"/>
+        <zipfileset src="lib/gson-2.2.2.jar" includes="**/*.class"/>
+        <zipfileset src="lib/twitter4j-core-3.0.3.jar" includes="**/*.class"/>
+        <zipfileset src="lib/mysql-connector-java-5.0.8-bin.jar" excludes="META-INF"/>
+        <manifest>
+          <attribute name="Main-Class" value="org.tdg.twit.main.FpClassifier"/>
+        </manifest>
+      </jar>
     </target>
 </project>

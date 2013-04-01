@@ -15,10 +15,9 @@ public class EnqueueTwitterPosts extends Thread{
 	
 	private String data;
 	private String insertQuery = "insert into raw_twitter_posts (rawdata,created_at,updated_at,processed) values(?,NOW(),NOW(),?)";
-	private String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
-	public EnqueueTwitterPosts(String data, String url){
+	public EnqueueTwitterPosts(String data, Connection conn){
 		super("Transform "+data+" thread");
 		logger.debug("Start Transform thread for "+data);
 		if(data!=null){
@@ -26,18 +25,19 @@ public class EnqueueTwitterPosts extends Thread{
 		}else{
 			this.data="-1";
 		}
-		if(url!=null){
-			this.url=url;
-		}
-		start();
+	  this.connect = conn;
+    start();
 	}
 	
 	public void run(){
-		try {
+    if(connect==null){
+      logger.error(EnqueueTwitterPosts.class.getName()+": Database connection is closed");
+    }
+    try {
 			Class.forName("com.mysql.jdbc.Driver");
-			logger.debug("Creating DB connection");
-			connect = DriverManager.getConnection(url, "fpclass", null);
-			prepStmt = connect.prepareStatement(insertQuery);
+			logger.debug("Inserting data into DB");
+
+      prepStmt = connect.prepareStatement(insertQuery);
 			
 			Blob blob = new SerialBlob(data.getBytes());
 			prepStmt.setBlob(1, blob);
@@ -45,19 +45,11 @@ public class EnqueueTwitterPosts extends Thread{
 			
 			logger.debug("Executing insert");
 			prepStmt.execute();
-		} catch (SQLException e) {
+		  prepStmt.close();
+    } catch (SQLException e) {
 			logger.error(e.getMessage());
 		} catch (ClassNotFoundException e) {
 			logger.error(e.getMessage());
-		}finally{
-
-			try {
-				logger.debug("Closing DB connection");
-				connect.close();
-			} catch (SQLException e) {
-				//I am ok with this error
-			}
 		}
-	}
-
+  } 
 }
