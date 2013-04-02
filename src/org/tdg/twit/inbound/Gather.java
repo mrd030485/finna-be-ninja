@@ -54,43 +54,31 @@ public class Gather extends Thread {
 			dataStats = new DataStats(connect);
 		}
 		try {
-			int post_count = 0;
-			
-			int dbRowCount = 0;
-			
 			boolean pause = false;
+      boolean first = true;
 			
 			URL twitter = new URL("https://stream.twitter.com/1.1/statuses/sample.json");
 			BufferedReader in = new BufferedReader(new InputStreamReader(twitter.openStream()));
 			String input = null;
-			String[] data = new String[15];
-			int i=0;	// counter 0-15 submit data once we reach 15 records
+			String[] data = new String[500];
+			int i=0;	// counter 0-150 submit data once we reach 150 records
 			while ((input = in.readLine()) != null) {
-				if(!pause){
-					post_count++;
-					System.out.println(post_count);
-					data[i]=input;
-					System.out.println(i);
-					i++;
-					
-					if(i==15){
-						pool.submit(new EnqueueTwitterPosts(data, connect));
-						i=0;
-					}
-				}//If pause==true we will throw away incoming data this will prevent the connection to twitter getting closed.
-				 //This will also prevent the incoming data to overwhelm the processing of data.
-				if (post_count > 5000 && dataStats != null) {
-					dbRowCount = dataStats.getDBRowCount();
-					if (dbRowCount > post_count) {
-						if (!pause) {
-							logger.debug("there are: "+ dbRowCount + " rows waiting to be processed throwing away incoming messages until caught up");
-							pause = true;
-						}
-					} else {
-						post_count = 0;
-						pause = false;
-					}
-				}
+          if(dataStats.getDBRowCount<=50000){
+            pause = false;
+            first=true;
+            data[i]=input;
+	  				i++;
+		  			if(i==500){
+			  			pool.submit(new EnqueueTwitterPosts(data, connect));
+              i=0;
+					  }
+          }else{
+            pause=true;
+          }
+          if(pause && first){
+            first=false;
+            System.out.println("Waiting for processing to chatch up");
+          }
 			}
 			in.close();
 		} catch (MalformedURLException e1) {

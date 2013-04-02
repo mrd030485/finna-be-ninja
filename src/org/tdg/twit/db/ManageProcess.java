@@ -46,7 +46,7 @@ public class ManageProcess extends Thread {
 					int count = rs.getInt(1);
 					rs.close();
 					prepStmt.close();
-					for (int i = 0; i < (Math.ceil(count / 1000)); i=i+1) {
+					for (int i = 0; i < (Math.ceil(count / 500)); i=i+1) {
 						prepStmt = connect
 								.prepareStatement(selectRecordsToProcess);
 						prepStmt.setInt(1, i);
@@ -60,7 +60,7 @@ public class ManageProcess extends Thread {
 							}
 							rsAr.add(rs.getBlob(2));
 						}
-						logger.info("There have been: "+i*1000+" records processed");
+						logger.info("There have been: "+i*500+" records processed");
 						pool.submit(new ProcessPosts(rsAr, connect));
 						rs.close();
 						prepStmt.close();
