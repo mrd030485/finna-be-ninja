@@ -13,12 +13,11 @@ FpClassifier::Application.routes.draw do
 
 
   resources :raw_twitter_posts
+  get "about/index"
+  get "info/index"
+  get "error/index"
+  get "debug/index"
 
-
-  resources :statistics
-
-
-  resources :infos
 
 
   get "footer/footer"

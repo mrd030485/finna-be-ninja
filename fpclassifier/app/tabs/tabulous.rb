@@ -54,33 +54,22 @@ Tabulous.setup do |config|
 
   config.tabs do
     [
-      #---------------------------------------------------------------------------------------------------#
-      #    TAB NAME             |    DISPLAY TEXT    |    PATH          |    VISIBLE?    |    ENABLED?    #
-      #---------------------------------------------------------------------------------------------------#
-      [    :home_tab            ,    'Home'          ,    root_path     ,    true        ,    true        ],
-      [    :posts_tab           ,    'Posts'         ,    posts_path    ,    true        ,    true        ],
-      [    :infos_tab           ,    'Info'          ,    infos_path    ,    true        ,    true        ],
-      [    :infos_tab_subtab    ,    'About'         ,    infos_path    ,    true        ,    true        ],
-      [    :statistics_tab_subtab    ,    'Statisctics'         ,    statistics_path    ,    true        ,    true        ],
-      #---------------------------------------------------------------------------------------------------#
-      #    TAB NAME             |    DISPLAY TEXT    |    PATH          |    VISIBLE?    |    ENABLED?    #
-      #---------------------------------------------------------------------------------------------------#
+      #-----------------------------------------------------------------------------------------------------#
+      #    TAB NAME             |    DISPLAY TEXT     |    PATH           |    VISIBLE?    |    ENABLED?    #
+      #-----------------------------------------------------------------------------------------------------#
+      [    :home_tab            ,    'Home'           ,    root_path      ,    true        ,    true        ],
+      [    :posts_tab           ,    'Posts'          ,    posts_path     ,    true        ,    true        ],
+      [    :about_tab           ,    'Information'    ,    about_index_path    ,    true        ,    true        ],
+      [    :about_tab_subtab    ,    'About'          ,    about_index_path    ,    true        ,    true        ],
+      [    :info_tab_subtab     ,    'Info Log'       ,    info_index_path     ,    true        ,    true        ],
+      [    :error_tab_subtab    ,    'Error Log'      ,    error_index_path    ,    true        ,    true        ],
+      [    :debug_tab_subtab    ,    'Debug Log'      ,    debug_index_path    ,    true        ,    true        ],
+      #-----------------------------------------------------------------------------------------------------#
+      #    TAB NAME             |    DISPLAY TEXT     |    PATH           |    VISIBLE?    |    ENABLED?    #
+      #-----------------------------------------------------------------------------------------------------#
     ]
   end
 
-  #-------------
-  #   ACTIONS
-  #-------------
-  #
-  # This is where you hook up actions with tabs.  That way tabulous knows
-  # which tab and subtab to mark active when an action is rendered.
-  #
-  # CONTROLLER
-  #   the name of the controller
-  # ACTION
-  #   the name of the action, or :all_actions
-  # TAB
-  #   the name of the tab or subtab that is active when this action is rendered
 
   config.actions do
     [
@@ -89,8 +78,10 @@ Tabulous.setup do |config|
       #-----------------------------------------------------------------#
       [    :posts        ,    :all_actions    ,    :posts_tab           ],
       [    :home         ,    :all_actions    ,    :home_tab            ],
-      [    :infos        ,    :all_actions    ,    :infos_tab_subtab    ],
-      [    :statistics        ,    :all_actions    ,    :statistics_tab_subtab    ],
+      [    :about        ,    :index    ,    :about_tab_subtab    ],
+      [    :info         ,    :index    ,    :info_tab_subtab     ],
+      [    :error        ,    :index    ,    :error_tab_subtab    ],
+      [    :debug        ,    :index    ,    :debug_tab_subtab    ],
       #-----------------------------------------------------------------#
       #    CONTROLLER    |    ACTION          |    TAB                  #
       #-----------------------------------------------------------------#

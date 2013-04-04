@@ -4308,3 +4308,808 @@ Migrating to AddFieldsToUsers (20130328155314)
   [1m[36m (266.8ms)[0m  [1mALTER TABLE `users` ADD `role` varchar(255)[0m
   [1m[35m (115.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130328155314')
   [1m[36m (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:29:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Compiled about.css  (28ms)  (pid 19546)
+Compiled colors.css  (0ms)  (pid 19546)
+Compiled debug.css  (0ms)  (pid 19546)
+Compiled error.css  (0ms)  (pid 19546)
+Compiled footer.css  (0ms)  (pid 19546)
+Compiled frequents.css  (0ms)  (pid 19546)
+Compiled header.css  (3ms)  (pid 19546)
+Compiled home.css  (2ms)  (pid 19546)
+Compiled info.css  (0ms)  (pid 19546)
+Compiled infos.css  (0ms)  (pid 19546)
+Compiled logs.css  (0ms)  (pid 19546)
+Compiled posts.css  (2ms)  (pid 19546)
+Compiled print.css  (0ms)  (pid 19546)
+Compiled raw_twitter_posts.css  (0ms)  (pid 19546)
+Compiled recovered_statuses.css  (0ms)  (pid 19546)
+Compiled scaffolds.css  (0ms)  (pid 19546)
+Compiled statistics.css  (0ms)  (pid 19546)
+Compiled tabs.css  (8ms)  (pid 19546)
+Compiled application.css  (113ms)  (pid 19546)
+Compiled modernizr-1.7.min.js  (0ms)  (pid 19546)
+  Rendered header/_header.html.erb (0.3ms)
+Completed 500 Internal Server Error in 475ms
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x000000045ad300>:0x00000004763938>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:33:29 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 287ms
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x00000004bf0c58>:0x000000048a2dd0>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:33:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 288ms
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x00000004bf0c58>:0x0000000444c3a8>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:36:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 296ms
+
+ActionView::Template::Error (undefined local variable or method `about_index' for #<#<Class:0x00000004d017a0>:0x00000004be2c20>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:40:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 264ms
+
+ActionView::Template::Error (undefined local variable or method `about_index' for #<#<Class:0x0000000483f5f0>:0x00000004844578>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:41:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 251ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:42:43 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 277ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:42:49 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 253ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:43:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 252ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/index" for 192.168.1.67 at 2013-04-04 00:43:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/index/" for 192.168.1.67 at 2013-04-04 00:43:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:43:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 254ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:47:38 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 283ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:47:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 256ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:47:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 279ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"about"}):
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:50:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered header/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 297ms
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x007f83881ed3a0>:0x007f83881ea1c8>):
+    33:     <div id="container">
+    34:         <div id="header">
+    35:             <%= render :partial => 'header/header', :formats=>[:html] %>
+    36:             <%= tabs %>
+    37:             <%= subtabs %>
+    38:         </div>
+    39:               
+  app/tabs/tabulous.rb:62:in `block (2 levels) in <top (required)>'
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__4601108705825298618_35659820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 192.168.1.67 at 2013-04-04 00:51:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.3ms)
+Compiled plugins.js  (0ms)  (pid 19546)
+Compiled defaults.js  (0ms)  (pid 19546)
+Compiled dd_belatedpng.js  (0ms)  (pid 19546)
+Completed 200 OK in 266ms (Views: 265.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frequents.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /frequents.css - 200 OK (4ms)
+
+
+Started GET "/assets/colors.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /colors.css - 200 OK (2ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /about.css - 200 OK (8ms)
+
+
+Started GET "/assets/error.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /error.css - 200 OK (4ms)
+
+
+Started GET "/assets/debug.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /debug.css - 200 OK (8ms)
+
+
+Started GET "/assets/footer.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /footer.css - 200 OK (3ms)
+
+
+Started GET "/assets/header.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /header.css - 200 OK (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/info.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /info.css - 200 OK (1ms)
+
+
+Started GET "/assets/infos.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /infos.css - 200 OK (4ms)
+
+
+Started GET "/assets/logs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /logs.css - 200 OK (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /posts.css - 200 OK (4ms)
+
+
+Started GET "/assets/print.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /print.css - 200 OK (4ms)
+
+
+Started GET "/assets/raw_twitter_posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /raw_twitter_posts.css - 200 OK (4ms)
+
+
+Started GET "/assets/recovered_statuses.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /recovered_statuses.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/statistics.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /statistics.css - 200 OK (1ms)
+
+
+Started GET "/assets/tabs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /tabs.css - 200 OK (1ms)
+
+
+Started GET "/assets/modernizr-1.7.min.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /modernizr-1.7.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/plugins.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /plugins.js - 200 OK (1ms)
+
+
+Started GET "/assets/defaults.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:43 -0400
+Served asset /defaults.js - 200 OK (3ms)
+
+
+Started GET "/about/index" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 289ms (Views: 288.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/error.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/colors.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /colors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/debug.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /debug.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/footer.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /footer.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/frequents.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /frequents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /header.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infos.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /infos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /logs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raw_twitter_posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /raw_twitter_posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recovered_statuses.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /recovered_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statistics.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /statistics.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tabs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /tabs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr-1.7.min.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /modernizr-1.7.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/plugins.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /plugins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:45 -0400
+Served asset /defaults.js - 304 Not Modified (0ms)
+
+
+Started GET "/info/index" for 192.168.1.67 at 2013-04-04 00:51:47 -0400
+Processing by InfoController#index as HTML
+  Rendered info/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 284ms (Views: 283.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /about.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/colors.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /colors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/debug.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /debug.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/frequents.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /frequents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /header.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/info.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infos.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /infos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /logs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raw_twitter_posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /raw_twitter_posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recovered_statuses.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /recovered_statuses.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statistics.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /statistics.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tabs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /tabs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr-1.7.min.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /modernizr-1.7.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/plugins.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /plugins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:48 -0400
+Served asset /defaults.js - 304 Not Modified (0ms)
+
+
+Started GET "/error/index" for 192.168.1.67 at 2013-04-04 00:51:49 -0400
+Processing by ErrorController#index as HTML
+  Rendered error/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 255ms (Views: 254.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /error.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /footer.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/colors.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /colors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/debug.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /debug.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/frequents.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /frequents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /header.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/info.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infos.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /infos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /logs.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recovered_statuses.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /recovered_statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raw_twitter_posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /raw_twitter_posts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statistics.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /statistics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /tabs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr-1.7.min.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /modernizr-1.7.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/plugins.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /plugins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:50 -0400
+Served asset /defaults.js - 304 Not Modified (0ms)
+
+
+Started GET "/debug/index" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Processing by DebugController#index as HTML
+  Rendered debug/index.html.erb within layouts/application (0.3ms)
+  Rendered header/_header.html.erb (0.0ms)
+  Rendered footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 256ms (Views: 255.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/error.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /error.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/about.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/colors.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /colors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/debug.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /debug.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/frequents.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /frequents.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/header.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /header.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /info.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/infos.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /infos.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /logs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raw_twitter_posts.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /raw_twitter_posts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/recovered_statuses.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /recovered_statuses.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statistics.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /statistics.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tabs.css?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /tabs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr-1.7.min.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /modernizr-1.7.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/plugins.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /plugins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js?body=1" for 192.168.1.67 at 2013-04-04 00:51:51 -0400
+Served asset /defaults.js - 304 Not Modified (0ms)
