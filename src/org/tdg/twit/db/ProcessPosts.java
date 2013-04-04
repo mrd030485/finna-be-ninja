@@ -24,7 +24,7 @@ public class ProcessPosts extends Thread {
 		start();
 	}
 
-	private String insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at) values (?,?,NOW(),NOW())";
+	private String insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at) values ";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
 	private ArrayList<Blob> allResults = null;
@@ -39,7 +39,11 @@ public class ProcessPosts extends Thread {
 		}
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			while (!allResults.isEmpty()) {
+			StringBuilder sb = new StringBuilder(insertStatusRecord);
+
+      Boolean firstAppend = true;
+      
+      while (!allResults.isEmpty()) {
 				Blob blob = allResults.get(0);
 				allResults.remove(0);
 				/**
@@ -52,54 +56,65 @@ public class ProcessPosts extends Thread {
 				 */
 
 				String data = new String(blob.getBytes(1, (int) blob.length()));
-				if (!data.startsWith("{\"delete\":")) {
-					Status status = DataObjectFactory.createStatus(data);
-					if (status.getUser().getLang().startsWith("en")) {
-						HashtagEntity[] hashtags = status.getHashtagEntities();
-						StringBuilder hashtagXM = new StringBuilder();
-						if (hashtags != null) {
-							for (int j = 0; j < hashtags.length; j++) {
-								hashtagXM.append(hashtags[j].getText()
-										+ "<endofhashtag/>");
-							}
-						}
+        if(data!=null){
+  				if (!data.startsWith("{\"delete\":")) {
+	  				Status status = DataObjectFactory.createStatus(data);
+            HashtagEntity[] hashtags = status.getHashtagEntities();
+            StringBuilder hashtagXM = new StringBuilder();
+            if (hashtags != null) {
+              for (int j = 0; j < hashtags.length; j++) {
+                hashtagXM.append(hashtags[j].getText()
+                    + "<endofhashtag/>");
+              }
+            }
 
-						prepStmt = connect.prepareStatement(insertStatusRecord);
-						String statusText = normalizeStatus(status.getText()
-								.toLowerCase());
-
-						prepStmt.setString(1, statusText);
-						prepStmt.setString(2, hashtagXM.toString());
-						prepStmt.execute();
-						prepStmt.close();
-					}
-				}
+            String statusText = normalizeStatus(status.getText().toLowerCase());
+            if(statusText!=null){
+              String ht = hashtagXM.toString();
+              if(ht==null){
+                ht=" ";
+              }
+              if(firstAppend){
+                sb.append("('"+statusText+"','"+ht+"',NOW(),NOW())");
+                firstAppend=false;
+              }else{
+                sb.append(", ('"+statusText+"','"+ht+"',NOW(),NOW())");
+              }
+            }
+		  		}
+        }
 			}// End of while loop
-		} catch (ClassNotFoundException e) {
-			logger.error("MySql:JDBC:CONNECTOR - " + e.getMessage());
+      prepStmt = connect.prepareStatement(sb.toString());
+      prepStmt.executeUpdate();
+      prepStmt.close();
+    } catch (ClassNotFoundException e) {
+			logger.error(ProcessPosts.class.getName()+"MySql:JDBC:CONNECTOR - " + e.getMessage());
 		} catch (SQLException e) {
-			logger.error("SQL error - " + e.getMessage());
+			logger.error(ProcessPosts.class.getName()+" SQL error - " + e.getMessage());
 		} catch (TwitterException e) {
-			logger.error("Twitter post error - " + e.getMessage() + " ::-:: "
+			logger.error(ProcessPosts.class.getName()+"Twitter post error - " + e.getMessage() + " ::-:: "
 					+ e.getErrorMessage());
 		}
 	}
 
 	private String normalizeStatus(String statusText) {
-		int url = statusText.indexOf("http");
-		int urlend = statusText.indexOf(" ", url);
-		while (statusText.contains("http")) {
-			if (urlend != -1) {
-				statusText = statusText.substring(0, url)
-						+ statusText.substring(urlend);
-			} else if (url != -1) {
-				statusText = statusText.substring(0, url);
-			}
-			url = statusText.indexOf("http");
-			urlend = statusText.indexOf(" ", url);
-		}
-		statusText = statusText.replaceAll("[^0-9a-zA-Z'\\s]", "");
-		statusText = statusText.replaceAll("( )+", " ");
+    if(statusText!=null){
+  		int url = statusText.indexOf("http");
+	  	int urlend = statusText.indexOf(" ", url);
+		  while (statusText.contains("http")) {
+			  if (urlend != -1) {
+  				statusText = statusText.substring(0, url)
+	  					+ statusText.substring(urlend);
+		  	} else if (url != -1) {
+			  	statusText = statusText.substring(0, url);
+  			}
+	  		url = statusText.indexOf("http");
+		  	urlend = statusText.indexOf(" ", url);
+  		}
+	  	statusText = statusText.replaceAll("[^0-9a-zA-Z'\\s]", "");
+		  statusText = statusText.replaceAll("( )+", " ");
+      statusText = statusText.replaceAll("'","");
+    }
 		return statusText;
 	}
 }

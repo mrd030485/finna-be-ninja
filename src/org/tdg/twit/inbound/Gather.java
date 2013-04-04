@@ -57,13 +57,13 @@ public class Gather extends Thread {
 			boolean pause = false;
       boolean first = true;
 			
-			URL twitter = new URL("https://stream.twitter.com/1.1/statuses/sample.json");
+			URL twitter = new URL("https://stream.twitter.com/1.1/statuses/sample.json?language=en");
 			BufferedReader in = new BufferedReader(new InputStreamReader(twitter.openStream()));
 			String input = null;
 			String[] data = new String[500];
 			int i=0;	// counter 0-150 submit data once we reach 150 records
 			while ((input = in.readLine()) != null) {
-          if(dataStats.getDBRowCount<=50000){
+          if(dataStats.getDBRowCount()<=50000){
             pause = false;
             first=true;
             data[i]=input;

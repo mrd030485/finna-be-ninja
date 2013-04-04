@@ -23,7 +23,7 @@ public class ManageProcess extends Thread {
 	}
 
 	private String selectCount = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
-	private String selectRecordsToProcess = "SELECT id,rawdata FROM raw_twitter_posts WHERE processed = 0 order by id asc limit ?,1000";
+	private String selectRecordsToProcess = "SELECT id,rawdata FROM raw_twitter_posts WHERE processed = 0 order by id asc limit ?,500";
 	private String setProcessed = "UPDATE raw_twitter_posts set processed=1, process_date=NOW() where id>=? AND id <=?";
 	private Connection connect = null;
 	private PreparedStatement prepStmt = null;
@@ -73,9 +73,9 @@ public class ManageProcess extends Thread {
 				prepStmt.setInt(2, endId);
 				prepStmt.execute();
 			} catch (SQLException e) {
-				logger.error(e.getMessage());
+				logger.error(ManageProcess.class.getName()+" "+e.getMessage());
 			} catch (ClassNotFoundException e) {
-				logger.error(e.getMessage());
+				logger.error(ManageProcess.class.getName()+" "+e.getMessage());
 			}
 		}
 	}

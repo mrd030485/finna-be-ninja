@@ -45,18 +45,23 @@ public class EnqueueTwitterPosts extends Thread {
           sb.append(",(?,NOW(),NOW(),0)");
         }
       }
-      prepStmt = connect.prepareStatement(sb.toString());
-      for(int t=0; t<data.length; t=t+1){
-        Blob blob = new SerialBlob(data[t].getBytes()); 
-        prepStmt.setBlob(t+1,blob);
+      if(sb.toString()!=null){
+        prepStmt = connect.prepareStatement(sb.toString());
+        for(int t=0; t<data.length; t=t+1){
+          Blob blob = null;
+          if(data[t]!=null){
+            blob = new SerialBlob(data[t].getBytes()); 
+          } 
+          prepStmt.setBlob(t+1,blob);
+        }
+        prepStmt.executeUpdate();
+        prepStmt.close();
       }
-      prepStmt.execute();
-      prepStmt.close();
       sb = null;
 		} catch (SQLException e) {
-			logger.error(e.getMessage());
+			logger.error(EnqueueTwitterPosts.class.getName()+" "+e.getMessage());
 		} catch (ClassNotFoundException e) {
-			logger.error(e.getMessage());
+			logger.error(EnqueueTwitterPosts.class.getName()+" "+e.getMessage());
 		}
 	}
 }

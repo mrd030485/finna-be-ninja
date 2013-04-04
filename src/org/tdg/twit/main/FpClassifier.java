@@ -26,7 +26,7 @@ public class FpClassifier {
 		logger.info("Starting app");
 		String user = null;
 		String password = null;
-		String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_development";
+		String url = "jdbc:mysql://127.0.0.1:3306/fpclassifier_development";
 		if (args.length != 2) {
 			System.err
 					.println("Wrong arguments supplied: Example -- java -jar fpclassifier user password");
@@ -43,9 +43,13 @@ public class FpClassifier {
 			shut.first();
 			while (shut.getInt(1) != 1) {
 				shut.close();
-				PreparedStatement p = conn.prepareStatement("select status from settings where name='download_statuses'");
+				if(conn==null){
+          conn = DriverManager.getConnection(url, "fpclass", null);
+        }
+        PreparedStatement p = conn.prepareStatement("select status from settings where name='download_statuses'");
 				ResultSet rs = p.executeQuery();
-				if (rs.next()) {
+				
+        if (rs.next()) {
 					if (rs.getInt(1) == 1) {
 						if (gatherThread == null
 								|| gatherThread.getState() == Thread.State.NEW
