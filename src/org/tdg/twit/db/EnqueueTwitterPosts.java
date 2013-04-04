@@ -35,33 +35,34 @@ public class EnqueueTwitterPosts extends Thread {
 			Class.forName("com.mysql.jdbc.Driver");
 			logger.debug("Inserting data into DB");
 
-			int count=0;
-      StringBuilder sb = new StringBuilder();
-      sb.append(insertQuery);
-      for (int i = 0; i < data.length; i++) {
-        if(i==0){
-          sb.append(" values(?,NOW(),NOW(),0)");
-        }else{
-          sb.append(",(?,NOW(),NOW(),0)");
-        }
-      }
-      if(sb.toString()!=null){
-        prepStmt = connect.prepareStatement(sb.toString());
-        for(int t=0; t<data.length; t=t+1){
-          Blob blob = null;
-          if(data[t]!=null){
-            blob = new SerialBlob(data[t].getBytes()); 
-          } 
-          prepStmt.setBlob(t+1,blob);
-        }
-        prepStmt.executeUpdate();
-        prepStmt.close();
-      }
-      sb = null;
+			StringBuilder sb = new StringBuilder();
+			sb.append(insertQuery);
+			for (int i = 0; i < data.length; i++) {
+				if (i == 0) {
+					sb.append(" values(?,NOW(),NOW(),0)");
+				} else {
+					sb.append(",(?,NOW(),NOW(),0)");
+				}
+			}
+			if (sb.toString() != null) {
+				prepStmt = connect.prepareStatement(sb.toString());
+				for (int t = 0; t < data.length; t = t + 1) {
+					Blob blob = null;
+					if (data[t] != null) {
+						blob = new SerialBlob(data[t].getBytes());
+					}
+					prepStmt.setBlob(t + 1, blob);
+				}
+				prepStmt.executeUpdate();
+				prepStmt.close();
+			}
+			sb = null;
 		} catch (SQLException e) {
-			logger.error(EnqueueTwitterPosts.class.getName()+" "+e.getMessage());
+			logger.error(EnqueueTwitterPosts.class.getName() + " "
+					+ e.getMessage());
 		} catch (ClassNotFoundException e) {
-			logger.error(EnqueueTwitterPosts.class.getName()+" "+e.getMessage());
+			logger.error(EnqueueTwitterPosts.class.getName() + " "
+					+ e.getMessage());
 		}
 	}
 }

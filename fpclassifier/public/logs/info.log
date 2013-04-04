@@ -1,0 +1,18 @@
+0    03 Apr 2013 22:50:21 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    03 Apr 2013 22:51:01 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    03 Apr 2013 22:51:57 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    03 Apr 2013 22:52:19 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    03 Apr 2013 22:53:33 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+14446 03 Apr 2013 22:53:47 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+14477 03 Apr 2013 22:53:47 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+88438 03 Apr 2013 22:55:01 [main] INFO  org.tdg.twit.main.FpClassifier  - No posts will be downloaded from twitter
+88438 03 Apr 2013 22:55:01 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+0    03 Apr 2013 23:10:18 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+234  03 Apr 2013 23:10:18 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+234  03 Apr 2013 23:10:18 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+0    03 Apr 2013 23:10:50 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+5055 03 Apr 2013 23:10:55 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+5055 03 Apr 2013 23:10:55 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+0    03 Apr 2013 23:12:46 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+2855 03 Apr 2013 23:12:49 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+2855 03 Apr 2013 23:12:49 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.

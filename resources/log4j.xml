@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="infoLogFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="fpclassifier/public/logs/info.log" />
+		<param name="MaxFileSize" value="100KB" />
+		<!-- Keep one backup file -->
+		<param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-4r %d{dd MMM yyyy HH:mm:ss} [%t] %-5p %c %x - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelMatchFilter">
+			<param name="LevelToMatch" value="info" />
+			<param name="AcceptOnMatch" value="true" />
+		</filter>
+		<filter class="org.apache.log4j.varia.DenyAllFilter" />
+	</appender>
+
+	<appender name="errorLogFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="fpclassifier/public/logs/error.log" />
+		<param name="MaxFileSize" value="100KB" />
+        <!-- Keep one backup file -->
+        <param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-4r %d{dd MMM yyyy HH:mm:ss} [%t] %-5p %c %x - %m%n" />
+		</layout>
+
+		<!-- Use LevelMatchFilter to write only ERROR messages to error.log -->
+		<filter class="org.apache.log4j.varia.LevelMatchFilter">
+			<param name="LevelToMatch" value="error" />
+			<param name="AcceptOnMatch" value="true" />
+		</filter>
+		<filter class="org.apache.log4j.varia.DenyAllFilter" />
+	</appender>
+
+	<appender name="debugLogFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="fpclassifier/public/logs/debug.log" />
+		<param name="MaxFileSize" value="100KB" />
+        <!-- Keep one backup file -->
+        <param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-4r %d{dd MMM yyyy HH:mm:ss} [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+
+	<root>
+		<level value="all" />
+		<appender-ref ref="debugLogFile" />
+		<appender-ref ref="infoLogFile" />
+		<appender-ref ref="errorLogFile" />
+	</root>
+
+</log4j:configuration>

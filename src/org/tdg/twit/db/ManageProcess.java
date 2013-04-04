@@ -9,6 +9,7 @@ import java.sql.Blob;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -30,14 +31,18 @@ public class ManageProcess extends Thread {
 	private ResultSet rs = null;
 	private int startId = -1;
 	private int endId = -1;
-
 	public void run() {
 		logger.debug("Start counting records to be processed");
 		if (connect == null) {
 			logger.error(ManageProcess.class.getName()
 					+ ": Database connection is not open");
 		}
-		while (true) {
+		ResultSet shut;
+		try {
+			shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
+		
+		shut.first();
+		while (shut.getInt(1)==0) {
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
 				prepStmt = connect.prepareStatement(selectCount);
@@ -77,6 +82,17 @@ public class ManageProcess extends Thread {
 			} catch (ClassNotFoundException e) {
 				logger.error(ManageProcess.class.getName()+" "+e.getMessage());
 			}
+			shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
+			shut.first();
+		}
+		} catch (SQLException e1) {
+			logger.error(ManageProcess.class.getName()+": "+e1.getMessage());
+		}
+		pool.shutdown();
+		try {
+			pool.awaitTermination(180000, TimeUnit.MILLISECONDS);
+		} catch (InterruptedException e) {
+			logger.error(ManageProcess.class.getName()+": "+e.getMessage());
 		}
 	}
 
