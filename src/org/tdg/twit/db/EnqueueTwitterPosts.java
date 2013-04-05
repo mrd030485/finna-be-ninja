@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import javax.sql.rowset.serial.SerialBlob;
 
-public class EnqueueTwitterPosts extends Thread {
+public class EnqueueTwitterPosts implements Runnable {
 
 	static Logger logger = Logger.getLogger(EnqueueTwitterPosts.class);
 
@@ -17,13 +17,10 @@ public class EnqueueTwitterPosts extends Thread {
 	private PreparedStatement prepStmt = null;
 
 	public EnqueueTwitterPosts(String[] data, Connection conn) {
-		super("Transform " + data + " thread");
-		logger.debug("Start Transform thread for " + data);
 		if (data != null) {
 			this.data = data;
 		}
 		this.connect = conn;
-		start();
 	}
 
 	public void run() {

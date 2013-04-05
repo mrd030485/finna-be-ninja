@@ -1,0 +1,324 @@
+285210 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285221 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285221 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285342 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285342 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285348 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285348 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285572 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285572 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285584 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285584 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285876 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285876 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+285886 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+285886 05 Apr 2013 15:25:06 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+286285 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+286285 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+286296 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+286296 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+286410 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+286410 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+286422 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+286422 05 Apr 2013 15:25:07 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287111 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287111 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287118 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287118 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287252 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287253 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287264 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287265 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287385 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287385 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287388 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287388 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287391 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287391 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287836 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287836 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287844 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287844 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287971 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287971 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+287984 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+287984 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288105 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288105 05 Apr 2013 15:25:08 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288116 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288116 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288222 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288222 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288234 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288234 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288346 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288346 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288356 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288356 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288481 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288481 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288487 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288488 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288606 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288606 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288616 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288616 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288731 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288731 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288735 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288735 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288739 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288739 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288886 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288886 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288892 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288892 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+288900 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+288900 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289065 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289065 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289077 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289077 05 Apr 2013 15:25:09 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289199 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289199 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289209 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289209 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289324 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289324 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289336 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289336 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289491 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289491 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289498 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289498 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289599 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289599 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289607 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289607 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289725 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289725 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289736 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289736 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289877 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289877 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+289886 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+289886 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290050 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290050 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290058 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290058 05 Apr 2013 15:25:10 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290500 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290500 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290507 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290508 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290616 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290616 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290626 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290626 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290734 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290735 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290746 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290746 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290931 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290931 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+290937 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+290937 05 Apr 2013 15:25:11 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291110 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291111 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291118 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291118 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291252 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291252 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291259 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291259 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291376 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291376 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291386 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291386 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291544 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291545 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+291556 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+291556 05 Apr 2013 15:25:12 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+292385 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+292386 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+292392 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+292392 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+292397 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+292397 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+292779 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+292779 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+292787 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+292787 05 Apr 2013 15:25:13 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293513 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293514 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293520 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293520 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293527 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293528 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293689 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293689 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293697 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293697 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293855 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293855 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+293865 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+293865 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294096 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294096 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294106 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294106 05 Apr 2013 15:25:14 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294515 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294515 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294526 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294526 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294640 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294640 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+294647 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+294648 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295106 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295106 05 Apr 2013 15:25:15 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295110 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295110 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295406 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295406 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295416 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295416 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295532 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295533 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295545 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295545 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295663 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295663 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295675 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295675 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295791 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295791 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295798 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295798 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+295806 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+295806 05 Apr 2013 15:25:16 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296125 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296125 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296138 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296138 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296250 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296250 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296258 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296258 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296366 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296366 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296374 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296374 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296509 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296509 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296517 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296517 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296643 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296643 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296651 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296651 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296766 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296766 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296770 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296770 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296935 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296935 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+296946 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+296946 05 Apr 2013 15:25:17 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297176 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297176 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297186 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297186 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297626 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297626 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297634 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297634 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297761 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297761 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297765 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297765 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297769 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297769 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297928 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297928 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+297937 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+297937 05 Apr 2013 15:25:18 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298395 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298395 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298402 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298402 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298408 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298408 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298521 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298521 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298532 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298532 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298646 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298646 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298649 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298649 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298763 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298763 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298775 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298775 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298896 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298896 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+298899 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+298900 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299006 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299006 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299014 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299014 05 Apr 2013 15:25:19 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299490 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299490 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299495 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299495 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299499 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299499 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299606 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299606 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299614 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299614 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299724 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299724 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+299736 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
+299736 05 Apr 2013 15:25:20 [pool-1-thread-1] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
+300203 05 Apr 2013 15:25:21 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Socket closed
+
+STACKTRACE:
+
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:882)
+	at org.tdg.twit.db.ManageProcess.run(ManageProcess.java:79)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 4 ms ago.
+300208 05 Apr 2013 15:25:21 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess: No operations allowed after connection closed.

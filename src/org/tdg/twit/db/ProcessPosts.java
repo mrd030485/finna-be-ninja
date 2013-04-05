@@ -13,15 +13,12 @@ import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.json.DataObjectFactory;
 
-public class ProcessPosts extends Thread {
+public class ProcessPosts implements Runnable{
 	Logger logger = Logger.getLogger(ProcessPosts.class);
 
 	public ProcessPosts(ArrayList<Blob> rs, Connection conn) {
-		super("Process Posts Thread");
-		logger.info("Process Posts Thread created");
 		this.allResults = rs;
 		this.connect = conn;
-		start();
 	}
 
 	private String insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at) values ";

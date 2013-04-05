@@ -20,19 +20,15 @@ import java.io.InputStreamReader;
 import java.lang.Thread;
 import org.tdg.twit.db.*;
 
-public class Gather extends Thread {
+public class Gather implements Runnable {
 	ExecutorService pool = Executors.newFixedThreadPool(10);
 	static Logger logger = Logger.getLogger(Gather.class);
 	private Connection connect = null;
 	public Gather(String user, String pass, Connection conn) {
-		super("Gather Data Thread");
 		this.username = user;
 		this.password = pass;
 		this.connect = conn;
-		logger.debug("Setup Gather Thread");
-		start();
 	}
-
 	/**
 	 * @param args
 	 */

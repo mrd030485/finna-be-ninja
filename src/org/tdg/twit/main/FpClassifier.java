@@ -28,7 +28,7 @@ public class FpClassifier {
 		boolean shutdown=false;
 		boolean dl=true;
 		
-		DOMConfigurator.configure(FpClassifier.class.getClassLoader().getResource("log4j.xml"));
+		DOMConfigurator.configure("/home/dev/github/my-repos/finna-be-ninja/resources/log4j.xml");
 		logger.info("Starting app");
 		String user = null;
 		String password = null;

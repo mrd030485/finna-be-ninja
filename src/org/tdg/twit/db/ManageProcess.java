@@ -13,14 +13,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
-public class ManageProcess extends Thread {
+public class ManageProcess implements Runnable{
 	ExecutorService pool = Executors.newFixedThreadPool(5);
 	Logger logger = Logger.getLogger(ManageProcess.class);
 
 	public ManageProcess(Connection conn) {
-		super("Manage Process Thread");
 		this.connect = conn;
-		start();
 	}
 
 	private String selectCount = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
@@ -31,7 +29,9 @@ public class ManageProcess extends Thread {
 	private ResultSet rs = null;
 	private int startId = -1;
 	private int endId = -1;
-	public void run() {
+	
+  
+  public void run() {
 		logger.debug("Start counting records to be processed");
 		if (connect == null) {
 			logger.error(ManageProcess.class.getName()
