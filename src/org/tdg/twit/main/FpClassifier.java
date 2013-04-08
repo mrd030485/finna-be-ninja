@@ -21,69 +21,105 @@ public class FpClassifier {
 
 	static Logger logger = Logger.getLogger(FpClassifier.class);
 	static ExecutorService pool = Executors.newFixedThreadPool(3);
+	private static String statsQuery1 = "SELECT IFNULL( count( rp.status ) / count( raw.rawdata ) , 0 ) AS percentRecovered "
+			+ "FROM recovered_statuses rp, raw_twitter_posts raw WHERE true";
 
 	public static void main(String[] args) {
-		Connection conn = null;
-		
-		boolean shutdown=false;
-		boolean dl=true;
-		
-		DOMConfigurator.configure("/home/dev/github/my-repos/finna-be-ninja/resources/log4j.xml");
+		Connection gatherConn = null;
+		Connection processConn = null;
+		Connection localConn = null;
+
+		boolean shutdown = false;
+		boolean dl = true;
+
+		DOMConfigurator.configure(FpClassifier.class.getClassLoader()
+				.getResource("log4j.xml"));
 		logger.info("Starting app");
+
 		String user = null;
 		String password = null;
 		String url = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+
 		if (args.length != 2) {
-			System.err.println("Wrong arguments supplied: Example -- java -jar fpclassifier user password");
-			logger.error(FpClassifier.class.getName()+": Wrong arguments supplied: Example -- java -jar fpclassifier user password");
+
+			System.err
+					.println("Wrong arguments supplied: Example -- java -jar fpclassifier user password");
+			logger.error(FpClassifier.class.getName()
+					+ ": Wrong arguments supplied: Example -- java -jar fpclassifier user password");
 			System.exit(1);
+
 		} else {
+
 			user = args[0];
 			password = args[1];
+
 		}
+
 		try {
+
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(url, "fpclass", null);
-			ResultSet shut = conn.prepareStatement("select status from settings where name='shutdown'")	.executeQuery();
-			PreparedStatement p = conn.prepareStatement("select status from settings where name='download_statuses'");
-			ResultSet rs = p.executeQuery();
-			
+
+			gatherConn = DriverManager.getConnection(url, "fpclass", null);
+			processConn = DriverManager.getConnection(url, "fpclass", null);
+			localConn = DriverManager.getConnection(url, "fpclass", null);
+
+			ResultSet shut = localConn.prepareStatement(
+					"select status from settings where name='shutdown'")
+					.executeQuery();
+			ResultSet rs = localConn
+					.prepareStatement(
+							"select status from settings where name='download_statuses'")
+					.executeQuery();
+
 			if (rs.next() && shut.next()) {
-				shutdown=shut.getInt(1)==0;
-				dl=rs.getInt(1)==1;
+				shutdown = shut.getInt(1) == 0;
+				dl = rs.getInt(1) == 1;
 			} else {
-				shutdown=false;
-				dl=true;
+				shutdown = false;
+				dl = true;
 			}
 			shut.close();
 			rs.close();
-			pool.submit(new Gather(user, password, conn));
-			pool.submit(new ManageProcess(conn));
-			while(!shutdown){
-				shut = conn.prepareStatement("select status from settings where name='shutdown'").executeQuery();
-				p = conn.prepareStatement("select status from settings where name='download_statuses'");
-				rs = p.executeQuery();
+			pool.submit(new Gather(user, password, gatherConn));
+			pool.submit(new ManageProcess(processConn));
+			while (!shutdown) {
+				shut = localConn.prepareStatement(
+						"select status from settings where name='shutdown'")
+						.executeQuery();
+				rs = localConn
+						.prepareStatement(
+								"select status from settings where name='download_statuses'")
+						.executeQuery();
 				if (rs.next() && shut.next()) {
-					shutdown=shut.getInt(1)==0;
-					dl=rs.getInt(1)==1;
+					shutdown = shut.getInt(1) == 0;
+					dl = rs.getInt(1) == 1;
 				} else {
-					shutdown=false;
-					dl=true;
+					shutdown = false;
+					dl = true;
 				}
-				if(shutdown){
+				if (shutdown) {
 					logger.info("System is shutting down");
 					logger.debug("System is shutting down");
 				}
-				if(!dl){
+				if (!dl) {
 					logger.info("No posts will be downloaded from twitter");
 					logger.debug("No posts will be downloaded from twitter");
 				}
-				ResultSet stats = conn.prepareStatement("SELECT IFNULL( count( rp.status ) / count( raw.rawdata ) , 0 ) AS percentRecovered, IFNULL( (SELECT count( ups.keyword ) FROM posts ups WHERE ups.keyword != '-' ) / count( up.thought ) , 0) AS percentPostWKeyword, IFNULL( (SELECT count( rs.status ) FROM recovered_statuses rs WHERE rs.keywords != '-' ) / count( rp.status ) , 0) AS percentRecoveredWKeyword FROM recovered_statuses rp, raw_twitter_posts raw, frequents f, posts up").executeQuery();
-				logger.info(FpClassifier.class.getName()+": Statistics");
-				logger.info("\t Percentage of usable posts: "+stats.getFloat(1));
-				logger.info("\t Percentage of posts downloaded w/Keyword: "+stats.getFloat(3));
-				logger.info("\t Percentage of posts from users w/Keyword: "+stats.getFloat(2));
-				logger.info("\t if the last number is not 1 then there is an issue with the systems post submissions");
+				ResultSet stats = localConn.prepareStatement(statsQuery1)
+						.executeQuery();
+				if (stats.first()) {
+					logger.info(FpClassifier.class.getName() + ": Statistics");
+					logger.info("\t Percentage of usable posts: "
+							+ stats.getFloat(1));
+					/*
+					 * logger.info("\t Percentage of posts downloaded w/Keyword: "
+					 * + stats.getFloat(3));
+					 * logger.info("\t Percentage of posts from users w/Keyword: "
+					 * + stats.getFloat(2)); logger.info(
+					 * "\t if the last number is not 1 then there is an issue with the systems post submissions"
+					 * );
+					 */
+				}
 			}
 		} catch (SQLException e) {
 			logger.error(e.getMessage());
@@ -97,7 +133,9 @@ public class FpClassifier {
 				logger.error(e.getMessage());
 			} finally {
 				try {
-					conn.close();
+					gatherConn.close();
+					processConn.close();
+					localConn.close();
 				} catch (SQLException e) {
 					// This is ok with me.
 				}

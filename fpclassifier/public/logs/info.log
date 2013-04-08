@@ -396,3 +396,97 @@
 215657 05 Apr 2013 15:23:56 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 2000 posts downloaded
 216949 05 Apr 2013 15:23:57 [pool-1-thread-2] INFO  org.tdg.twit.db.ManageProcess  - There have been: 0 records processed
 267161 05 Apr 2013 15:24:48 [pool-1-thread-2] INFO  org.tdg.twit.db.ManageProcess  - There have been: 0 records processed
+0    07 Apr 2013 21:48:54 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    07 Apr 2013 21:49:02 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    07 Apr 2013 21:49:10 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+0    07 Apr 2013 21:49:33 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+264  07 Apr 2013 21:49:33 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+0    07 Apr 2013 21:53:07 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+279  07 Apr 2013 21:53:07 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+0    07 Apr 2013 21:53:55 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+267  07 Apr 2013 21:53:55 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+272  07 Apr 2013 21:53:55 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+0    07 Apr 2013 21:57:06 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+240  07 Apr 2013 21:57:07 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+1627 07 Apr 2013 21:57:08 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+0    07 Apr 2013 21:57:37 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+262  07 Apr 2013 21:57:37 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+1724 07 Apr 2013 21:57:39 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+0    07 Apr 2013 21:58:37 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
+251  07 Apr 2013 21:58:37 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+1661 07 Apr 2013 21:58:39 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+1663 07 Apr 2013 21:58:39 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+3074 07 Apr 2013 21:58:40 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+3075 07 Apr 2013 21:58:40 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+4506 07 Apr 2013 21:58:41 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+4507 07 Apr 2013 21:58:41 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+5916 07 Apr 2013 21:58:43 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+5917 07 Apr 2013 21:58:43 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+7317 07 Apr 2013 21:58:44 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+7319 07 Apr 2013 21:58:44 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+8716 07 Apr 2013 21:58:46 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+8717 07 Apr 2013 21:58:46 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+10177 07 Apr 2013 21:58:47 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+10178 07 Apr 2013 21:58:47 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+11591 07 Apr 2013 21:58:48 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+11592 07 Apr 2013 21:58:48 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+13041 07 Apr 2013 21:58:50 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+13042 07 Apr 2013 21:58:50 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+14460 07 Apr 2013 21:58:51 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+14461 07 Apr 2013 21:58:51 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+15875 07 Apr 2013 21:58:53 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+15876 07 Apr 2013 21:58:53 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+17315 07 Apr 2013 21:58:54 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+17316 07 Apr 2013 21:58:54 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+18730 07 Apr 2013 21:58:56 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+18731 07 Apr 2013 21:58:56 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+20132 07 Apr 2013 21:58:57 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+20133 07 Apr 2013 21:58:57 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+21564 07 Apr 2013 21:58:58 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+21565 07 Apr 2013 21:58:58 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+22979 07 Apr 2013 21:59:00 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+22980 07 Apr 2013 21:59:00 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+24387 07 Apr 2013 21:59:01 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+24388 07 Apr 2013 21:59:01 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+25789 07 Apr 2013 21:59:03 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+25790 07 Apr 2013 21:59:03 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+27216 07 Apr 2013 21:59:04 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+27218 07 Apr 2013 21:59:04 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+28620 07 Apr 2013 21:59:06 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+28620 07 Apr 2013 21:59:06 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+30019 07 Apr 2013 21:59:07 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+30020 07 Apr 2013 21:59:07 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+31449 07 Apr 2013 21:59:08 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+31449 07 Apr 2013 21:59:08 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+32856 07 Apr 2013 21:59:10 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+32857 07 Apr 2013 21:59:10 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+34264 07 Apr 2013 21:59:11 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+34264 07 Apr 2013 21:59:11 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+35661 07 Apr 2013 21:59:13 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+35662 07 Apr 2013 21:59:13 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+37094 07 Apr 2013 21:59:14 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+37094 07 Apr 2013 21:59:14 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+38530 07 Apr 2013 21:59:15 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+38531 07 Apr 2013 21:59:15 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+39931 07 Apr 2013 21:59:17 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+39932 07 Apr 2013 21:59:17 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+41343 07 Apr 2013 21:59:18 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+41344 07 Apr 2013 21:59:18 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+42756 07 Apr 2013 21:59:20 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+42757 07 Apr 2013 21:59:20 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+44166 07 Apr 2013 21:59:21 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+44167 07 Apr 2013 21:59:21 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+45569 07 Apr 2013 21:59:22 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+45570 07 Apr 2013 21:59:22 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+46970 07 Apr 2013 21:59:24 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+46971 07 Apr 2013 21:59:24 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+48387 07 Apr 2013 21:59:25 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+48388 07 Apr 2013 21:59:25 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+49834 07 Apr 2013 21:59:27 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+49835 07 Apr 2013 21:59:27 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+51240 07 Apr 2013 21:59:28 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+51241 07 Apr 2013 21:59:28 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+52656 07 Apr 2013 21:59:30 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+52656 07 Apr 2013 21:59:30 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
+54052 07 Apr 2013 21:59:31 [main] INFO  org.tdg.twit.main.FpClassifier  - org.tdg.twit.main.FpClassifier: Statistics
+54053 07 Apr 2013 21:59:31 [main] INFO  org.tdg.twit.main.FpClassifier  - 	 Percentage of usable posts: 1.0
