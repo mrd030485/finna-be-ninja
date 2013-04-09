@@ -57,6 +57,12 @@ public class EnqueueTwitterPosts implements Runnable {
       logger.error(EnqueueTwitterPosts.class.getName() + " " + e.getMessage());
     } catch (ClassNotFoundException e) {
       logger.error(EnqueueTwitterPosts.class.getName() + " " + e.getMessage());
+    }finally{
+      try{  
+        prepStmt.close();
+        connect.close();
+      }catch(SQLException ignore){
+      }
     }
   }
 }

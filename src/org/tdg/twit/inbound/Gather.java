@@ -8,6 +8,7 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.sql.DataSource;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.io.BufferedReader;
@@ -21,22 +22,24 @@ import java.lang.Thread;
 import org.tdg.twit.db.*;
 
 public class Gather implements Runnable {
-  ExecutorService    pool    = Executors.newFixedThreadPool(10);
-  static Logger      logger  = Logger.getLogger(Gather.class);
-  private Connection connect = null;
+  ExecutorService         pool          = Executors.newFixedThreadPool(10);
+  static  Logger          logger        = Logger.getLogger(Gather.class);
+  private DataSource      ds            = null;
+  private Connection      dataConnect   = null;
+  private Connection      localConnect  = null;
+  private DataStats       dataStats     = null;
+  private BufferedReader  in            = null;
+  private ResultSet       shut          = null;
+  private ResultSet       dl            = null;
+  private String          username      = null;
+  private String          password      = null;
 
-  public Gather(String user, String pass, Connection conn) {
+  public Gather(String user, String pass, DataSource ds) {
     this.username = user;
     this.password = pass;
-    this.connect = conn;
+    this.ds = ds;
   }
 
-  /**
-   * @param args
-   */
-  String    username  = null; ;
-  String    password  = null;
-  DataStats dataStats = null;
 
   public void run() {
     logger.debug("Starting Gather Data Thread");
@@ -45,29 +48,39 @@ public class Gather implements Runnable {
         return new PasswordAuthentication(username, password.toCharArray());
       }
     });
-    if (connect == null) {
+    if (ds == null) {
       logger.error(Gather.class.getName() + ": Database connection is closed");
-    } else {
-      dataStats = new DataStats(connect);
     }
     try {
+      dataConnect = ds.getConnection();
+      localConnect = ds.getConnection();
+      dataStats = new DataStats(dataConnect);
       logger.info(Gather.class.getName() + ": Downloading Statuses from twitter.");
+
       int overallCount = 0;
+      int lastCount = 0;
       boolean pause = false;
       boolean first = true;
-      BufferedReader in = null;
-      ResultSet shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
-      ResultSet dl = connect.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
+      shut = localConnect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
+      dl = localConnect.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
+
       shut.first();
+      
       while (shut.getInt(1) == 0) {
         dl.first();
+      
         if (dl.getInt(1) == 1) {
           URL twitter = new URL("https://stream.twitter.com/1.1/statuses/sample.json?language=en");
           in = new BufferedReader(new InputStreamReader(twitter.openStream()));
         }
+        
         String input = null;
         String[] data = new String[500];
+        
         int i = 0;
+        
+        logger.info(Gather.class.getName() + ": there have been " + overallCount + " posts downloaded");
+        
         while ((input = in.readLine()) != null) {
           if ((dl.getInt(1) == 1) && (shut.getInt(1) == 0)) {
             if (dataStats.getDBRowCount() <= 50000) {
@@ -76,7 +89,7 @@ public class Gather implements Runnable {
               data[i] = input;
               i++;
               if (i == 500) {
-                pool.submit(new EnqueueTwitterPosts(data, connect));
+                pool.submit(new EnqueueTwitterPosts(data, ds.getConnection()));
                 i = 0;
                 overallCount += 500;
               }
@@ -90,15 +103,17 @@ public class Gather implements Runnable {
           } else {
             break;
           }
-          if ((overallCount % 400) == 0) {
+          if (((overallCount % 400) == 0) && lastCount!=overallCount) {
             logger.info(Gather.class.getName() + ": there have been " + overallCount + " posts downloaded");
+            lastCount=overallCount;
           }
         }
         in.close();
         shut.close();
         dl.close();
-        shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
-        dl = connect.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
+        shut = localConnect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
+        dl = localConnect.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
+
         shut.first();
       }
     } catch (MalformedURLException e1) {
@@ -107,6 +122,16 @@ public class Gather implements Runnable {
       logger.error(Gather.class.getName() + ": " + e2.getMessage());
     } catch (SQLException e) {
       logger.error(Gather.class.getName() + ": " + e.getMessage());
+    }finally{
+      try{
+        in.close();
+        shut.close();
+        dl.close();
+        dataStats.close();
+        localConnect.close();
+      }catch(SQLException ignore){
+      }catch(IOException ignore){
+      }
     }
 
     logger.debug("Exiting Gather Data Thread");

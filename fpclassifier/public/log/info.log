@@ -1,372 +1,521 @@
-252643 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252732 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252736 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252740 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252749 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252757 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252760 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252767 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252774 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252815 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252842 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252855 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252870 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-252924 03 Apr 2013 23:22:27 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253629 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253631 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253634 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253636 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253638 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253732 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253741 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253750 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253756 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253764 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253768 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253775 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253777 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253846 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253848 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253854 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253860 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253861 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253866 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253870 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253876 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-253878 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254614 03 Apr 2013 23:22:28 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254622 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254626 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254630 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254635 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254717 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254718 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254725 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254726 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254729 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254731 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254738 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254739 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254743 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254824 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254827 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254832 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254834 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254837 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254839 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254843 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254845 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254848 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-254849 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255602 03 Apr 2013 23:22:29 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255620 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255622 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255624 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255629 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255722 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255727 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255728 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255734 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255736 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255741 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255773 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255776 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255779 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255826 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255828 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255830 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255831 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-255926 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256616 03 Apr 2013 23:22:30 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256620 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256626 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256630 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256634 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256719 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256720 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256722 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256724 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256725 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256728 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256732 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256734 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256754 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256824 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256830 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256837 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256840 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256846 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256849 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256854 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256857 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256862 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256863 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256898 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256941 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256946 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256953 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256957 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-256965 03 Apr 2013 23:22:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257618 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257621 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257625 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257627 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257634 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257723 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257727 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257737 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257741 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257748 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257755 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257761 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257765 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257827 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257828 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-257828 03 Apr 2013 23:22:32 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258624 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258627 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258629 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258632 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258637 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258725 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258726 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258726 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258728 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258731 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258734 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258814 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258821 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258829 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258833 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258834 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258838 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258842 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258875 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258876 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-258879 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259616 03 Apr 2013 23:22:33 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259618 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259625 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259626 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259632 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259720 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259722 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259727 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259729 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259732 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259737 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259850 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259853 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259863 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259866 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259874 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259878 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259885 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259890 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259893 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259967 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259971 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259973 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259979 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-259985 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260021 03 Apr 2013 23:22:34 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260634 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260638 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260642 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260646 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260652 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260734 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260735 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260743 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260745 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260746 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260749 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260750 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260828 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260840 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260845 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260853 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260858 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260864 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260874 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-260881 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261612 03 Apr 2013 23:22:35 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261619 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261621 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261629 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261635 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261719 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261721 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261726 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261728 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261733 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261735 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261741 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261744 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261826 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261827 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261828 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-261831 03 Apr 2013 23:22:36 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262621 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262626 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262634 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262644 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262653 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262722 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262723 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262724 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262734 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262737 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262739 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262753 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262753 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262756 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262837 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262842 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262847 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262850 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262855 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262858 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262863 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262869 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262874 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-262942 03 Apr 2013 23:22:37 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263626 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263633 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263645 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263650 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263659 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263738 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263743 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263751 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263761 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263765 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-263963 03 Apr 2013 23:22:38 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264623 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264628 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264632 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264635 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264642 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264733 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264750 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264767 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264775 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264791 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264800 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264816 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264824 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264844 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264853 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264869 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264878 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264895 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264903 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264920 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264930 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264948 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-264962 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265007 03 Apr 2013 23:22:39 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265635 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265642 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265648 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265654 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265659 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265738 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265738 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265740 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265741 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265751 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265752 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265819 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-265955 03 Apr 2013 23:22:40 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266633 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266640 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266646 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266653 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266660 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266740 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266751 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266756 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266766 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266771 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266780 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266786 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266789 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266853 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266867 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266893 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266899 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267108 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267627 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267631 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267636 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267640 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267645 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267751 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267757 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267770 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267775 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267785 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267789 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267794 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267850 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267857 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267861 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267869 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267876 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267880 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267886 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267889 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267892 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267896 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267936 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267956 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268618 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268626 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268628 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268630 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268635 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268725 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268728 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268730 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268736 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268741 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268742 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268744 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268746 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268829 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268835 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268837 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268842 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268847 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268850 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268856 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268859 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268861 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269618 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269620 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269623 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269625 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269630 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269721 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269724 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269726 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269732 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269735 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269740 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269746 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269749 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269824 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269827 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269829 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269833 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269834 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269835 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269844 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269846 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269847 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269892 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-0    03 Apr 2013 23:28:30 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
-153  03 Apr 2013 23:28:31 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
-153  03 Apr 2013 23:28:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:32 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:32 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:33 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:33 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:34 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:34 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:35 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:35 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:36 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:36 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:39 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:39 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:39 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:39 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:39 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:39 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:39 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:39 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:39 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:39 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:40 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:40 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 12:56:41 :: 	 Percentage of usable posts: 0.0
+08 Apr 2013 12:56:41 :: org.tdg.twit.main.FpClassifier: Statistics
+08 Apr 2013 13:10:34 :: Starting app
+08 Apr 2013 13:10:34 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 13:11:58 :: Starting app
+08 Apr 2013 13:11:58 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:01 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:02 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:03 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:04 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:05 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:06 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:07 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:08 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:09 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:10 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:11 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:12 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:13 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:14 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:15 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:16 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:17 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:12:18 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:15:34 :: Starting app
+08 Apr 2013 13:15:34 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 13:15:35 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:16:09 :: There have been: 0 records processed
+08 Apr 2013 13:39:29 :: Starting app
+08 Apr 2013 13:39:29 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 13:39:31 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:40:02 :: There have been: 0 records processed
+08 Apr 2013 13:40:33 :: There have been: 0 records processed
+08 Apr 2013 13:41:12 :: There have been: 0 records processed
+08 Apr 2013 13:41:42 :: org.tdg.twit.inbound.Gather: there have been 2000 posts downloaded
+08 Apr 2013 13:41:42 :: There have been: 0 records processed
+08 Apr 2013 13:42:16 :: There have been: 0 records processed
+08 Apr 2013 13:42:51 :: There have been: 0 records processed
+08 Apr 2013 13:43:27 :: There have been: 0 records processed
+08 Apr 2013 13:44:00 :: org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
+08 Apr 2013 13:44:01 :: There have been: 0 records processed
+08 Apr 2013 15:49:29 :: Starting app
+08 Apr 2013 15:49:29 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 15:49:30 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 15:49:58 :: There have been: 0 records processed
+08 Apr 2013 15:50:26 :: There have been: 0 records processed
+08 Apr 2013 15:50:52 :: There have been: 0 records processed
+08 Apr 2013 15:51:18 :: org.tdg.twit.inbound.Gather: there have been 2000 posts downloaded
+08 Apr 2013 15:51:19 :: There have been: 0 records processed
+08 Apr 2013 15:51:47 :: There have been: 0 records processed
+08 Apr 2013 15:52:17 :: There have been: 0 records processed
+08 Apr 2013 15:52:46 :: There have been: 0 records processed
+08 Apr 2013 15:53:12 :: org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
+08 Apr 2013 15:53:13 :: There have been: 0 records processed

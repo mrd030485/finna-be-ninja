@@ -20,12 +20,10 @@ public class DataStats {
   }
 
   public int getDBRowCount() {
-    logger.debug("Get number of rows in db");
     if (connect == null) {
       logger.error(DataStats.class.getName() + ": Database connection is closed");
     }
     try {
-      logger.debug("Creating DB connection");
       Class.forName("com.mysql.jdbc.Driver");
       prepStmt = connect.prepareStatement(selectCount);
       rs = prepStmt.executeQuery();
@@ -39,5 +37,11 @@ public class DataStats {
     }
 
     return -1;
+  }
+  public void close(){
+    try{
+      connect.close();
+    }catch(SQLException ignore){
+    }
   }
 }

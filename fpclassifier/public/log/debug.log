@@ -1,421 +1,380 @@
-266633 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266640 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266640 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266640 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266640 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266646 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266646 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266646 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266646 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266652 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266653 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266653 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266653 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266659 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266660 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266660 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266660 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266740 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266740 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266740 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266740 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266751 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266751 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266751 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266751 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266756 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266756 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266756 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266756 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266766 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266766 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266766 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266766 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266771 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266771 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266771 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266771 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266780 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266780 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266780 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266780 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266786 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266786 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266786 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266786 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266789 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266789 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266789 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266789 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266853 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266853 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266853 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266853 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266867 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266867 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266867 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266867 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266893 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266893 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266893 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266893 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-266898 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-266898 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-266898 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-266899 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267108 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267108 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267108 03 Apr 2013 23:22:41 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267108 03 Apr 2013 23:22:41 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267627 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267627 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267627 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267627 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267631 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267631 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267631 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267631 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267636 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267636 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267636 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267636 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267640 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267640 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267640 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267640 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267645 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267645 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267645 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267645 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267751 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267751 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267751 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267751 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267757 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267757 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267757 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267757 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267770 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267770 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267770 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267770 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267775 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267775 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267775 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267775 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267784 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267785 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267785 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267785 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267788 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267788 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267788 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267789 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267794 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267794 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267794 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267794 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267850 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267850 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267850 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267850 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267857 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267857 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267857 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267857 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267861 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267861 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267861 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267861 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267868 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267869 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267869 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267869 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267876 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267876 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267876 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267876 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267880 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267880 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267880 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267880 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267886 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267886 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267886 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267886 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267889 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267889 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267889 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267889 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267892 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267892 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267892 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267892 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267896 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267896 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267896 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267896 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267936 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267936 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267936 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267936 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-267956 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-267956 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-267956 03 Apr 2013 23:22:42 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-267956 03 Apr 2013 23:22:42 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268617 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268617 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268618 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268618 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268626 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268626 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268626 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268626 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268628 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268628 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268628 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268628 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268630 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268630 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268630 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268630 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268634 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268635 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268635 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268635 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268725 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268725 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268725 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268725 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268728 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268728 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268728 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268728 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268730 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268730 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268730 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268730 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268735 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268735 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268735 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268736 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268740 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268740 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268741 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268741 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268742 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268742 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268742 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268742 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268744 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268744 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268744 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268744 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268746 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268746 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268746 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268746 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268829 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268829 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268829 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268829 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268834 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268834 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268835 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268835 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268837 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268837 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268837 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268837 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268842 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268842 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268842 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268842 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268847 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268847 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268847 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268847 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268850 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268850 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268850 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268850 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268855 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268855 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268856 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268856 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268859 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268859 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268859 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268859 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-268861 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-268861 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-268861 03 Apr 2013 23:22:43 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-268861 03 Apr 2013 23:22:43 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269618 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269618 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269618 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269618 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269620 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269620 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269620 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269620 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269623 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269623 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269623 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269623 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269625 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269625 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269625 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269625 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269629 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269629 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269630 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269630 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269721 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269721 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269721 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269721 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269724 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269724 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269724 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269724 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269726 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269726 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269726 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269726 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269732 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269732 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269732 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269732 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269735 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269735 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269735 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269735 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269740 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269740 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269740 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269740 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269745 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269745 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269745 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269746 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269748 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269748 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269748 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269749 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269824 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269824 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269824 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269824 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269826 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269827 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269827 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269827 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269829 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269829 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269829 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269829 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269832 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269833 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269833 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269833 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269834 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269834 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269834 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269834 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269835 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269835 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269835 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269835 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269843 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269844 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269844 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269844 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269846 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269846 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269846 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269846 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269847 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269847 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269847 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269847 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269892 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269892 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269892 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269892 03 Apr 2013 23:22:44 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
-269896 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269896 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269896 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-269896 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.EnqueueTwitterPosts  - Start Transform thread for [Ljava.lang.String;@1125661e
-269896 03 Apr 2013 23:22:44 [Transform [Ljava.lang.String;@1125661e thread] DEBUG org.tdg.twit.db.EnqueueTwitterPosts  - Inserting data into DB
-269897 03 Apr 2013 23:22:44 [pool-2-thread-9] DEBUG org.tdg.twit.db.EnqueueTwitterPosts  - Inserting data into DB
-269898 03 Apr 2013 23:22:44 [Transform [Ljava.lang.String;@1125661e thread] ERROR org.tdg.twit.db.EnqueueTwitterPosts  - org.tdg.twit.db.EnqueueTwitterPosts No operations allowed after connection closed.
-269898 03 Apr 2013 23:22:44 [pool-2-thread-9] ERROR org.tdg.twit.db.EnqueueTwitterPosts  - org.tdg.twit.db.EnqueueTwitterPosts No operations allowed after connection closed.
-269935 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-269935 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-269935 03 Apr 2013 23:22:44 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270620 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270620 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270620 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270622 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270622 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270622 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270628 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270628 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270628 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270629 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270629 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270629 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270645 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270645 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270645 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270725 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270725 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270725 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270727 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270727 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270727 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270731 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270731 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270731 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270732 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270732 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270732 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270882 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270883 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270883 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-270975 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Get number of rows in db
-270975 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - Creating DB connection
-270975 03 Apr 2013 23:22:45 [Gather Data Thread] DEBUG org.tdg.twit.db.DataStats  - No operations allowed after connection closed.
-0    03 Apr 2013 23:28:30 [main] INFO  org.tdg.twit.main.FpClassifier  - Starting app
-151  03 Apr 2013 23:28:31 [main] DEBUG org.tdg.twit.inbound.Gather  - Setup Gather Thread
-152  03 Apr 2013 23:28:31 [Gather Data Thread] DEBUG org.tdg.twit.inbound.Gather  - Starting Gather Data Thread
-152  03 Apr 2013 23:28:31 [pool-1-thread-1] DEBUG org.tdg.twit.inbound.Gather  - Starting Gather Data Thread
-153  03 Apr 2013 23:28:31 [pool-1-thread-1] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
-153  03 Apr 2013 23:28:31 [Manage Process Thread] DEBUG org.tdg.twit.db.ManageProcess  - Start counting records to be processed
-153  03 Apr 2013 23:28:31 [Gather Data Thread] INFO  org.tdg.twit.inbound.Gather  - org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
-154  03 Apr 2013 23:28:31 [pool-1-thread-2] DEBUG org.tdg.twit.db.ManageProcess  - Start counting records to be processed
-162  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-166  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-167  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess Parameter index out of range (2 > number of parameters, which is 0).
-169  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-170  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-175  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-176  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-177  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-179  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-180  03 Apr 2013 23:28:31 [pool-1-thread-2] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-181  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-182  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-182  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-183  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-184  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-184  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-185  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-186  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-187  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
-187  03 Apr 2013 23:28:31 [Manage Process Thread] ERROR org.tdg.twit.db.ManageProcess  - org.tdg.twit.db.ManageProcess No operations allowed after statement closed.
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:00 :: Get number of rows in db
+08 Apr 2013 13:16:00 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:01 :: Get number of rows in db
+08 Apr 2013 13:16:01 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:02 :: Get number of rows in db
+08 Apr 2013 13:16:02 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:03 :: Get number of rows in db
+08 Apr 2013 13:16:03 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:04 :: Get number of rows in db
+08 Apr 2013 13:16:04 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:05 :: Get number of rows in db
+08 Apr 2013 13:16:05 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:06 :: Get number of rows in db
+08 Apr 2013 13:16:06 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:07 :: Get number of rows in db
+08 Apr 2013 13:16:07 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:08 :: Get number of rows in db
+08 Apr 2013 13:16:08 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Inserting data into DB
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: There have been: 0 records processed
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:09 :: Get number of rows in db
+08 Apr 2013 13:16:09 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:16:10 :: Get number of rows in db
+08 Apr 2013 13:16:10 :: Creating DB connection
+08 Apr 2013 13:39:29 :: Starting app
+08 Apr 2013 13:39:29 :: Submitted Gather to thread pool
+08 Apr 2013 13:39:29 :: Starting Gather Data Thread
+08 Apr 2013 13:39:29 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 13:39:29 :: Submitted ManageProcess to thread pool
+08 Apr 2013 13:39:29 :: Start counting records to be processed
+08 Apr 2013 13:39:31 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 13:40:02 :: Inserting data into DB
+08 Apr 2013 13:40:02 :: There have been: 0 records processed
+08 Apr 2013 13:40:33 :: Inserting data into DB
+08 Apr 2013 13:40:33 :: There have been: 0 records processed
+08 Apr 2013 13:41:12 :: Inserting data into DB
+08 Apr 2013 13:41:12 :: There have been: 0 records processed
+08 Apr 2013 13:41:42 :: org.tdg.twit.inbound.Gather: there have been 2000 posts downloaded
+08 Apr 2013 13:41:42 :: Inserting data into DB
+08 Apr 2013 13:41:42 :: There have been: 0 records processed
+08 Apr 2013 13:42:15 :: Inserting data into DB
+08 Apr 2013 13:42:16 :: There have been: 0 records processed
+08 Apr 2013 13:42:16 :: org.tdg.twit.db.ProcessPosts SQL error - Data truncation: Data too long for column 'keywords' at row 465
+08 Apr 2013 13:42:50 :: Inserting data into DB
+08 Apr 2013 13:42:51 :: There have been: 0 records processed
+08 Apr 2013 13:43:27 :: Inserting data into DB
+08 Apr 2013 13:43:27 :: There have been: 0 records processed
+08 Apr 2013 13:44:00 :: org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
+08 Apr 2013 13:44:00 :: Inserting data into DB
+08 Apr 2013 13:44:01 :: There have been: 0 records processed
+08 Apr 2013 13:44:29 :: org.tdg.twit.db.ManageProcess Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Socket closed
+
+STACKTRACE:
+
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:113)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:160)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:188)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1994)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:882)
+	at org.tdg.twit.db.ManageProcess.run(ManageProcess.java:76)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 3 ms ago.
+08 Apr 2013 13:44:29 :: org.tdg.twit.db.ManageProcess: No operations allowed after connection closed.
+08 Apr 2013 13:44:30 :: org.tdg.twit.inbound.Gather: Operation not allowed after ResultSet closed
+08 Apr 2013 13:44:30 :: Exiting Gather Data Thread
+08 Apr 2013 15:49:29 :: Starting app
+08 Apr 2013 15:49:29 :: Submitted Gather to thread pool
+08 Apr 2013 15:49:29 :: Starting Gather Data Thread
+08 Apr 2013 15:49:29 :: Submitted ManageProcess to thread pool
+08 Apr 2013 15:49:29 :: Start counting records to be processed
+08 Apr 2013 15:49:29 :: org.tdg.twit.inbound.Gather: Downloading Statuses from twitter.
+08 Apr 2013 15:49:30 :: org.tdg.twit.inbound.Gather: there have been 0 posts downloaded
+08 Apr 2013 15:49:58 :: Inserting data into DB
+08 Apr 2013 15:49:58 :: There have been: 0 records processed
+08 Apr 2013 15:50:25 :: Inserting data into DB
+08 Apr 2013 15:50:26 :: There have been: 0 records processed
+08 Apr 2013 15:50:52 :: Inserting data into DB
+08 Apr 2013 15:50:52 :: There have been: 0 records processed
+08 Apr 2013 15:51:18 :: org.tdg.twit.inbound.Gather: there have been 2000 posts downloaded
+08 Apr 2013 15:51:18 :: Inserting data into DB
+08 Apr 2013 15:51:19 :: There have been: 0 records processed
+08 Apr 2013 15:51:46 :: Inserting data into DB
+08 Apr 2013 15:51:47 :: There have been: 0 records processed
+08 Apr 2013 15:52:15 :: Inserting data into DB
+08 Apr 2013 15:52:17 :: There have been: 0 records processed
+08 Apr 2013 15:52:45 :: Inserting data into DB
+08 Apr 2013 15:52:46 :: There have been: 0 records processed
+08 Apr 2013 15:53:12 :: org.tdg.twit.inbound.Gather: there have been 4000 posts downloaded
+08 Apr 2013 15:53:12 :: Inserting data into DB
+08 Apr 2013 15:53:13 :: There have been: 0 records processed

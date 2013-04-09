@@ -13,10 +13,10 @@ FpClassifier::Application.routes.draw do
 
 
   resources :raw_twitter_posts
-  get "about/index"
-  get "info/index"
-  get "error/index"
-  get "debug/index"
+  match "information/about" => "about#index"  
+  match "information/info" => "info#index"  
+  match "information/error" => "error#index"  
+  match "information/debug" => "debug#index"  
 
 
 

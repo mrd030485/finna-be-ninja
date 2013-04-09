@@ -14,6 +14,9 @@
         <pathelement location="lib/log4j-1.2.17.jar"/>
         <pathelement location="lib/gson-2.2.2.jar"/>
         <pathelement location="lib/twitter4j-core-3.0.3.jar"/>
+        <pathelement location="lib/commons-dbcp-1.4.jar"/>
+        <pathelement location="lib/pool.jar"/>
+        <pathelement location="lib/mahout-core-0.7.jar"/>
         <pathelement location="lib/mysql-connector-java-5.0.8-bin.jar"/>
     </path>
     <target name="init">
@@ -65,6 +68,9 @@
         <zipfileset src="lib/log4j-1.2.17.jar" includes="**/*"/>
         <zipfileset src="lib/gson-2.2.2.jar" includes="**/*"/>
         <zipfileset src="lib/twitter4j-core-3.0.3.jar" includes="**/*"/>
+        <zipfileset src="lib/commons-dbcp-1.4.jar" includes="**/*"/>
+        <zipfileset src="lib/pool.jar" includes="**/*"/>
+        <zipfileset src="lib/mahout-core-0.7.jar" includes="**/*"/>
         <zipfileset src="lib/mysql-connector-java-5.0.8-bin.jar" excludes="META-INF"/>
         <manifest>
           <attribute name="Main-Class" value="org.tdg.twit.main.FpClassifier"/>

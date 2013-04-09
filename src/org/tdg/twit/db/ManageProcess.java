@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Blob;
-
+import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,8 +17,8 @@ public class ManageProcess implements Runnable {
   ExecutorService pool   = Executors.newFixedThreadPool(5);
   Logger          logger = Logger.getLogger(ManageProcess.class);
 
-  public ManageProcess(Connection conn) {
-    this.connect = conn;
+  public ManageProcess(DataSource ds) {
+    this.ds = ds;
   }
 
   private String            selectCount            = "SELECT COUNT(*) FROM raw_twitter_posts where processed = 0";
@@ -26,23 +26,24 @@ public class ManageProcess implements Runnable {
   private String            setProcessed           = "UPDATE raw_twitter_posts set processed=1, process_date=NOW() where id>=? AND id <=?";
   private Connection        connect                = null;
   private PreparedStatement prepStmt               = null;
+  private DataSource        ds                     = null;
   private ResultSet         rs                     = null;
+  private ResultSet         shut                   = null;
   private int               startId                = -1;
   private int               endId                  = -1;
 
   public void run() {
     logger.debug("Start counting records to be processed");
-    if (connect == null) {
+    if (ds == null) {
       logger.error(ManageProcess.class.getName() + ": Database connection is not open");
     }
-    ResultSet shut;
     try {
+      connect = ds.getConnection();
       shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
 
       shut.first();
-      while (shut.getInt(1) == 0) {
+      while (shut.getInt(1) == 0 && !connect.isClosed()) {
         try {
-          Class.forName("com.mysql.jdbc.Driver");
           prepStmt = connect.prepareStatement(selectCount);
           rs = prepStmt.executeQuery();
           if (rs.next()) {
@@ -63,7 +64,7 @@ public class ManageProcess implements Runnable {
                 rsAr.add(rs.getBlob(2));
               }
               logger.info("There have been: " + i * 500 + " records processed");
-              pool.submit(new ProcessPosts(rsAr, connect));
+              pool.submit(new ProcessPosts(rsAr, ds.getConnection()));
               rs.close();
               prepStmt.close();
             }
@@ -76,14 +77,20 @@ public class ManageProcess implements Runnable {
           prepStmt.execute();
         } catch (SQLException e) {
           logger.error(ManageProcess.class.getName() + " " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-          logger.error(ManageProcess.class.getName() + " " + e.getMessage());
         }
         shut = connect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
         shut.first();
       }
     } catch (SQLException e1) {
       logger.error(ManageProcess.class.getName() + ": " + e1.getMessage());
+    }finally{
+      try{
+        rs.close();
+        shut.close();
+        prepStmt.close();
+        connect.close();
+      }catch(SQLException ignore){
+      }
     }
     pool.shutdown();
     try {

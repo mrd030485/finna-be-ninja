@@ -1,20 +1,24 @@
 class InfoController < ApplicationController
   def index
-    @content = read_file(Rails.public_path+"/logs/info.log")
+    @content = read_file(Rails.public_path+"/log/info.log")
   end
   def read_file(file_name)
-    file = File.open(file_name, "r")
-    data = file.read
+    if File.exists?(file_name)
+      file = File.open(file_name, "r")
+      data = file.read
     
-    formattedFile="</ul>"
+      formattedFile="</ul>"
 
-    data.gsub!(/\r\n?/,"\n")
-    data.each_line do |line|
-      formattedFile = "<li>"+line+"</li>"+formattedFile
-    end
-    formattedFile = "<ul>"+formattedFile
+      data.gsub!(/\r\n?/,"\n")
+      data.each_line do |line|
+        formattedFile = "<li>"+line+"</li>"+formattedFile
+      end
+      formattedFile = "<ul>"+formattedFile
     
-    file.close
+      file.close
+    else
+      formattedFile = "<ul><li>Log file does not exists.</li></ul>"
+    end
     
     return formattedFile
   end

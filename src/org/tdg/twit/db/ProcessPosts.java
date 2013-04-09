@@ -28,9 +28,11 @@ public class ProcessPosts implements Runnable {
 
   public void run() {
     if (allResults == null) {
-      logger.error(ProcessPosts.class.getName() + ": Result set is empty or does not exists");
+      logger.error(ProcessPosts.class.getName()
+          + ": Result set is empty or does not exists");
     } else if (connect == null) {
-      logger.error(ProcessPosts.class.getName() + ": Database connection is closed");
+      logger.error(ProcessPosts.class.getName()
+          + ": Database connection is closed");
     }
     try {
       Class.forName("com.mysql.jdbc.Driver");
@@ -65,7 +67,7 @@ public class ProcessPosts implements Runnable {
             if (statusText != null) {
               String ht = hashtagXM.toString();
               if (ht == null) {
-                ht = " ";
+                ht = "-";
               }
               if (firstAppend) {
                 sb.append("('" + statusText + "','" + ht + "',NOW(),NOW())");
@@ -81,11 +83,14 @@ public class ProcessPosts implements Runnable {
       prepStmt.executeUpdate();
       prepStmt.close();
     } catch (ClassNotFoundException e) {
-      logger.error(ProcessPosts.class.getName() + "MySql:JDBC:CONNECTOR - " + e.getMessage());
+      logger.error(ProcessPosts.class.getName() + "MySql:JDBC:CONNECTOR - "
+          + e.getMessage());
     } catch (SQLException e) {
-      logger.error(ProcessPosts.class.getName() + " SQL error - " + e.getMessage());
+      logger.error(ProcessPosts.class.getName() + " SQL error - "
+          + e.getMessage());
     } catch (TwitterException e) {
-      logger.error(ProcessPosts.class.getName() + "Twitter post error - " + e.getMessage() + " ::-:: " + e.getErrorMessage());
+      logger.error(ProcessPosts.class.getName() + "Twitter post error - "
+          + e.getMessage() + " ::-:: " + e.getErrorMessage());
     }
   }
 
@@ -95,7 +100,8 @@ public class ProcessPosts implements Runnable {
       int urlend = statusText.indexOf(" ", url);
       while (statusText.contains("http")) {
         if (urlend != -1) {
-          statusText = statusText.substring(0, url) + statusText.substring(urlend);
+          statusText = statusText.substring(0, url)
+              + statusText.substring(urlend);
         } else if (url != -1) {
           statusText = statusText.substring(0, url);
         }

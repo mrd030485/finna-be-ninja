@@ -59,11 +59,11 @@ Tabulous.setup do |config|
       #-----------------------------------------------------------------------------------------------------#
       [    :home_tab            ,    'Home'           ,    root_path      ,    true        ,    true        ],
       [    :posts_tab           ,    'Posts'          ,    posts_path     ,    true        ,    true        ],
-      [    :about_tab           ,    'Information'    ,    about_index_path    ,    true        ,    true        ],
-      [    :about_tab_subtab    ,    'About'          ,    about_index_path    ,    true        ,    true        ],
-      [    :info_tab_subtab     ,    'Info Log'       ,    info_index_path     ,    true        ,    true        ],
-      [    :error_tab_subtab    ,    'Error Log'      ,    error_index_path    ,    true        ,    true        ],
-      [    :debug_tab_subtab    ,    'Debug Log'      ,    debug_index_path    ,    true        ,    true        ],
+      [    :about_tab           ,    'Information'    ,    information_about_path    ,    true        ,    true        ],
+      [    :about_tab_subtab    ,    'About'          ,    information_about_path    ,    true        ,    true        ],
+      [    :info_tab_subtab     ,    'Info Log'       ,    information_info_path     ,    true        ,    true        ],
+      [    :error_tab_subtab    ,    'Error Log'      ,    information_error_path    ,    true        ,    true        ],
+      [    :debug_tab_subtab    ,    'Debug Log'      ,    information_debug_path    ,    true        ,    true        ],
       #-----------------------------------------------------------------------------------------------------#
       #    TAB NAME             |    DISPLAY TEXT     |    PATH           |    VISIBLE?    |    ENABLED?    #
       #-----------------------------------------------------------------------------------------------------#
