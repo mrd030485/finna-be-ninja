@@ -114,11 +114,16 @@ public class GenerateFPGData implements Runnable {
     		patterns.add(patt);
     	}
     	StringBuilder sb = new StringBuilder(insert);
-    	for(int t=0; t<patterns.size(); t++){
-    		if(t==0){
-    			sb.append("("+patterns.remove(0)+"");
-    		}
+      boolean firstIns = true;
+    	while(!patterns.isEmpty()){
+    		if(firstIns){
+    			sb.append("('"+patterns.remove(0)+"','"+keywords.remove(0)+"','"+confidence.remove(0)+",NOW(),NOW()");
+          firstIns = false;
+    		}else{
+    			sb.append(",('"+patterns.remove(0)+"','"+keywords.remove(0)+"','"+confidence.remove(0)+",NOW(),NOW()");
+        }
     	}
+      /***********************WORKIGN HERE ON ADDING RECORD TO DATABASE ************/
     	iFr.close();
     	inF.close();
     	contRs = connect.prepareStatement(shutQuery).executeQuery();
