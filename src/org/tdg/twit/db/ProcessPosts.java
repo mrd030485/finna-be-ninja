@@ -21,7 +21,7 @@ public class ProcessPosts implements Runnable {
     this.connect = conn;
   }
 
-  private String            insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at) values ";
+  private String            insertStatusRecord = "INSERT INTO recovered_statuses (status,keywords,created_at,updated_at,processed) values ";
   private Connection        connect            = null;
   private PreparedStatement prepStmt           = null;
   private ArrayList<Blob>   allResults         = null;
@@ -70,10 +70,10 @@ public class ProcessPosts implements Runnable {
                 ht = "-";
               }
               if (firstAppend) {
-                sb.append("('" + statusText + "','" + ht + "',NOW(),NOW())");
+                sb.append("('" + statusText + "','" + ht + "',NOW(),NOW(),0)");
                 firstAppend = false;
               } else {
-                sb.append(", ('" + statusText + "','" + ht + "',NOW(),NOW())");
+                sb.append(", ('" + statusText + "','" + ht + "',NOW(),NOW(),0)");
               }
             }
           }
@@ -108,7 +108,7 @@ public class ProcessPosts implements Runnable {
         url = statusText.indexOf("http");
         urlend = statusText.indexOf(" ", url);
       }
-      statusText = statusText.replaceAll("[^0-9a-zA-Z'\\s]", "");
+      statusText = statusText.replaceAll("[^0-9a-zA-Z'\\s]", " ");
       statusText = statusText.replaceAll("( )+", " ");
       statusText = statusText.replaceAll("'", "");
     }

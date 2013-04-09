@@ -14,11 +14,6 @@ import java.util.concurrent.Executors;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-/**
- * Imports for threading
- */
-import java.lang.Thread;
 import org.tdg.twit.db.*;
 
 public class Gather implements Runnable {
