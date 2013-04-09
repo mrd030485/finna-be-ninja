@@ -123,7 +123,9 @@ public class GenerateFPGData implements Runnable {
     			sb.append(",('"+patterns.remove(0)+"','"+keywords.remove(0)+"','"+confidence.remove(0)+",NOW(),NOW()");
         }
     	}
-      /***********************WORKIGN HERE ON ADDING RECORD TO DATABASE ************/
+      
+      connect.prepareStatement(sb.toString()).executeUpdate();
+  
     	iFr.close();
     	inF.close();
     	contRs = connect.prepareStatement(shutQuery).executeQuery();

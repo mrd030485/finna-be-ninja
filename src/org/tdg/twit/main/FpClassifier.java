@@ -62,8 +62,12 @@ public class FpClassifier {
 			rs = localConn.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
 
 			if (rs.next() && shut.next()) {
-				shutdown = shut.getInt(1) == 0;
-				dl = rs.getInt(1) == 1;
+				if(shut.getInt(1) == 0){
+          shutdown=false;
+        }
+        if(rs.getInt(1) == 1){
+          dl=true;
+        }
 			} else {
 				shutdown = false;
 				dl = true;
@@ -78,15 +82,21 @@ public class FpClassifier {
         logger.debug("Submitted ManageProcess to thread pool");
 
 			while (!shutdown) {
-        shut=null;
-        rs=null;
 			
         shut = localConn.prepareStatement("select status from settings where name='shutdown'").executeQuery();
 				rs = localConn.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
 
         if (rs.next() && shut.next()) {
-					shutdown = shut.getInt(1) == 0;
-					dl = rs.getInt(1) == 1;
+				 if(shut.getInt(1) == 0){
+           shutdown=false;
+         }else{
+           shutdown=true;
+         }
+				 if(rs.getInt(1) == 1){
+           dl=true;
+         }else{
+          dl=false;
+         }
 				} else {
 					shutdown = false;
 					dl = true;
@@ -118,13 +128,14 @@ public class FpClassifier {
 					 */
 				}
         stats.close();
-        stats=null;
-
 			}
+      System.err.println("I am here now");
 		} catch (SQLException e) {
 			logger.error(FpClassifier.class.getName()+": "+e.getMessage());
+      System.err.println("SQLE");
 		} catch (Exception e) {
 			logger.error(FpClassifier.class.getName()+": "+e.getMessage());
+      System.err.println("EXCE");
 		} finally {
 			try {
 				pool.shutdown();
@@ -139,7 +150,9 @@ public class FpClassifier {
           localConn.close();
         } catch (SQLException ignore) {
 					// This is ok with me.
-				}
+				} catch (NullPointerException ignore){
+          System.err.println("Iam Exiting");
+        }
 			}
 
 		}

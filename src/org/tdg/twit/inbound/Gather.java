@@ -53,7 +53,7 @@ public class Gather implements Runnable {
       logger.info(Gather.class.getName() + ": Downloading Statuses from twitter.");
 
       int overallCount = 0;
-      int lastCount = 0;
+      int lastCount = -1;
       boolean pause = false;
       boolean first = true;
       shut = localConnect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
@@ -98,7 +98,7 @@ public class Gather implements Runnable {
           } else {
             break;
           }
-          if (((overallCount % 400) == 0) && lastCount!=overallCount) {
+          if(lastCount<overallCount){
             logger.info(Gather.class.getName() + ": there have been " + overallCount + " posts downloaded");
             lastCount=overallCount;
           }
