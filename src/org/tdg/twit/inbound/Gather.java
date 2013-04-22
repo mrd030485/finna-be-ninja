@@ -84,7 +84,7 @@ public class Gather implements Runnable {
               data[i] = input;
               i++;
               if (i == runCount) {
-                pool.execute(new EnqueueTwitterPosts(data, ds.getConnection()));
+                pool.submit(new EnqueueTwitterPosts(data, ds.getConnection()));
                 i = 0;
                 overallCount += runCount;
                 data = new String[runCount];
