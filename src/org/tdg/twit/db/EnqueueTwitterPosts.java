@@ -48,6 +48,7 @@ public class EnqueueTwitterPosts implements Runnable {
             blob = new SerialBlob(data[t].getBytes());
           }
           prepStmt.setBlob(t + 1, blob);
+          blob = null;
         }
         prepStmt.executeUpdate();
         prepStmt.close();

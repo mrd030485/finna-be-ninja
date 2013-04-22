@@ -1,2 +1,18 @@
-<p id="newPost">This system is designed to retrieve a suggested keyword for your sentence.  Your total charachter length is not limited however for use in certain systems the charachter length may be limited. <span id="italicText">(Twitter for example limits the total post to 140 characters)</span></p>
+<p id="newPost">This system is designed to retrieve a suggested keyword for your sentence.  Your total charachter length is not limited however for use in certain systems the charachter length may be limited. <span id="italicText">(Twitter for example limits the total post to 140 characters)</span></p><br><br>
+<ol class="recent_posts">
+<% @posts.each do |post| %>
+  <li class="post">
+  <p>
+    <b>Thought:</b>
+    <%= post.thought %>
+  </p>
+
+  <p>
+    <b>Keyword:</b>
+    <%= post.keyword %>
+  </p>
+  </li>
+<%end%>
+</ol>
+
 <%= link_to 'New Post', new_post_path,{:class=>"ui-button"} %>

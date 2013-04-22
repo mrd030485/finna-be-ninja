@@ -1,2 +1,3 @@
 #!/bin/bash
-/home/dev/github/my-repos/finna-be-ninja/lib/fpgrowth -m2 -s.05 /home/dev/github/my-repos/finna-be-ninja/data/items.dat /home/dev/github/my-repos/finna-be-ninja/data/sets.dat
+rm /home/dev/github/my-repos/finna-be-ninja/data/sets.dat
+/home/dev/github/my-repos/finna-be-ninja/lib/fpgrowth -m2 -s.15 /home/dev/github/my-repos/finna-be-ninja/data/items.dat /home/dev/github/my-repos/finna-be-ninja/data/sets.dat

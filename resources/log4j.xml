@@ -9,7 +9,7 @@
 		<param name="MaxBackupIndex" value="5" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="%d{dd MMM yyyy HH:mm:ss} :: %m%n" />
+				value="&lt;span id=&quot;info&quot;&gt; %d{dd MMM yyyy HH:mm:ss} :: %m &lt;/span&gt;%n" />
 		</layout>
 		<filter class="org.apache.log4j.varia.LevelMatchFilter">
 			<param name="LevelToMatch" value="info" />
@@ -25,7 +25,7 @@
         <param name="MaxBackupIndex" value="5" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="%d{dd MMM yyyy HH:mm:ss} :: [%t] - %m%n" />
+				value="&lt;span id=&quot;error&quot;&gt; %d{dd MMM yyyy HH:mm:ss} :: %t :: %m &lt;/span&gt;%n" />
 		</layout>
 
 		<!-- Use LevelMatchFilter to write only ERROR messages to error.log -->
@@ -43,7 +43,7 @@
         <param name="MaxBackupIndex" value="5" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="%d{dd MMM yyyy HH:mm:ss} :: %m%n" />
+				value="&lt;span id=&quot;%p&quot;&gt; %d{dd MMM yyyy HH:mm:ss} :: %m &lt;/span&gt;%n" />
 		</layout>
 	</appender>
 

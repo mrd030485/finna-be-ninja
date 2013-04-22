@@ -1,1 +1,1 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1365196222.255795:@value"K[I"?$(document).ready(function(){$("#log li:gt(10)").hide()});:ET
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1366574645.584125:@value"K[I"?$(document).ready(function(){$("#log li:gt(10)").hide()});:ET

@@ -1,3 +1,3 @@
 class Frequent < ActiveRecord::Base
-  attr_accessible :keyword, :post
+  attr_accessible :pattern, :confidence
 end

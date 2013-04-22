@@ -1,3 +1,17 @@
-// Place all the styles related to the footer controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#footer
+{
+  width:100%;
+  position:absolute;
+  bottom:0px;
+}
+
+#center
+{
+  width:1024px;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:auto;
+  margin-right:auto;
+  height:75px;
+  text-align:center;
+}

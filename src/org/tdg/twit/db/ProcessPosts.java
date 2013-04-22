@@ -70,10 +70,10 @@ public class ProcessPosts implements Runnable {
                 ht = "-";
               }
               if (firstAppend) {
-                sb.append("('" + statusText + "','" + ht + "',NOW(),NOW(),0)");
+                sb.append("('" + statusText + "','" + ht.toLowerCase() + "',NOW(),NOW(),0)");
                 firstAppend = false;
               } else {
-                sb.append(", ('" + statusText + "','" + ht + "',NOW(),NOW(),0)");
+                sb.append(", ('" + statusText + "','" + ht.toLowerCase() + "',NOW(),NOW(),0)");
               }
             }
           }

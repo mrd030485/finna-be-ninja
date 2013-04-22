@@ -10,6 +10,5 @@
 	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-dbcp-1.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/pool.jar"/>
-	<classpathentry kind="lib" path="lib/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

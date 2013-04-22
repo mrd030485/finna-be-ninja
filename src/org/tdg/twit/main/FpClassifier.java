@@ -2,6 +2,7 @@ package org.tdg.twit.main;
 
 import org.apache.log4j.*;
 import org.apache.log4j.xml.DOMConfigurator;
+import org.tdg.twit.analyze.ManageAnalysis;
 import org.tdg.twit.db.ManageProcess;
 import org.tdg.twit.db.ConnectionPool;
 import org.tdg.twit.inbound.*;
@@ -80,6 +81,8 @@ public class FpClassifier {
         logger.debug("Submitted Gather to thread pool");
 			pool.submit(new ManageProcess(ds));
         logger.debug("Submitted ManageProcess to thread pool");
+      pool.submit(new ManageAnalysis(ds));
+        logger.debug("Started processing for fp-growth");
 
 			while (!shutdown) {
 			

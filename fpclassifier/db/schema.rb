@@ -14,18 +14,17 @@
 ActiveRecord::Schema.define(:version => 20130404005648) do
 
   create_table "frequents", :force => true do |t|
-    t.string   "post"
-    t.string   "keyword"
+    t.string   "pattern"
     t.float    "confidence"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "posts", :force => true do |t|
-    t.text     "thought",    :null => false
-    t.string   "keyword"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "thought",                     :null => false
+    t.string   "keyword",    :default => "-"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
 
   create_table "rails_admin_histories", :force => true do |t|
@@ -51,9 +50,10 @@ ActiveRecord::Schema.define(:version => 20130404005648) do
 
   create_table "recovered_statuses", :force => true do |t|
     t.text     "status"
-    t.string   "keywords"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "keywords"
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.integer  "processed",  :limit => 1, :default => 0, :null => false
   end
 
   create_table "settings", :force => true do |t|

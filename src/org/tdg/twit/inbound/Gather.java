@@ -28,7 +28,7 @@ public class Gather implements Runnable {
   private ResultSet       dl            = null;
   private String          username      = null;
   private String          password      = null;
-
+  private int             runCount      = 200;
   public Gather(String user, String pass, DataSource ds) {
     this.username = user;
     this.password = pass;
@@ -61,6 +61,11 @@ public class Gather implements Runnable {
 
       shut.first();
       
+      String input = null;
+      String[] data = new String[runCount];
+      
+      int i = 0;
+      
       while (shut.getInt(1) == 0) {
         dl.first();
       
@@ -68,25 +73,21 @@ public class Gather implements Runnable {
           URL twitter = new URL("https://stream.twitter.com/1.1/statuses/sample.json?language=en");
           in = new BufferedReader(new InputStreamReader(twitter.openStream()));
         }
-        
-        String input = null;
-        String[] data = new String[500];
-        
-        int i = 0;
-        
+
         logger.info(Gather.class.getName() + ": there have been " + overallCount + " posts downloaded");
         
         while ((input = in.readLine()) != null) {
           if ((dl.getInt(1) == 1) && (shut.getInt(1) == 0)) {
-            if (dataStats.getDBRowCount() <= 50000) {
+            if (dataStats.getDBRowCount() <= 5000) {
               pause = false;
               first = true;
               data[i] = input;
               i++;
-              if (i == 500) {
-                pool.submit(new EnqueueTwitterPosts(data, ds.getConnection()));
+              if (i == runCount) {
+                pool.execute(new EnqueueTwitterPosts(data, ds.getConnection()));
                 i = 0;
-                overallCount += 500;
+                overallCount += runCount;
+                data = new String[runCount];
               }
             } else {
               pause = true;

@@ -1,0 +1,21 @@
+<p id="newPost">Confirm Keyword</p>
+
+From your post the following pattern:
+<%= @confidence[0].pattern %> : <%= @confidence[0].confidence*100 %> had the highest confidence level.
+
+Top ten patterns:
+<%= form_tag do%>
+  <div class="field">
+    <%= label_tag(:thought, "Enter Statement Here:") %><br />
+    <%= text_area(:post,:thought,:value=>@thought) %>
+    <%= label_tag(:thought, "Select Keyword Here:") %><br />
+    <%= select(:post,:keyword, @posKeywords,:include_blank=>false) %>
+  </div>
+  <div class="actions">
+    <%= submit_tag("Create Post") %>
+  </div>
+ <%end%> 
+
+
+
+<%= link_to 'Back', posts_path, {:class=> "ui-button"} %>
