@@ -50,7 +50,7 @@ public class ManageProcess implements Runnable {
             int count = rs.getInt(1);
             rs.close();
             prepStmt.close();
-            for (int i = 0; i < (Math.ceil(count / 500)); i = i + 1) {
+            for (int i = 0; i < (Math.ceil(count / 200)); i = i + 1) {
               prepStmt = connect.prepareStatement(selectRecordsToProcess);
               prepStmt.setInt(1, i);
               rs = prepStmt.executeQuery();
@@ -63,7 +63,7 @@ public class ManageProcess implements Runnable {
                 }
                 rsAr.add(rs.getBlob(2));
               }
-              logger.info("There have been: " + i * 500 + " records processed");
+              logger.info("There have been: " + (i+1) * 200 + " records processed");
               pool.submit(new ProcessPosts(rsAr, ds.getConnection()));
               rs.close();
               prepStmt.close();
