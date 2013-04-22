@@ -64,7 +64,7 @@ public class ManageProcess implements Runnable {
                 rsAr.add(rs.getBlob(2));
               }
               logger.info("There have been: " + i * 500 + " records processed");
-              pool.execute(new ProcessPosts(rsAr, ds.getConnection()));
+              pool.submit(new ProcessPosts(rsAr, ds.getConnection()));
               rs.close();
               prepStmt.close();
             }
