@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<%= render '/refinery/html_tag' %>
+  <%= render '/refinery/head' %>
+  <body>
+      <div id="header">
+        <%= render '/refinery/header' -%>
+      </div>
+        <%= yield %>
+      <div id="footer">
+        <%= render '/refinery/footer' -%>
+      </div>
+    <%= render '/refinery/javascripts' %>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = XFDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                formWindow = NSWindow; 
+                pageView = XFPageView; 
+                propertyController = XFPropertyController; 
+                propertyWindow = NSPanel; 
+                scrollView = NSScrollView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = XFElement; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = XFElementView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {control = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = XFForm; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = XFPageView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {formDocument = id; }; 
+            SUPERCLASS = NSScrollView; 
+        }, 
+        {
+            ACTIONS = {switchButtonAction = id; }; 
+            CLASS = XFPropertyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                elementBox = NSBox; 
+                elementHeight = NSTextField; 
+                elementHeightLabel = NSTextField; 
+                elementId = NSTextField; 
+                elementIdLabel = NSTextField; 
+                elementPropertyView = NSScrollView; 
+                elementWidth = NSTextField; 
+                elementWidthLabel = NSTextField; 
+                elementX = NSTextField; 
+                elementXLabel = NSTextField; 
+                elementY = NSTextField; 
+                elementYLabel = NSTextField; 
+                formDocument = id; 
+                formName = NSTextField; 
+                formVersion = NSTextField; 
+                pageHeight = NSTextField; 
+                pageWidth = NSTextField; 
+                propertyWindow = NSWindow; 
+                units = NSComboBox; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

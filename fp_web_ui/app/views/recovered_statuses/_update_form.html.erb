@@ -1,0 +1,22 @@
+<%= form_for(@recovered_status) do |f| %>
+  <% if @recovered_status.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@recovered_status.errors.count, "error") %> prohibited this recovered_status from being saved:</h2>
+
+      <ul>
+      <% @recovered_status.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.label :status %>
+    <%= f.text_area :status, :value=>@recovered_status.status, :readonly=>true %>
+    <%= f.select(:keywords, options_for_select(@freq)) %>
+    <%= f.hidden_field(:id,:value=>@recovered_status.id) %>
+    <%= f.hidden_field(:processed,:value=>false) %>
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -6,33 +6,43 @@ import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.sql.DataSource;
+
+import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import org.tdg.twit.db.*;
+
+import org.tdg.twit.processing.*;
 
 public class Gather implements Runnable {
-  ExecutorService         pool          = Executors.newFixedThreadPool(10);
   static  Logger          logger        = Logger.getLogger(Gather.class);
-  private DataSource      ds            = null;
   private Connection      dataConnect   = null;
   private Connection      localConnect  = null;
-  private DataStats       dataStats     = null;
+  private QueueCount       dataStats     = null;
   private BufferedReader  in            = null;
   private ResultSet       shut          = null;
   private ResultSet       dl            = null;
   private String          username      = null;
   private String          password      = null;
   private int             runCount      = 200;
-  public Gather(String user, String pass, DataSource ds) {
+  
+  public static final String DRIVER = "com.mysql.jdbc.Driver";
+  public static final String URLDB = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String USERNAMEDB = "fpclass";
+  public static final String PASSWORDDB = null;
+  
+  private ArrayList<Thread> processes   = null;
+  
+  public Gather(String user, String pass) {
     this.username = user;
     this.password = pass;
-    this.ds = ds;
+    processes = new ArrayList<>();
   }
 
 
@@ -43,13 +53,11 @@ public class Gather implements Runnable {
         return new PasswordAuthentication(username, password.toCharArray());
       }
     });
-    if (ds == null) {
-      logger.error(Gather.class.getName() + ": Database connection is closed");
-    }
     try {
-      dataConnect = ds.getConnection();
-      localConnect = ds.getConnection();
-      dataStats = new DataStats(dataConnect);
+      Class.forName(DRIVER).newInstance();
+      dataConnect = DriverManager.getConnection(URLDB, USERNAMEDB, PASSWORDDB);
+      localConnect = DriverManager.getConnection(URLDB, USERNAMEDB, PASSWORDDB);
+      dataStats = new QueueCount(dataConnect);
       logger.info(Gather.class.getName() + ": Downloading Statuses from twitter.");
 
       int overallCount = 0;
@@ -84,7 +92,7 @@ public class Gather implements Runnable {
               data[i] = input;
               i++;
               if (i == runCount) {
-                pool.submit(new EnqueueTwitterPosts(data, ds.getConnection()));
+                processes.add(new EnqueuePosts(data));
                 i = 0;
                 overallCount += runCount;
                 data = new String[runCount];
@@ -99,6 +107,14 @@ public class Gather implements Runnable {
           } else {
             break;
           }
+          if(processes.size()>2){
+            while(!processes.isEmpty()){
+              try {
+                processes.remove(0).join();
+              } catch (InterruptedException e) {
+              }
+            }
+          }
           if(lastCount<overallCount){
             logger.info(Gather.class.getName() + ": there have been " + overallCount + " posts downloaded");
             lastCount=overallCount;
@@ -109,7 +125,12 @@ public class Gather implements Runnable {
         dl.close();
         shut = localConnect.prepareStatement("select status from settings where name='shutdown'").executeQuery();
         dl = localConnect.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
-
+        while(!processes.isEmpty()){
+          try {
+            processes.remove(0).join();
+          } catch (InterruptedException e) {
+          }
+        }
         shut.first();
       }
     } catch (MalformedURLException e1) {
@@ -118,6 +139,15 @@ public class Gather implements Runnable {
       logger.error(Gather.class.getName() + ": " + e2.getMessage());
     } catch (SQLException e) {
       logger.error(Gather.class.getName() + ": " + e.getMessage());
+    } catch (InstantiationException e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
+    } catch (IllegalAccessException e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
+    } catch (ClassNotFoundException e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
     }finally{
       try{
         in.close();
@@ -125,6 +155,12 @@ public class Gather implements Runnable {
         dl.close();
         dataStats.close();
         localConnect.close();
+        while(!processes.isEmpty()){
+          try {
+            processes.remove(0).join();
+          } catch (InterruptedException e) {
+          }
+        }
       }catch(SQLException ignore){
       }catch(IOException ignore){
       }

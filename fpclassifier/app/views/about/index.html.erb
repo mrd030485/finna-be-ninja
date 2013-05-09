@@ -1,2 +1,8 @@
-<h1>About#index</h1>
-<p>Find me in app/views/about/index.html.erb</p>
+<h1>Statistics</h1>
+<div id="stats">
+  <%= raw(@stats) %>
+</div>
+<h1>About</h1>
+<div id="about">
+  <p>FPclassifier is a system built to classify statements.  The statements are classified by analyzing twitter posts.  After collecting twitter posts, they are mined for frequent patterns.  This is accomplished with the FPGrowth algorithm.  Classifications are then completed on new statements.  To classify the new statements the system looks for the best match to your statement in the results from the FPGrowth algorithm.  With the best match the system then finds the most used keyword associated with the best match.  This keyword is then used as the suggested classification.</p>
+</div>

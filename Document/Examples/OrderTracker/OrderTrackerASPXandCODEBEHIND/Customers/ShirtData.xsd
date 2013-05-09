@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ShirtData" targetNamespace="http://www.tempuri.org/ShirtData.xsd" xmlns:mstns="http://www.tempuri.org/ShirtData.xsd" xmlns="http://www.tempuri.org/ShirtData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ShirtData" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ShirtOrders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="orderNumber" type="xs:int" />
+              <xs:element name="manufacturer" type="xs:string" />
+              <xs:element name="color" type="xs:string" />
+              <xs:element name="num_24" type="xs:int" />
+              <xs:element name="num_68" type="xs:int" />
+              <xs:element name="num_1012" type="xs:int" />
+              <xs:element name="num_1416" type="xs:int" />
+              <xs:element name="num_s" type="xs:int" />
+              <xs:element name="num_m" type="xs:int" />
+              <xs:element name="num_l" type="xs:int" />
+              <xs:element name="num_xl" type="xs:int" />
+              <xs:element name="num_xxl" type="xs:int" />
+              <xs:element name="num_xxxl" type="xs:int" />
+              <xs:element name="num_xxxxl" type="xs:int" />
+              <xs:element name="num_other" type="xs:int" />
+              <xs:element name="unitPrice" type="xs:decimal" />
+              <xs:element name="styleNum" type="xs:string" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="type" type="xs:string" />
+              <xs:element name="sleeveOrPocket" type="xs:string" />
+              <xs:element name="totalQty" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="totalPrice" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ShirtOrders" />
+      <xs:field xpath="mstns:orderNumber" />
+      <xs:field xpath="mstns:manufacturer" />
+      <xs:field xpath="mstns:color" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

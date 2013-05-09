@@ -1,0 +1,11 @@
+<p>
+  <%= t('.copyright', :year => Time.now.year,
+                      :site_name => Refinery::Core.site_name) %>
+  <div id="mobile_select">
+    <% if mobile_device? %>
+      <%= link_to "Desktop Version", :mobile => 0 %>
+    <% else %>
+      <%= link_to "Mobile Version", :mobile => 1 %>
+    <% end %>
+  </div>
+</p>

@@ -1,0 +1,11 @@
+<h1>Statuses</h1>
+
+<div id="recent">
+  <ul id="post">
+   <% @recovered_statuses.each do |post| %>
+    <li id="record"><%= post.status %> :: <%=post.keywords%></li>
+   <% end %>
+  </ul>
+</div>
+<br />
+<%= link_to 'New Status', new_recovered_status_path %>

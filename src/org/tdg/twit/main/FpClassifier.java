@@ -2,14 +2,14 @@ package org.tdg.twit.main;
 
 import org.apache.log4j.*;
 import org.apache.log4j.xml.DOMConfigurator;
-import org.tdg.twit.analyze.ManageAnalysis;
-import org.tdg.twit.db.ManageProcess;
-import org.tdg.twit.db.ConnectionPool;
+import org.tdg.twit.analyze.ManageFPAnalysis;
 import org.tdg.twit.inbound.*;
+import org.tdg.twit.processing.ManagePostProcessing;
+
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import javax.sql.DataSource;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -19,6 +19,11 @@ public class FpClassifier {
 	/**
 	 * @param args
 	 */
+  
+  public static final String DRIVER = "com.mysql.jdbc.Driver";
+  public static final String URL = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String USERNAME = "fpclass";
+  public static final String PASSWORD = null;
 
 	static Logger logger = Logger.getLogger(FpClassifier.class);
 	static ExecutorService pool = Executors.newFixedThreadPool(3);
@@ -26,8 +31,6 @@ public class FpClassifier {
 			+ "FROM recovered_statuses rp, raw_twitter_posts raw WHERE true";
 
 	public static void main(String[] args) {
-    ConnectionPool cp = new ConnectionPool();
-    DataSource ds = null;
     Connection localConn = null;
     float stat1 = (float)0.0;
 		boolean shutdown = false;
@@ -41,7 +44,7 @@ public class FpClassifier {
 
 		String user = null;
 		String password = null;
-
+		
 		if (args.length != 2) {
 
 			System.err.println("Wrong arguments supplied: Example -- java -jar fpclassifier user password");
@@ -56,8 +59,8 @@ public class FpClassifier {
 		}
 
 		try {
-      ds = cp.setUp();
-			localConn = ds.getConnection(); 
+		  Class.forName(DRIVER).newInstance();
+		  localConn = DriverManager.getConnection(URL, USERNAME, PASSWORD); 
 
 			shut = localConn.prepareStatement("select status from settings where name='shutdown'").executeQuery();
 			rs = localConn.prepareStatement("select status from settings where name='download_statuses'").executeQuery();
@@ -77,11 +80,11 @@ public class FpClassifier {
       shut.close();
 			rs.close();
 			
-      pool.submit(new Gather(user, password, ds));
+      pool.submit(new Gather(user, password));
         logger.debug("Submitted Gather to thread pool");
-			pool.submit(new ManageProcess(ds));
+			pool.submit(new ManagePostProcessing());
         logger.debug("Submitted ManageProcess to thread pool");
-      pool.submit(new ManageAnalysis(ds));
+      pool.submit(new ManageFPAnalysis());
         logger.debug("Started processing for fp-growth");
 
 			while (!shutdown) {

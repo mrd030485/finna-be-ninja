@@ -1,0 +1,12 @@
+<div id="container">
+  <div id="center" class="column">
+      <%= raw(@page.content_for(:body)) %>
+  </div>
+  <div id="left" class="column">
+      <%= raw(@page.content_for(:left_body)) %>
+  </div>
+  <div id="right" class="column">
+      <%= raw(@page.content_for(:right_body)) %>
+  </div>
+</div>
+<%= render '/refinery/draft_page_message' unless @page.nil? or @page.live? -%>

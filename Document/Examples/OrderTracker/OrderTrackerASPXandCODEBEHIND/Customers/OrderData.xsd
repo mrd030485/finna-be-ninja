@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="OrderData" targetNamespace="http://www.tempuri.org/OrderData.xsd" xmlns:mstns="http://www.tempuri.org/OrderData.xsd" xmlns="http://www.tempuri.org/OrderData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="OrderData" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="orderNumber" type="xs:int" />
+              <xs:element name="orderDate" type="xs:dateTime" />
+              <xs:element name="dueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="recDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="reorderNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="shippingMethod" type="xs:string" minOccurs="0" />
+              <xs:element name="artDueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="rushReorderRegular" type="xs:string" />
+              <xs:element name="orderType" type="xs:string" />
+              <xs:element name="xOrderNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="customerNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="contactPersonNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="insideRepNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="outsideRepNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="numColorsFront" type="xs:int" minOccurs="0" />
+              <xs:element name="numColorsBack" type="xs:int" minOccurs="0" />
+              <xs:element name="numColorsSleeve" type="xs:int" minOccurs="0" />
+              <xs:element name="PMScharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="setupCharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="artCharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="rushCharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="deposit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="subtotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="salesTax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="shipping" type="xs:decimal" minOccurs="0" />
+              <xs:element name="totalDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="balanceDue" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Orders" />
+      <xs:field xpath="mstns:orderNumber" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

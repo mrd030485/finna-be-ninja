@@ -30,15 +30,8 @@ class Ability
     # https://github.com/ryanb/cancan/wiki/Defining-Abilities
     user ||= User.new # guest user (not logged in)
     if user
-      can :access, :rails_admin
-      if user.role? :employee
-        can :read, :all 
-        can :update, User, :id => user.id #employee can update own user details
-      elsif user.role? :admin
-        can :manage, :all
-      elsif user.role? :no_priv
-        can :read, :all
-      end
+      can :access, :post
+      can :access, :about
     end
   end
 end

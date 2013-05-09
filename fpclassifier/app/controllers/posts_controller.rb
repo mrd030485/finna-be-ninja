@@ -1,7 +1,9 @@
 class PostsController < ApplicationController
+  before_filter :authenticate_user!
   # GET /posts
   # GET /posts.json
   def index
+    authorize! :index, @user
     @posts = Post.find(:all, :order => "id desc", :limit => 5).reverse
 
     respond_to do |format|
@@ -80,7 +82,7 @@ class PostsController < ApplicationController
   end
 
   def removeStopWords(incoming)
-    stopWords = ["i", "a", "an","are","as","at","be","by","com","for","from","how","in", "is","it","of","on","or","that","the","this","to","was","what","when","where","who","will","with"]
+    stopWords = ["my","you","me","but","your","and","i", "a", "an","are","as","at","be","by","com","for","from","how","in", "is","it","of","on","or","that","the","this","to","was","what","when","where","who","will","with"]
     
     outgoing = incoming.split.delete_if{|x| stopWords.include?(x.downcase)}.join(' ')
 

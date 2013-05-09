@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="employeeListData" targetNamespace="http://www.tempuri.org/employeeListData.xsd" xmlns:mstns="http://www.tempuri.org/employeeListData.xsd" xmlns="http://www.tempuri.org/employeeListData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="employeeListData" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UID" type="xs:string" />
+              <xs:element name="password" type="xs:string" />
+              <xs:element name="employeename" type="xs:string" />
+              <xs:element name="employeetype" type="xs:string" />
+              <xs:element name="phone" type="xs:string" />
+              <xs:element name="email" type="xs:string" minOccurs="0" />
+              <xs:element name="administrator" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Employees" />
+      <xs:field xpath="mstns:UID" />
+      <xs:field xpath="mstns:password" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

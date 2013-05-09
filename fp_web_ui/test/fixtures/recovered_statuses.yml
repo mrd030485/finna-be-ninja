@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  status: MyText
+  keywords: MyString
+  processed: false
+
+two:
+  status: MyText
+  keywords: MyString
+  processed: false

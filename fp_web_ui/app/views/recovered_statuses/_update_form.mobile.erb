@@ -1,0 +1,10 @@
+<%= form_for(@recovered_status) do |f| %>
+  <div class="actions">
+    <%= f.label :status %>
+    <%= f.text_area :status, :value=>@recovered_status.status, :readonly=>true %>
+    <%= f.select(:keywords, options_for_select(@freq)) %>
+    <%= f.hidden_field(:id,:value=>@recovered_status.id) %>
+    <%= f.hidden_field(:processed,:value=>false) %>
+    <%= f.submit %>
+  </div>
+<% end %>

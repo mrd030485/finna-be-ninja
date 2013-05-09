@@ -1,0 +1,954 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{90F18067-378E-46BF-AC0E-D66378456E4D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "OrderTrackerv2"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "Nav40"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "OrderTrackerv2"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "SQLDMO"
+                    Guid = "{10010001-E260-11CF-AE68-00AA004A34D5}"
+                    VersionMajor = "8"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "anOrder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "backup.bak"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CustSubHeader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmpSubHeader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LoadImage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LoadImage.aspx.cs"
+                    DependentUpon = "LoadImage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoadImage.aspx.resx"
+                    DependentUpon = "LoadImage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Logout.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Logout.aspx.cs"
+                    DependentUpon = "Logout.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Logout.aspx.resx"
+                    DependentUpon = "Logout.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OrderTrackerCustBase.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OrderTrackerEmpBase.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "shirtOrder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Administrator\" />
+                <File
+                    RelPath = "Controls\OrderTrackerFooter.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\OrderTrackerFooter.ascx.cs"
+                    DependentUpon = "OrderTrackerFooter.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\OrderTrackerFooter.ascx.resx"
+                    DependentUpon = "OrderTrackerFooter.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\OrderTrackerHeader.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\OrderTrackerHeader.ascx.cs"
+                    DependentUpon = "OrderTrackerHeader.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\OrderTrackerHeader.ascx.resx"
+                    DependentUpon = "OrderTrackerHeader.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\Help.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\Help.aspx.cs"
+                    DependentUpon = "Help.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\Help.aspx.resx"
+                    DependentUpon = "Help.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\OrderData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrderData.cs"
+                />
+                <File
+                    RelPath = "Customers\OrderData.cs"
+                    DependentUpon = "OrderData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Customers\OrderData.xsx"
+                    DependentUpon = "OrderData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Customers\OrdersPending.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\OrdersPending.aspx.cs"
+                    DependentUpon = "OrdersPending.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\OrdersPending.aspx.resx"
+                    DependentUpon = "OrdersPending.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\OrdersPendingData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrdersPendingData.cs"
+                />
+                <File
+                    RelPath = "Customers\OrdersPendingData.cs"
+                    DependentUpon = "OrdersPendingData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Customers\OrdersPendingData.xsx"
+                    DependentUpon = "OrdersPendingData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Customers\OrderTypes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrderTypes.cs"
+                />
+                <File
+                    RelPath = "Customers\OrderTypes.cs"
+                    DependentUpon = "OrderTypes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Customers\SearchOrder.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\SearchOrder.aspx.cs"
+                    DependentUpon = "SearchOrder.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\SearchOrder.aspx.resx"
+                    DependentUpon = "SearchOrder.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\ShirtData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ShirtData.cs"
+                />
+                <File
+                    RelPath = "Customers\ShirtData.cs"
+                    DependentUpon = "ShirtData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Customers\ShirtData.xsx"
+                    DependentUpon = "ShirtData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Customers\SpeedData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "SpeedData.cs"
+                />
+                <File
+                    RelPath = "Customers\SpeedData.cs"
+                    DependentUpon = "SpeedData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Customers\ViewOrder2.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\ViewOrder2.aspx.cs"
+                    DependentUpon = "ViewOrder2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\ViewOrder2.aspx.resx"
+                    DependentUpon = "ViewOrder2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Customers\Secure\Login.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\Secure\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\Secure\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\addArt.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\addArt.aspx.cs"
+                    DependentUpon = "addArt.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\addArt.aspx.resx"
+                    DependentUpon = "addArt.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions.aspx.cs"
+                    DependentUpon = "addDescriptions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions.aspx.resx"
+                    DependentUpon = "addDescriptions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions2.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions2.aspx.cs"
+                    DependentUpon = "addDescriptions2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\addDescriptions2.aspx.resx"
+                    DependentUpon = "addDescriptions2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\ArtPendingData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ArtPendingData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\ArtPendingData.cs"
+                    DependentUpon = "ArtPendingData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\DummyOrderData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DummyOrderData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\DummyOrderData.cs"
+                    DependentUpon = "DummyOrderData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\DummyOrderData.xsx"
+                    DependentUpon = "DummyOrderData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "HOOemployees\handleDescription.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\handleDescription.aspx.cs"
+                    DependentUpon = "handleDescription.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\handleDescription.aspx.resx"
+                    DependentUpon = "handleDescription.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Help.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Help.aspx.cs"
+                    DependentUpon = "Help.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Help.aspx.resx"
+                    DependentUpon = "Help.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\ManagementPendingData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ManagementPendingData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\ManagementPendingData.cs"
+                    DependentUpon = "ManagementPendingData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\News.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\News.aspx.cs"
+                    DependentUpon = "News.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\News.aspx.resx"
+                    DependentUpon = "News.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\OrderData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrderData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\OrderData.cs"
+                    DependentUpon = "OrderData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\OrderData.xsx"
+                    DependentUpon = "OrderData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPending.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPending.aspx.cs"
+                    DependentUpon = "OrdersPending.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPending.aspx.resx"
+                    DependentUpon = "OrdersPending.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPendingData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrdersPendingData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPendingData.cs"
+                    DependentUpon = "OrdersPendingData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\OrdersPendingData.xsx"
+                    DependentUpon = "OrdersPendingData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "HOOemployees\OrderTypes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "OrderTypes.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\OrderTypes.cs"
+                    DependentUpon = "OrderTypes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\ProdData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ProdData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\ProdData.cs"
+                    DependentUpon = "ProdData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchContacts.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchContacts.aspx.cs"
+                    DependentUpon = "SearchContacts.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchContacts.aspx.resx"
+                    DependentUpon = "SearchContacts.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchCustomers.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchCustomers.aspx.cs"
+                    DependentUpon = "SearchCustomers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchCustomers.aspx.resx"
+                    DependentUpon = "SearchCustomers.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchOrder.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchOrder.aspx.cs"
+                    DependentUpon = "SearchOrder.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\SearchOrder.aspx.resx"
+                    DependentUpon = "SearchOrder.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\ShirtData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ShirtData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\ShirtData.cs"
+                    DependentUpon = "ShirtData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\ShirtData.xsx"
+                    DependentUpon = "ShirtData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "HOOemployees\SpeedData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "SpeedData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\SpeedData.cs"
+                    DependentUpon = "SpeedData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\viewOrder.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\viewOrder.aspx.cs"
+                    DependentUpon = "viewOrder.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\viewOrder.aspx.resx"
+                    DependentUpon = "viewOrder.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\ViewOrder2.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\ViewOrder2.aspx.cs"
+                    DependentUpon = "ViewOrder2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\ViewOrder2.aspx.resx"
+                    DependentUpon = "ViewOrder2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\BackupDatabase.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\BackupDatabase.aspx.cs"
+                    DependentUpon = "BackupDatabase.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\BackupDatabase.aspx.resx"
+                    DependentUpon = "BackupDatabase.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\contactData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "contactData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\contactData.cs"
+                    DependentUpon = "contactData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\contactData.xsx"
+                    DependentUpon = "contactData.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateContact.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateContact.aspx.cs"
+                    DependentUpon = "CreateContact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateContact.aspx.resx"
+                    DependentUpon = "CreateContact.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateCustomer.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateCustomer.aspx.cs"
+                    DependentUpon = "CreateCustomer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateCustomer.aspx.resx"
+                    DependentUpon = "CreateCustomer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateEmployee.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateEmployee.aspx.cs"
+                    DependentUpon = "CreateEmployee.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CreateEmployee.aspx.resx"
+                    DependentUpon = "CreateEmployee.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CustData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "CustData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\CustData.cs"
+                    DependentUpon = "CustData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\employeeListData.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "employeeListData.cs"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\employeeListData.cs"
+                    DependentUpon = "employeeListData.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\Login.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageCustomers.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageCustomers.aspx.cs"
+                    DependentUpon = "ManageCustomers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageCustomers.aspx.resx"
+                    DependentUpon = "ManageCustomers.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageEmployees.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageEmployees.aspx.cs"
+                    DependentUpon = "ManageEmployees.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOOemployees\Secure\ManageEmployees.aspx.resx"
+                    DependentUpon = "ManageEmployees.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\ordertrackerheader1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\ordertrackerheader2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Style\iestyle.css"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

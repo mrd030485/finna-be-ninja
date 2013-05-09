@@ -4,20 +4,10 @@ FpClassifier::Application.routes.draw do
 
   devise_for :users
 
-  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
-
-  resources :frequents
-
-
-  resources :recovered_statuses
-
-
-  resources :raw_twitter_posts
   match "information/about" => "about#index"  
   match "information/info" => "info#index"  
   match "information/error" => "error#index"  
   match "information/debug" => "debug#index"  
-
 
 
   get "footer/footer"

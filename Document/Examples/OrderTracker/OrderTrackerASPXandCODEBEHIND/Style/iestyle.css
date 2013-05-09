@@ -1,0 +1,164 @@
+body
+{
+	font-size: 12pt;
+	margin: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: whitesmoke;
+}
+
+TABLE
+{
+	font-size: 12pt;
+	font-family: Tahoma;
+}
+
+.HeaderTitle
+{
+	margin: 2px 2px 2px 2px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.TextBox
+{
+	border-right: #c7ccdc 1px solid;
+	border-top: #c7ccdc 1px solid;
+	border-left: #c7ccdc 1px solid;
+	border-bottom: #c7ccdc 1px solid;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 300px;
+}
+
+.MediumTextBox
+{
+	border-right: #c7ccdc 1px solid;
+	border-top: #c7ccdc 1px solid;
+	border-left: #c7ccdc 1px solid;
+	border-bottom: #c7ccdc 1px solid;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 200px;
+}
+
+.SmallTextBox
+{
+	border-right: #c7ccdc 1px solid;
+	border-top: #c7ccdc 1px solid;
+	border-left: #c7ccdc 1px solid;
+	border-bottom: #c7ccdc 1px solid;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 150px;
+}
+
+.TinyTextBox
+{
+	border-right: #c7ccdc 1px solid;
+	border-top: #c7ccdc 1px solid;
+	border-left: #c7ccdc 1px solid;
+	border-bottom: #c7ccdc 1px solid;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 30px;
+}
+
+.Button
+{
+	background: #f5f5f5;
+	border-right: darkgray 1px solid;
+	border-top: darkgray 1px solid;
+	border-left: darkgray 1px solid;
+	border-bottom: darkgray 1px solid;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.Content
+{
+	margin: 10px 10px 10px 10px;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.HeaderOrderTracker
+{
+	padding: 0 0 0 0;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: White;
+	background-color: Black;
+	text-align: justify;
+}
+
+.HeaderImage
+{
+	vertical-align: middle;
+}
+
+.HeaderTitle
+{
+	padding: 5 5 5 5;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: White;
+	background-color: Gray;
+}
+
+.FooterOrderTracker
+{
+	padding: 5 5 5 5;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: White;
+	background-color: Black;
+	text-align: center;
+}
+
+.SubHeader
+{
+	border-top: 1px groove;
+	display: block;
+	font-size: 12pt;
+	width: 100%;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgrey;
+	text-align: right;
+}
+
+.SearchResults
+{
+	padding: 4px 4px 4px 4px;
+}
+
+.Search
+{
+	border: solid 1px silver;
+	padding: 4px 4px 4px 4px;
+	background-color: gainsboro;
+	width: 300px;
+}
+
+a:active {
+	color: Maroon;
+}
+
+a:visited {
+	color: Maroon;
+}
+
+a:link {
+	color: Maroon;
+}
+
+a:hover {
+	color: Red;
+	text-decoration: none;
+}
