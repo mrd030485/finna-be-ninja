@@ -1,0 +1,48 @@
+<h1> Manage Applicaiton <h1>
+<% @online = Setting.find_by_name('shutdown').status %>
+<% @down = Setting.find_by_name('download_statuses').status %>
+<p id="admin_alert">The system is currently: <%= @online?"offline":"online" %>.</p>
+<div id="button" class=<%=@online?"green":"red"%>>
+ <% if @online %>
+  <%= link_to "Start System",toggle_state_path  %>
+ <% else %>
+  <%= link_to "Shutdown System",toggle_state_path  %>
+ <% end %>
+</div>
+<% if !@online %>
+<p id="admin_alert">The system is currently <%= @down && !@online ?"":"not" %> downloading statuses.</p>
+<div id="button" class=<%=@down?"red":"green"%>>
+<% if @down && !@online %>
+  <%= link_to "Stop Downloading",toggle_dl_path %>
+ <% else %>
+  <%= link_to "Start Downloading",toggle_dl_path  %>
+ <% end %>
+</div>
+<% end %>
+<h1>Log File's</h1>
+<div id="button" class="green no-break">
+  <%= link_to "Info Log", logs_info_path %>
+</div>
+<div id="button" class="green no-break">
+  <%= link_to "Debug Log", logs_debug_path %>
+</div>
+<div id="button" class="green no-break">
+  <%= link_to "Error Log", logs_error_path %>
+</div>
+<h1>Statistics</h1>
+<div id="button" class="green">
+  <a href="#" onclick="$('#stats').fadeToggle();">Show Graph</a>
+</div>
+<div id="stats" style="display:none; width:800px; height:400px; margin-left:auto; margin-right:auto; margin-top:0px; margin-bottom:0px; padding:0px;">
+  <canvas id="barGraph" width="800" height="400">
+    <input type="hidden" id="rateRaw" value="<%= @rateRaw %>"></input>
+    <input type="hidden" id="rateRecovered" value="<%= @rateRecovered %>"></input>
+    <input type="hidden" id="rawCount" value="<%= @count %>"></input>
+    <input type="hidden" id="recCount" value="<%= @rec %>"></input>
+    <p>Average tweets collected per hour: <%= @rateRaw %><br/>
+    Average usable statuses collected per hour: <%= @rateRecovered %><br/>
+    Total raw tweets: <%= @count %><br/>
+    Total usable tweets: <%= @rec %>
+    </p>
+  </canvas>
+</div>

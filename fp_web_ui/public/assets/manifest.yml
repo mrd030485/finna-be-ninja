@@ -7,11 +7,11 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application-mobile.js: application-mobile-e8a79f8d2e16aea471abfc7ade4940ab.js
 application-mobile/index.js: application-mobile-e8a79f8d2e16aea471abfc7ade4940ab.js
-application-standard.js: application-standard-70cd1f04588e1a72ead650f3ac6a2d18.js
-application-standard/index.js: application-standard-70cd1f04588e1a72ead650f3ac6a2d18.js
+application-standard.js: application-standard-f8d856c06d43dc3022705affc3136645.js
+application-standard/index.js: application-standard-f8d856c06d43dc3022705affc3136645.js
 application-mobile.css: application-mobile-eb310041de5d2b236619b272e10b7176.css
 application-mobile/index.css: application-mobile-eb310041de5d2b236619b272e10b7176.css
-application-standard.css: application-standard-9dfe2624685bedab1386ba6c369ef385.css
-application-standard/index.css: application-standard-9dfe2624685bedab1386ba6c369ef385.css
+application-standard.css: application-standard-472d136b2b0d8c83143a5b7fd98a2816.css
+application-standard/index.css: application-standard-472d136b2b0d8c83143a5b7fd98a2816.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map

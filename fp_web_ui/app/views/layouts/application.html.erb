@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FpWebUi</title>
+  <title>FP Classifier</title>
   <%= stylesheet_link_tag    "application-standard" %>
   <%= javascript_include_tag "application-standard" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="header">
-  <div id="logo">
-    <%= link_to "FPClassifier", root_path %>
+  <div id="hw">
+    <div id="header">
+      <div id="logo">
+        <%= link_to "FP Classifier", root_path %>
+      </div>
+      <%= render "users/shared/login" %>
+      <div id="menu">
+        <%= render_navigation(:expand_all=>true) %>
+      </div>
+    </div>
   </div>
-  <%= render "users/shared/login" %>
-  <div id="menu">
-    <%= render_navigation(:expand_all=>true) %>
-  </div>
-</div>
-<div id="flash">
-  <% if flash[:notice] %>
+  <div id="flash">
+    <% if flash[:notice] %>
       <p class="notice"><%= flash[:notice] %></p>
     <% end %>
     <% if flash[:error] %>
       <p class="error"><%= flash[:error] %></p>
     <% end %>
-</div>
- <div id="container"> 
-  <div id="left" class="column">
   </div>
-  <div id="center" class="column">
-    <%= yield %>
-  </div>
-  <div id="right">
-  </div>
-</div>
-    <div id="footer">
-      <div id="mobile_select">
-        <% if mobile_device? %>
-          <%= link_to "Desktop Version", :mobile => 0 %>
-        <% else %>
-          <%= link_to "Mobile Version", :mobile => 1 %>
-        <% end %>
-      </div>
+  <div id="wrapper">
+  <div id="container">
+    <div id="left" class="column">
     </div>
-
+    <div id="center" class="column">
+      <%= yield %>
+    </div>
+    <div id="right">
+    </div>
+  </div>
+  </div>
+  <div id="footer">
+    <div id="mobile_select">
+      <% if mobile_device? %>
+        <%= link_to "Desktop Version", :mobile => 0 %>
+      <% else %>
+        <%= link_to "Mobile Version", :mobile => 1 %>
+      <% end %>
+    </div>
+  </div>
 </body>
 </html>

@@ -32,7 +32,7 @@ public class ManagePostProcessing implements Runnable {
   private int               startId                = -1;
   private int               endId                  = -1;
   public static final String DRIVER = "com.mysql.jdbc.Driver";
-  public static final String URLDB = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String URLDB = "jdbc:mysql://localhost:3306/fpclassifier_production";
   public static final String USERNAMEDB = "fpclass";
   public static final String PASSWORDDB = null;
   

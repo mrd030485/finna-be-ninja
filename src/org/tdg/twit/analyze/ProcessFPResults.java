@@ -20,7 +20,7 @@ public class ProcessFPResults implements Runnable {
   private String             insert         = "insert into frequents (pattern,confidence,created_at,updated_at) values ";
   private String             onDuplicateKey = " ON DUPLICATE KEY UPDATE confidence = VALUES(confidence)";
   public static final String DRIVER         = "com.mysql.jdbc.Driver";
-  public static final String URLDB          = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String URLDB          = "jdbc:mysql://localhost:3306/fpclassifier_production";
   public static final String USERNAMEDB     = "fpclass";
   public static final String PASSWORDDB     = null;
 

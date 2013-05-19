@@ -1,0 +1,13 @@
+<h1>Account</h1>
+<%@prof= TwitterAccount.find_by_user_id(current_user.id) %>
+<% if @prof!=nil %>
+<%= form_tag("/users/profile/update",:method=>"post") do %>
+  <%= label_tag(:name,"Name:")%> <%= text_field_tag(:name,@prof.name) %><br/>
+  <%= label_tag(:nickname,"Nickname:")%> <%= text_field_tag(:nickname,@prof.nickname) %><br/>
+  <%= label_tag(:disable,"Disable Twitter Integeration?")%><%= check_box_tag(:disable,"disabled",!@prof.active) %><br/>
+  <%= label_tag(:email,"Email Address:") %><%= email_field_tag(:email,current_user.email) %><br/>
+  <%= submit_tag "Save" %>
+<% end %>
+<%else%>
+  <%= link_to "Integrate Twitter", '/auth/twitter?use_authorize=true' %>
+<% end %>

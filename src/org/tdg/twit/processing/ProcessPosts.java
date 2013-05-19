@@ -27,7 +27,7 @@ public class ProcessPosts extends Thread {
   private PreparedStatement prepStmt           = null;
   private ArrayList<Blob>   allResults         = null;
   public static final String DRIVER      = "com.mysql.jdbc.Driver";
-  public static final String URLDB       = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String URLDB       = "jdbc:mysql://localhost:3306/fpclassifier_production";
   public static final String USERNAMEDB  = "fpclass";
   public static final String PASSWORDDB  = null;
 

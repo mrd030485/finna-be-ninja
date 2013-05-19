@@ -3,7 +3,7 @@
 
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 	<appender name="infoLogFile" class="org.apache.log4j.RollingFileAppender">
-		<param name="File" value="/home/dev/github/my-repos/finna-be-ninja/fpclassifier/public/log/info.log" />
+		<param name="File" value="fp_web_ui/public/log/info.log" />
 		<param name="MaxFileSize" value="100KB" />
 		<!-- Keep one backup file -->
 		<param name="MaxBackupIndex" value="5" />
@@ -19,7 +19,7 @@
 	</appender>
 
 	<appender name="errorLogFile" class="org.apache.log4j.RollingFileAppender">
-		<param name="File" value="/home/dev/github/my-repos/finna-be-ninja/fpclassifier/public/log/error.log" />
+		<param name="File" value="fp_web_ui/public/log/error.log" />
 		<param name="MaxFileSize" value="100KB" />
         <!-- Keep one backup file -->
         <param name="MaxBackupIndex" value="5" />
@@ -37,7 +37,7 @@
 	</appender>
 
 	<appender name="debugLogFile" class="org.apache.log4j.RollingFileAppender">
-		<param name="File" value="/home/dev/github/my-repos/finna-be-ninja/fpclassifier/public/log/debug.log" />
+		<param name="File" value="fp_web_ui/public/log/debug.log" />
 		<param name="MaxFileSize" value="100KB" />
         <!-- Keep one backup file -->
         <param name="MaxBackupIndex" value="5" />

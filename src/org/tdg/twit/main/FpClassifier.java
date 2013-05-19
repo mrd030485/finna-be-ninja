@@ -21,7 +21,7 @@ public class FpClassifier {
 	 */
   
   public static final String DRIVER = "com.mysql.jdbc.Driver";
-  public static final String URL = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String URL = "jdbc:mysql://localhost:3306/fpclassifier_production";
   public static final String USERNAME = "fpclass";
   public static final String PASSWORD = null;
 
@@ -135,7 +135,6 @@ public class FpClassifier {
 				}
         stats.close();
 			}
-      System.err.println("I am here now");
 		} catch (SQLException e) {
 			logger.error(FpClassifier.class.getName()+": "+e.getMessage());
       System.err.println("SQLE");
@@ -157,7 +156,7 @@ public class FpClassifier {
         } catch (SQLException ignore) {
 					// This is ok with me.
 				} catch (NullPointerException ignore){
-          System.err.println("Iam Exiting");
+          System.err.println("I am Exiting");
         }
 			}
 

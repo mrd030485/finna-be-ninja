@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130509133256) do
+ActiveRecord::Schema.define(:version => 20130514170449) do
 
   create_table "frequents", :force => true do |t|
     t.string   "pattern"
@@ -20,14 +20,25 @@ ActiveRecord::Schema.define(:version => 20130509133256) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "frequents", ["pattern"], :name => "pattern", :unique => true
+
   create_table "post_owners", :force => true do |t|
     t.integer  "user_id"
     t.integer  "recoverd_status_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.boolean  "posted"
   end
 
   add_index "post_owners", ["recoverd_status_id"], :name => "index_post_owners_on_recoverd_status_id"
+
+  create_table "raw_twitter_posts", :force => true do |t|
+    t.binary   "rawdata",                         :null => false
+    t.boolean  "processed",    :default => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.datetime "process_date"
+  end
 
   create_table "recovered_statuses", :force => true do |t|
     t.text     "status"
@@ -37,18 +48,25 @@ ActiveRecord::Schema.define(:version => 20130509133256) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "settings", :force => true do |t|
+    t.string   "name"
+    t.boolean  "status"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "data"
+  end
+
   create_table "twitter_accounts", :force => true do |t|
     t.integer  "user_id"
     t.boolean  "active"
     t.string   "oauth_token"
     t.string   "oauth_token_secret"
+    t.string   "oauth_token_verifier"
+    t.string   "nickname"
     t.string   "name"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
-    t.string   "nickname",           :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
-
-  add_index "twitter_accounts", ["id", "user_id", "nickname"], :name => "id", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -63,6 +81,7 @@ ActiveRecord::Schema.define(:version => 20130509133256) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.boolean  "admin"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

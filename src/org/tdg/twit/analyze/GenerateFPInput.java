@@ -24,7 +24,7 @@ public class GenerateFPInput {
   private ArrayList<String>  stopWords  = null;
   
   public static final String DRIVER     = "com.mysql.jdbc.Driver";
-  public static final String URLDB      = "jdbc:mysql://192.168.1.87:3306/fpclassifier_production";
+  public static final String URLDB      = "jdbc:mysql://localhost:3306/fpclassifier_production";
   public static final String USERNAMEDB = "fpclass";
   public static final String PASSWORDDB = null;
 
@@ -104,7 +104,7 @@ public class GenerateFPInput {
     Collections.sort(token, new StringLength());
     while (!token.isEmpty()){
       String temp = token.remove(0);
-      if(!stopWords.contains(temp)){
+      if(!stopWords.contains(temp) && temp.length()>2){
         out = out + " " + temp;
       }
     }

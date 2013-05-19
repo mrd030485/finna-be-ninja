@@ -3,7 +3,7 @@
 <div id="recent">
   <ul id="post">
    <% @recovered_statuses.each do |post| %>
-    <li id="record"><%= post.status %> :: <%=post.keywords%></li>
+    <li id="record"><%= link_to post.status, twitter_submit_path(:status=>post.status, :key=>post.keywords) %> :: <%=post.keywords%></li>
    <% end %>
   </ul>
 </div>

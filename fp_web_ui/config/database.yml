@@ -15,7 +15,7 @@ development:
   database: fp_web_ui_development
   pool: 5
   username: root
-  password: nopassword
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,15 +28,15 @@ test:
   database: fp_web_ui_test
   pool: 5
   username: root
-  password: nopassword
+  password:
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: fp_web_ui_production
+  database: fpclassifier_production
   pool: 5
   username: root
-  password: nopassword
+  password: 
   socket: /var/run/mysqld/mysqld.sock
